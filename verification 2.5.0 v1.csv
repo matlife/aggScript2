@@ -1,0 +1,1499 @@
+Component,dev host 1,dev host 2,dev host 3,dev host 4,Developer,Comments
+"dms-creator-autotaf",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-creator-synop",N.P.,N.P.,"Warnings: 0
+Errors: 4
+Fatals: 0
+Mantis #9104 (WARN - AbstractElementGenerator) : 2
+
+====AbstractHandler==== [4]
+=========================
+>>   [2016-01-24 09:10:10 776] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread1] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+
+>>   [2016-01-24 09:10:10 786] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread1] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+
+>>   [2016-01-24 09:13:08 668] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread2] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+
+>>   [2016-01-24 09:13:08 699] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread2] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+
+
+",N.P.,DJ,
+"dms-decoder-atags",N.P.,N.P.,N.P.,N.P.,Chris S,
+"dms-decoder-aviation-warning",N.P.,N.P.,N.P.,N.P.,Jason Liu.. MichaelS,
+"dms-decoder-ca","Warnings: 0
+Errors: 62
+Fatals: 0
+Mantis #8764 (WARN - NotificationServiceHttpImpl) : 27
+Mantis #8764 (ERROR - ComponentController) : 27
+Mantis #9047 (ERROR - ComponentController) : 2826
+Mantis #9200 (WARN - CAHandler) : 369
+
+====CAMessage==== [12]
+====================
+>>   [2016-01-24 00:18:06 419] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CAMessage] [Date Time: Sun Jan 24 02:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 00:18:06 419] [ERROR] [MSC-DMS-Decoder-CA:1.thread15] [CAMessage] [Date Time: Sun Jan 24 02:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 02:16:31 653] [ERROR] [MSC-DMS-Decoder-CA:1.thread27] [CAMessage] [Date Time: Sun Jan 24 04:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 02:16:31 653] [ERROR] [MSC-DMS-Decoder-CA:1.thread2] [CAMessage] [Date Time: Sun Jan 24 04:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 07:16:46 641] [ERROR] [MSC-DMS-Decoder-CA:1.thread25] [CAMessage] [Date Time: Sun Jan 24 09:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 07:16:46 641] [ERROR] [MSC-DMS-Decoder-CA:1.thread7] [CAMessage] [Date Time: Sun Jan 24 09:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 17:17:05 554] [ERROR] [MSC-DMS-Decoder-CA:1.thread2] [CAMessage] [Date Time: Sun Jan 24 19:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 17:17:05 555] [ERROR] [MSC-DMS-Decoder-CA:1.thread3] [CAMessage] [Date Time: Sun Jan 24 19:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 19:16:53 500] [ERROR] [MSC-DMS-Decoder-CA:1.thread6] [CAMessage] [Date Time: Sun Jan 24 21:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 19:16:53 501] [ERROR] [MSC-DMS-Decoder-CA:1.thread26] [CAMessage] [Date Time: Sun Jan 24 21:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+
+
+====CustomFileWriter==== [50]
+===========================
+>>   [2016-01-24 03:08:28 675] [ERROR] [MSC-DMS-Decoder-CA:1.thread5] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512220900-305mgff-wnr-wnr-105-orig with obsTime:Tue Dec 22 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 701] [ERROR] [MSC-DMS-Decoder-CA:1.thread30] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512221800-305mgff-wnr-wnr-105-orig with obsTime:Tue Dec 22 18:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 701] [ERROR] [MSC-DMS-Decoder-CA:1.thread5] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512220900-305mgff-wnr-105-orig-data_60 with obsTime:Tue Dec 22 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 727] [ERROR] [MSC-DMS-Decoder-CA:1.thread2] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512220500-305mgff-wnr-wnr-105-orig with obsTime:Tue Dec 22 05:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 728] [ERROR] [MSC-DMS-Decoder-CA:1.thread30] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512221800-305mgff-wnr-105-orig-data_60 with obsTime:Tue Dec 22 18:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 754] [ERROR] [MSC-DMS-Decoder-CA:1.thread2] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512220500-305mgff-wnr-105-orig-data_60 with obsTime:Tue Dec 22 05:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 768] [ERROR] [MSC-DMS-Decoder-CA:1.thread1] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512230000-305mgff-wnr-wnr-105-orig with obsTime:Wed Dec 23 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 783] [ERROR] [MSC-DMS-Decoder-CA:1.thread21] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512221000-305mgff-wnr-wnr-105-orig with obsTime:Tue Dec 22 10:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 798] [ERROR] [MSC-DMS-Decoder-CA:1.thread1] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512230000-305mgff-wnr-105-orig-data_60 with obsTime:Wed Dec 23 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+>>   [2016-01-24 03:08:28 807] [ERROR] [MSC-DMS-Decoder-CA:1.thread21] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512221000-305mgff-wnr-105-orig-data_60 with obsTime:Tue Dec 22 10:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:28 UTC 2015]
+
+
+","Warnings: 0
+Errors: 54
+Fatals: 0
+Mantis #8764 (WARN - NotificationServiceHttpImpl) : 21
+Mantis #8764 (ERROR - ComponentController) : 20
+Mantis #9047 (ERROR - ComponentController) : 2589
+Mantis #9200 (WARN - CAHandler) : 390
+
+====CAMessage==== [6]
+===================
+>>   [2016-01-24 08:16:45 720] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CAMessage] [Date Time: Sun Jan 24 10:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 08:16:46 677] [ERROR] [MSC-DMS-Decoder-CA:1.thread24] [CAMessage] [Date Time: Sun Jan 24 10:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 12:17:53 884] [ERROR] [MSC-DMS-Decoder-CA:1.thread25] [CAMessage] [Date Time: Sun Jan 24 14:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 12:17:53 885] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CAMessage] [Date Time: Sun Jan 24 14:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 14:16:39 342] [ERROR] [MSC-DMS-Decoder-CA:1.thread29] [CAMessage] [Date Time: Sun Jan 24 16:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 14:16:39 343] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CAMessage] [Date Time: Sun Jan 24 16:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+
+
+====CustomFileWriter==== [48]
+===========================
+>>   [2016-01-24 03:08:26 899] [ERROR] [MSC-DMS-Decoder-CA:1.thread1] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512220000-305mgff-wnr-wnr-105-orig with obsTime:Tue Dec 22 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:26 UTC 2015]
+
+>>   [2016-01-24 03:08:26 919] [ERROR] [MSC-DMS-Decoder-CA:1.thread15] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512220200-305mgff-wnr-wnr-105-orig with obsTime:Tue Dec 22 02:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:26 UTC 2015]
+
+>>   [2016-01-24 03:08:26 962] [ERROR] [MSC-DMS-Decoder-CA:1.thread1] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512220000-305mgff-wnr-105-orig-data_60 with obsTime:Tue Dec 22 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:26 UTC 2015]
+
+>>   [2016-01-24 03:08:26 962] [ERROR] [MSC-DMS-Decoder-CA:1.thread27] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512210500-305mgff-wnr-wnr-105-orig with obsTime:Mon Dec 21 05:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:26 UTC 2015]
+
+>>   [2016-01-24 03:08:26 962] [ERROR] [MSC-DMS-Decoder-CA:1.thread15] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512220200-305mgff-wnr-105-orig-data_60 with obsTime:Tue Dec 22 02:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:26 UTC 2015]
+
+>>   [2016-01-24 03:08:26 974] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512211200-305mgff-wnr-wnr-105-orig with obsTime:Mon Dec 21 12:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:26 UTC 2015]
+
+>>   [2016-01-24 03:08:27 021] [ERROR] [MSC-DMS-Decoder-CA:1.thread21] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512211900-305mgff-wnr-wnr-105-orig with obsTime:Mon Dec 21 19:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 023] [ERROR] [MSC-DMS-Decoder-CA:1.thread27] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512210500-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 21 05:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 025] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512211200-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 21 12:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 026] [ERROR] [MSC-DMS-Decoder-CA:1.thread7] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512210800-305mgff-wnr-wnr-105-orig with obsTime:Mon Dec 21 08:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+
+","Warnings: 32
+Errors: 124
+Fatals: 0
+Mantis #8764 (WARN - NotificationServiceHttpImpl) : 42
+Mantis #8764 (ERROR - ComponentController) : 42
+Mantis #9047 (ERROR - ComponentController) : 2687
+Mantis #9200 (WARN - CAHandler) : 363
+
+====CAMessage==== [18]
+====================
+>>   [2016-01-24 03:17:01 549] [ERROR] [MSC-DMS-Decoder-CA:1.thread6] [CAMessage] [Date Time: Sun Jan 24 05:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 03:17:01 549] [ERROR] [MSC-DMS-Decoder-CA:1.thread11] [CAMessage] [Date Time: Sun Jan 24 05:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 04:16:47 057] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CAMessage] [Date Time: Sun Jan 24 06:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 04:16:47 057] [ERROR] [MSC-DMS-Decoder-CA:1.thread6] [CAMessage] [Date Time: Sun Jan 24 06:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 05:16:45 670] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CAMessage] [Date Time: Sun Jan 24 07:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 05:16:45 670] [ERROR] [MSC-DMS-Decoder-CA:1.thread7] [CAMessage] [Date Time: Sun Jan 24 07:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 09:17:35 611] [ERROR] [MSC-DMS-Decoder-CA:1.thread6] [CAMessage] [Date Time: Sun Jan 24 11:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 09:17:35 634] [ERROR] [MSC-DMS-Decoder-CA:1.thread6] [CAMessage] [Date Time: Sun Jan 24 11:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 10:16:40 937] [ERROR] [MSC-DMS-Decoder-CA:1.thread25] [CAMessage] [Date Time: Sun Jan 24 12:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 10:16:40 937] [ERROR] [MSC-DMS-Decoder-CA:1.thread10] [CAMessage] [Date Time: Sun Jan 24 12:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+
+
+====CustomFileWriter==== [106]
+============================
+>>   [2016-01-24 03:08:27 399] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512210000-305mgff-wnr-wnr-105-orig with obsTime:Mon Dec 21 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 424] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512210000-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 21 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 425] [ERROR] [MSC-DMS-Decoder-CA:1.thread12] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512191000-305mgff-wnr-wnr-105-orig with obsTime:Sat Dec 19 10:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 452] [ERROR] [MSC-DMS-Decoder-CA:1.thread7] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512210200-305mgff-wnr-wnr-105-orig with obsTime:Mon Dec 21 02:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 454] [ERROR] [MSC-DMS-Decoder-CA:1.thread12] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512191000-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 19 10:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 477] [ERROR] [MSC-DMS-Decoder-CA:1.thread7] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512210200-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 21 02:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 481] [ERROR] [MSC-DMS-Decoder-CA:1.thread3] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512191900-305mgff-wnr-wnr-105-orig with obsTime:Sat Dec 19 19:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 506] [ERROR] [MSC-DMS-Decoder-CA:1.thread3] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512191900-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 19 19:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 507] [ERROR] [MSC-DMS-Decoder-CA:1.thread26] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512200100-305mgff-wnr-wnr-105-orig with obsTime:Sun Dec 20 01:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+>>   [2016-01-24 03:08:27 535] [ERROR] [MSC-DMS-Decoder-CA:1.thread24] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512202200-305mgff-wnr-wnr-105-orig with obsTime:Sun Dec 20 22:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:27 UTC 2015]
+
+
+
+====Utility==== [32]
+==================
+>>   [2016-01-24 09:07:00 248] [WARN ] [MSC-DMS-Decoder-CA:1.thread20] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 276] [WARN ] [MSC-DMS-Decoder-CA:1.thread1] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 299] [WARN ] [MSC-DMS-Decoder-CA:1.thread6] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 325] [WARN ] [MSC-DMS-Decoder-CA:1.thread18] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 328] [WARN ] [MSC-DMS-Decoder-CA:1.thread20] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE error code: 404]
+
+>>   [2016-01-24 09:07:00 328] [WARN ] [MSC-DMS-Decoder-CA:1.thread20] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 360] [WARN ] [MSC-DMS-Decoder-CA:1.thread1] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE error code: 404]
+
+>>   [2016-01-24 09:07:00 361] [WARN ] [MSC-DMS-Decoder-CA:1.thread1] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 365] [WARN ] [MSC-DMS-Decoder-CA:1.thread8] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201601221733/nee is invalid or missing latitude and longitude.]
+
+>>   [2016-01-24 09:07:00 381] [WARN ] [MSC-DMS-Decoder-CA:1.thread6] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE error code: 404]
+
+
+","Warnings: 0
+Errors: 90
+Fatals: 0
+Mantis #8764 (WARN - NotificationServiceHttpImpl) : 33
+Mantis #8764 (ERROR - ComponentController) : 33
+Mantis #9047 (ERROR - ComponentController) : 2459
+Mantis #9200 (WARN - CAHandler) : 361
+
+====CAMessage==== [12]
+====================
+>>   [2016-01-24 01:17:22 055] [ERROR] [MSC-DMS-Decoder-CA:1.thread26] [CAMessage] [Date Time: Sun Jan 24 03:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 01:17:22 062] [ERROR] [MSC-DMS-Decoder-CA:1.thread12] [CAMessage] [Date Time: Sun Jan 24 03:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 06:17:01 145] [ERROR] [MSC-DMS-Decoder-CA:1.thread3] [CAMessage] [Date Time: Sun Jan 24 08:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 06:17:01 162] [ERROR] [MSC-DMS-Decoder-CA:1.thread12] [CAMessage] [Date Time: Sun Jan 24 08:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 11:16:55 594] [ERROR] [MSC-DMS-Decoder-CA:1.thread27] [CAMessage] [Date Time: Sun Jan 24 13:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 11:16:55 595] [ERROR] [MSC-DMS-Decoder-CA:1.thread14] [CAMessage] [Date Time: Sun Jan 24 13:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 21:17:13 863] [ERROR] [MSC-DMS-Decoder-CA:1.thread30] [CAMessage] [Date Time: Sun Jan 24 23:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 21:17:13 874] [ERROR] [MSC-DMS-Decoder-CA:1.thread19] [CAMessage] [Date Time: Sun Jan 24 23:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 22:17:08 950] [ERROR] [MSC-DMS-Decoder-CA:1.thread26] [CAMessage] [Date Time: Mon Jan 25 00:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+>>   [2016-01-24 22:17:08 976] [ERROR] [MSC-DMS-Decoder-CA:1.thread13] [CAMessage] [Date Time: Mon Jan 25 00:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+
+
+====CustomFileWriter==== [78]
+===========================
+>>   [2016-01-24 03:08:29 077] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512240400-305mgff-wnr-wnr-105-orig with obsTime:Thu Dec 24 04:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 091] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512232200-305mgff-wnr-wnr-105-orig with obsTime:Wed Dec 23 22:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 102] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512240400-305mgff-wnr-105-orig-data_60 with obsTime:Thu Dec 24 04:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 110] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512232200-305mgff-wnr-105-orig-data_60 with obsTime:Wed Dec 23 22:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 155] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512240900-305mgff-wnr-wnr-105-orig with obsTime:Thu Dec 24 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 169] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512232100-305mgff-wnr-wnr-105-orig with obsTime:Wed Dec 23 21:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 173] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512240900-305mgff-wnr-105-orig-data_60 with obsTime:Thu Dec 24 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 187] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512232100-305mgff-wnr-105-orig-data_60 with obsTime:Wed Dec 23 21:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 228] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-raw-ascii-1.0-201512241100-305mgff-wnr-wnr-105-orig with obsTime:Thu Dec 24 11:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+>>   [2016-01-24 03:08:29 255] [ERROR] [MSC-DMS-Decoder-CA:1.thread18] [CustomFileWriter] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded-xml-2.0-201512241100-305mgff-wnr-105-orig-data_60 with obsTime:Thu Dec 24 11:00:00 UTC 2015 is older than the allowed obsTime filter date: Fri Dec 25 03:08:29 UTC 2015]
+
+
+",DJ,
+"dms-decoder-enhanced-bufr-winide",N.P.,N.P.,N.P.,N.P.,BryceC,
+"dms-decoder-enhanced-ca",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-decoder-enhanced-ra",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-decoder-generic-bc-tran",N.P.,N.P.,N.P.,N.P.,Asna,
+"dms-decoder-generic-cocorahs","Warnings: 0
+Errors: 18
+Fatals: 0
+
+====GenericHandler==== [9]
+========================
+>>   [2016-01-24 00:01:23 447] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM]
+
+>>   [2016-01-24 00:01:23 859] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM]
+
+>>   [2016-01-24 00:01:23 963] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM]
+
+>>   [2016-01-24 00:01:24 081] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM]
+
+>>   [2016-01-24 01:25:07 897] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM]
+
+>>   [2016-01-24 01:25:08 229] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM]
+
+>>   [2016-01-24 01:25:08 351] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM]
+
+>>   [2016-01-24 01:25:08 493] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM]
+
+>>   [2016-01-24 07:25:05 351] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+
+
+====ObservationIdentifyHandler==== [9]
+====================================
+>>   [2016-01-24 00:01:23 447] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM]
+
+>>   [2016-01-24 00:01:23 859] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM]
+
+>>   [2016-01-24 00:01:23 963] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM]
+
+>>   [2016-01-24 00:01:24 081] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM]
+
+>>   [2016-01-24 01:25:07 897] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM]
+
+>>   [2016-01-24 01:25:08 229] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM]
+
+>>   [2016-01-24 01:25:08 350] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM]
+
+>>   [2016-01-24 01:25:08 493] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM]
+
+>>   [2016-01-24 07:25:05 351] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+
+","Warnings: 0
+Errors: 24
+Fatals: 0
+
+====GenericHandler==== [12]
+=========================
+>>   [2016-01-24 11:25:06 529] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 11:25:06 559] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 11:25:06 579] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM]
+
+>>   [2016-01-24 15:25:06 849] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 12:00 PM 2016-01-24 02:41 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.40 2.6 0.40 8.6 1.07 2016-01-24 02:41 PM]
+
+>>   [2016-01-24 15:25:06 910] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 02:00 PM 2016-01-24 02:40 PM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.06 0.6 NA NA NA 2016-01-24 02:40 PM]
+
+>>   [2016-01-24 23:25:05 342] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 23:25:05 414] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 23:25:05 471] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 02:00 PM 2016-01-24 02:40 PM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.06 0.6 NA NA NA 2016-01-24 02:40 PM]
+
+>>   [2016-01-24 23:25:05 541] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 12:00 PM 2016-01-24 04:43 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.51 3.9 0.51 9.0 1.15 2016-01-24 04:43 PM]
+
+>>   [2016-01-24 23:25:05 584] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 03:00 PM 2016-01-24 06:05 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.09 1.0 0.09 NA NA 2016-01-24 06:05 PM]
+
+
+
+====ObservationIdentifyHandler==== [12]
+=====================================
+>>   [2016-01-24 11:25:06 529] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 11:25:06 559] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 11:25:06 579] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM]
+
+>>   [2016-01-24 15:25:06 849] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 12:00 PM 2016-01-24 02:41 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.40 2.6 0.40 8.6 1.07 2016-01-24 02:41 PM observation: 2016-01-24 12:00 PM 2016-01-24 02:41 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.40 2.6 0.40 8.6 1.07 2016-01-24 02:41 PM]
+
+>>   [2016-01-24 15:25:06 910] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 02:00 PM 2016-01-24 02:40 PM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.06 0.6 NA NA NA 2016-01-24 02:40 PM observation: 2016-01-24 02:00 PM 2016-01-24 02:40 PM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.06 0.6 NA NA NA 2016-01-24 02:40 PM]
+
+>>   [2016-01-24 23:25:05 342] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 23:25:05 414] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 23:25:05 471] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 02:00 PM 2016-01-24 02:40 PM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.06 0.6 NA NA NA 2016-01-24 02:40 PM observation: 2016-01-24 02:00 PM 2016-01-24 02:40 PM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.06 0.6 NA NA NA 2016-01-24 02:40 PM]
+
+>>   [2016-01-24 23:25:05 541] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 12:00 PM 2016-01-24 04:43 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.51 3.9 0.51 9.0 1.15 2016-01-24 04:43 PM observation: 2016-01-24 12:00 PM 2016-01-24 04:43 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.51 3.9 0.51 9.0 1.15 2016-01-24 04:43 PM]
+
+>>   [2016-01-24 23:25:05 584] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 03:00 PM 2016-01-24 06:05 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.09 1.0 0.09 NA NA 2016-01-24 06:05 PM observation: 2016-01-24 03:00 PM 2016-01-24 06:05 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.09 1.0 0.09 NA NA 2016-01-24 06:05 PM]
+
+
+","Warnings: 0
+Errors: 22
+Fatals: 0
+
+====GenericHandler==== [11]
+=========================
+>>   [2016-01-24 00:25:07 851] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM]
+
+>>   [2016-01-24 00:25:08 239] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM]
+
+>>   [2016-01-24 00:25:08 549] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM]
+
+>>   [2016-01-24 00:25:08 652] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM]
+
+>>   [2016-01-24 05:25:04 152] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 12:25:04 783] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 12:25:04 792] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 12:25:04 899] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM]
+
+>>   [2016-01-24 16:25:08 914] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 12:00 PM 2016-01-24 03:42 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.43 2.8 0.43 8.6 1.07 2016-01-24 03:42 PM]
+
+>>   [2016-01-24 17:25:03 816] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 12:00 PM 2016-01-24 04:43 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.51 3.9 0.51 9.0 1.15 2016-01-24 04:43 PM]
+
+
+
+====ObservationIdentifyHandler==== [11]
+=====================================
+>>   [2016-01-24 00:25:07 850] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM observation: 2016-01-23 11:00 AM 2016-01-23 02:27 PM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-23 02:27 PM]
+
+>>   [2016-01-24 00:25:08 239] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM observation: 2016-01-23 03:00 PM 2016-01-23 03:42 PM CAN-AB-40 Priddis 4.7 SSW - BRBC 50.844965 -114.346215 0.00 0.0 0.00 NA NA 2016-01-23 03:42 PM]
+
+>>   [2016-01-24 00:25:08 549] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM observation: 2016-01-23 12:00 PM 2016-01-23 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA 10.0 NA 2016-01-23 12:53 PM]
+
+>>   [2016-01-24 00:25:08 652] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM observation: 2016-01-23 12:00 PM 2016-01-23 12:05 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.01 0.1 0.01 NA NA 2016-01-23 12:04 PM]
+
+>>   [2016-01-24 05:25:04 152] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 12:25:04 783] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 12:25:04 792] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 12:25:04 899] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM]
+
+>>   [2016-01-24 16:25:08 914] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 12:00 PM 2016-01-24 03:42 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.43 2.8 0.43 8.6 1.07 2016-01-24 03:42 PM observation: 2016-01-24 12:00 PM 2016-01-24 03:42 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.43 2.8 0.43 8.6 1.07 2016-01-24 03:42 PM]
+
+>>   [2016-01-24 17:25:03 816] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 12:00 PM 2016-01-24 04:43 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.51 3.9 0.51 9.0 1.15 2016-01-24 04:43 PM observation: 2016-01-24 12:00 PM 2016-01-24 04:43 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.51 3.9 0.51 9.0 1.15 2016-01-24 04:43 PM]
+
+
+","Warnings: 0
+Errors: 10
+Fatals: 0
+
+====GenericHandler==== [5]
+========================
+>>   [2016-01-24 13:25:04 600] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 13:25:04 619] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 13:25:04 766] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 12:00 PM 2016-01-24 12:53 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.35 2.0 0.35 8.1 1.05 2016-01-24 12:53 PM]
+
+>>   [2016-01-24 13:25:04 796] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM]
+
+>>   [2016-01-24 13:25:04 840] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-01-24 12:00 PM 2016-01-24 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA NA NA 2016-01-24 12:53 PM]
+
+
+
+====ObservationIdentifyHandler==== [5]
+====================================
+>>   [2016-01-24 13:25:04 600] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM observation: 2016-01-23 04:40 PM 2016-01-24 04:39 AM CAN-MB-284 Winnipeg 9.9 W - Bruce Middle School 49.88541 -97.27746 0.12 NA NA NA NA 2016-01-24 04:39 AM]
+
+>>   [2016-01-24 13:25:04 619] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM observation: 2016-01-23 02:00 PM 2016-01-24 07:02 AM CAN-AB-39 Mossleigh 7.6 WSW - BRBC 50.69951 -113.42678 0.00 0.0 NA NA NA 2016-01-24 07:02 AM]
+
+>>   [2016-01-24 13:25:04 766] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 12:00 PM 2016-01-24 12:53 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.35 2.0 0.35 8.1 1.05 2016-01-24 12:53 PM observation: 2016-01-24 12:00 PM 2016-01-24 12:53 PM CAN-NS-105 Tusket 7.4 S 43.787671 -65.964864 0.35 2.0 0.35 8.1 1.05 2016-01-24 12:53 PM]
+
+>>   [2016-01-24 13:25:04 796] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM observation: 2016-01-24 11:00 AM 2016-01-24 11:22 AM CAN-PE-23 Borden 0.9 SE 46.248177 -63.68515 0.00 0.0 NA NA NA 2016-01-24 11:22 AM]
+
+>>   [2016-01-24 13:25:04 840] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null observation: 2016-01-24 12:00 PM 2016-01-24 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA NA NA 2016-01-24 12:53 PM observation: 2016-01-24 12:00 PM 2016-01-24 12:53 PM CAN-ON-342 Lurgan Beach 1.4 NNE - LHCC 44.097775 -81.727659 0.00 0.0 NA NA NA 2016-01-24 12:53 PM]
+
+
+",Sanjana,
+"dms-decoder-generic-forestry-ab","Warnings: 0
+Errors: 10
+Fatals: 0
+
+====ObservationDecodeHandler==== [10]
+===================================
+>>   [2016-01-24 21:30:40 025] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/TGA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/TGA error code: 404; observation: FV TGA -9.10 -999.00 -999.00 -999.00 88.00 -99 S 3 -999 0.00 -999.00 -999.00 -10 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:41 366] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/S7: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/S7 error code: 404; observation: RE S7 -4.20 -999.00 -999.00 -999.00 88.00 -99 SW 10 -999 0.00 -999.00 -999.00 -5 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:41 920] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/BEA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/BEA error code: 404; observation: SH BEA -1.90 -999.00 -999.00 -999.00 58.00 -99 NW 12 -999 0.00 -999.00 -999.00 -9 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:41 984] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/HPA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/HPA error code: 404; observation: SH HPA -12.50 -999.00 -999.00 -999.00 93.00 -99 CLM 0 -999 0.00 -999.00 -999.00 -13 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:42 052] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/IMA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/IMA error code: 404; observation: SH IMA -2.80 -999.00 -999.00 -999.00 68.00 -99 W 16 -999 0.00 -999.00 -999.00 -7 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:42 154] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/PSA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/PSA error code: 404; observation: SH PSA -2.60 -999.00 -999.00 -999.00 72.00 -99 W 8 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:42 623] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/SDA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/SDA error code: 404; observation: SH SDA -3.50 -999.00 -999.00 -999.00 74.00 -99 NW 14 31 0.00 -999.00 -999.00 -7 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:42 691] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/TYA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/TYA error code: 404; observation: SH TYA 0.10 -999.00 -999.00 -999.00 61.00 -99 W 8 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:42 759] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/VGA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/VGA error code: 404; observation: SH VGA -3.40 -999.00 -999.00 -999.00 84.00 -99 SW 10 -999 0.00 -999.00 -999.00 -5 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+>>   [2016-01-24 21:30:43 433] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/WCA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/WCA error code: 404; observation: SH WCA -2.50 -999.00 -999.00 -999.00 72.00 -99 NW 6 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 12]
+
+
+","Warnings: 0
+Errors: 11
+Fatals: 0
+
+====ObservationDecodeHandler==== [11]
+===================================
+>>   [2016-01-24 16:30:34 080] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/TGA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/TGA error code: 404; observation: FV TGA -9.40 -999.00 -12.20 -8.30 89.00 -99 S 4 -999 0.00 -999.00 -999.00 -10 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:34 558] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/SLA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/SLA error code: 404; observation: LB SLA -6.20 -999.00 -8.90 -4.60 96.00 -99 S 2 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:35 287] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/S7: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/S7 error code: 404; observation: RE S7 -6.10 -999.00 -10.80 -6.10 100.00 -99 W 5 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:35 745] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/BEA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/BEA error code: 404; observation: SH BEA -4.60 -999.00 -4.80 3.00 88.00 -99 NW 8 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:35 822] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/HPA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/HPA error code: 404; observation: SH HPA -17.10 -999.00 -18.20 -2.80 87.00 -99 CLM 0 -999 0.00 -999.00 -999.00 -18 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:35 886] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/IMA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/IMA error code: 404; observation: SH IMA -4.10 -999.00 -5.90 -1.60 85.00 -99 W 12 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:35 984] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/PSA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/PSA error code: 404; observation: SH PSA -4.70 -999.00 -5.00 1.00 88.00 -99 NW 11 -999 0.00 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:36 320] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/SDA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/SDA error code: 404; observation: SH SDA -4.70 -999.00 -6.70 -2.80 80.00 -99 NW 12 32 0.00 -999.00 -999.00 -7 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:36 409] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/TYA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/TYA error code: 404; observation: SH TYA -3.70 -999.00 -5.50 3.40 90.00 -99 SW 10 -999 4.00 -999.00 -999.00 -5 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+>>   [2016-01-24 16:30:36 483] [ERROR] [MSC-DMS-Decoder-Generic-Forestry-AB:1.thread1] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/asrd_id/VGA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/asrd_id/VGA error code: 404; observation: SH VGA -6.00 -999.00 -8.40 -1.80 95.00 -99 W 9 -999 0.20 -999.00 -999.00 -6 -999.00 -999.00 -999.00 -999.00 -999.00 -999.00 -99 -99 -99 -99 -99 -99 160124 06]
+
+
+",N.P.,N.P.,Asna,
+"dms-decoder-generic-hydrometric",N.P.,N.P.,N.P.,N.P.,Asna,
+"dms-decoder-generic-metar","Warnings: 14
+Errors: 444
+Fatals: 0
+Mantis #9167 (ERROR - GenericHandler) : 5038
+Mantis #9168 (WARN - GenericHandler) : 40
+
+====ObservationDecodeHandler==== [444]
+====================================
+>>   [2016-01-24 00:06:10 857] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232200Z 18013KT 9999 FEW014 25/20 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:10 926] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232100Z 17013KT CAVOK 26/21 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 017] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232000Z 18012KT 160V220 CAVOK 28/20 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 108] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 231900Z 18009KT 140V210 CAVOK 28/20 Q1011 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 171] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 231800Z 18008KT 9999 SCT040 27/20 Q1012 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 215] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232300Z 15015KT 9000 BKN013 24/20 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 310] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232200Z 18013KT 9999 FEW014 25/20 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 379] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232100Z 17013KT CAVOK 26/21 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 457] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 232000Z 18012KT 160V220 CAVOK 28/20 Q1010 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:06:11 522] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 231900Z 18009KT 140V210 CAVOK 28/20 Q1011 NOSIG RMK PP000=]
+
+
+
+====GenericHandler==== [14]
+=========================
+>>   [2016-01-24 02:03:33 056] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=NaN. Skip observation: LWIS CYCP 240200Z AUTO 00000KT 00/00 A2973=]
+
+>>   [2016-01-24 02:03:58 826] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=NaN. Skip observation: LWIS CYCG 240200Z AUTO 00000KT 00/00 A2974=]
+
+>>   [2016-01-24 03:04:05 436] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=NaN. Skip observation: LWIS CYCG 240300Z AUTO 16003KT 00/00 A2975=]
+
+>>   [2016-01-24 03:56:02 005] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR ENDR 240350Z AUTO 26022KT 07/00 Q1012=]
+
+
+","Warnings: 20
+Errors: 389
+Fatals: 0
+Mantis #9167 (ERROR - GenericHandler) : 4879
+Mantis #9168 (WARN - GenericHandler) : 48
+
+====ObservationDecodeHandler==== [389]
+====================================
+>>   [2016-01-24 00:13:53 563] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404; observation: METAR KQEL 240010Z AUTO 15001KT 9999 CLR M18/M24 A3027 RMK A02 TSNO=]
+
+>>   [2016-01-24 00:13:53 942] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF error code: 404; observation: SPECI KQSF 240005Z AUTO 12001KT 5000 HZ CLR 01/M09 A3025 RMK AO2 SLP280 $=]
+
+>>   [2016-01-24 00:26:46 717] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF error code: 404; observation: SPECI KQSF 240021Z AUTO VRB02KT 5000 HZ CLR 01/M10 A3025 RMK AO2 SLP284 $=]
+
+>>   [2016-01-24 00:33:10 995] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 240000Z 16013KT 9999 FEW010 24/20 Q1011 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:42:53 317] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404; observation: METAR KQEL 240040Z AUTO 14003KT 9999 CLR M17/M25 A3028 RMK A02 TSNO=]
+
+>>   [2016-01-24 00:59:22 196] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQBG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQBG error code: 404; observation: METAR KQBG 240055Z AUTO VRB03KT 9SM CLR 23/19 A2996 RMK AO2 SLP139 WND DATA ESTMD T02340193 $=]
+
+>>   [2016-01-24 00:59:22 276] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEB: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEB error code: 404; observation: METAR KQEB 240055Z AUTO 00000KT 9999 FEW034 SCT095 18/13 Q1023 RMK AO2 SLP164 WND DATA ESTMD T01790128 $=]
+
+>>   [2016-01-24 00:59:22 349] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQKG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQKG error code: 404; observation: METAR KQKG 240055Z AUTO 28002KT 1 3/4SM BR CLR 17/15 A3015 RMK AO2 SLP156 WND DATA ESTMD T01660152 $=]
+
+>>   [2016-01-24 00:59:22 428] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQTA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQTA error code: 404; observation: METAR KQTA 240055Z 27007KT 9999 BKN024 OVC027 12/09 A2989 RMK AO2A SLP120=]
+
+>>   [2016-01-24 00:59:22 532] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQVT: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQVT error code: 404; observation: METAR KQVT 240055Z AUTO 00000KT 8SM -RA FEW010 BKN014 BKN085 26/24 A2988 RMK AO2 RAB0044 SLP119 WND DATA ESTMD P0000 T02550238=]
+
+
+
+====GenericHandler==== [20]
+=========================
+>>   [2016-01-24 00:39:15 151] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KDED 240035Z AUTO 36004KT 04/00 A2999 RMK AO1=]
+
+>>   [2016-01-24 00:40:16 577] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KDED 240035Z AUTO 36004KT 04/00 A2999 RMK AO1=]
+
+>>   [2016-01-24 04:03:24 527] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: LWIS CZST 240400Z AUTO 00000KT 01/00 A2990=]
+
+>>   [2016-01-24 04:18:49 638] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KPVC 240415Z 03030G35KT 01/00 A2962 RMK AO2 PWINO PNO FZRANOMETAR RVRNO=]
+
+>>   [2016-01-24 04:42:58 833] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=NaN. Skip observation: METAR K36U 240435Z AUTO 00000KT 00/00 A2986 RMK AO2 PWINO=]
+
+
+","Warnings: 14
+Errors: 411
+Fatals: 0
+Mantis #9167 (ERROR - GenericHandler) : 5052
+Mantis #9168 (WARN - GenericHandler) : 55
+
+====ObservationDecodeHandler==== [411]
+====================================
+>>   [2016-01-24 00:00:47 856] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 240000Z 16013KT 9999 FEW010 24/20 Q1011 NOSIG RMK PP000=]
+
+>>   [2016-01-24 00:03:46 574] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQHN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQHN error code: 404; observation: METAR KQHN 232355Z 06006KT 9999 SKC 03/M06 A3015 RMK SLP239 Q1021 DA2484=]
+
+>>   [2016-01-24 00:03:46 589] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQLP: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQLP error code: 404; observation: METAR KQLP 232355Z AUTO VRB04KT 12/06 A3029 RMK AO2 SLP197 WND DATA ESTMD T01210063 10251 20146 57014 PWINO TSNO $=]
+
+>>   [2016-01-24 00:03:46 655] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQSN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSN error code: 404; observation: METAR KQSN 232355Z AUTO 09003KT 9999 CLR M01/M12 A3017 RMK AO2 SLP269 T10111122 10099 21003 401161030 55005=]
+
+>>   [2016-01-24 00:03:46 741] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQXH: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQXH error code: 404; observation: METAR KQXH 232355Z 23010KT 9999 CLR 06/02 A3007 RMK AO2A SLP191 T00610021 10130 20084 57008 $=]
+
+>>   [2016-01-24 00:03:46 833] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404; observation: METAR KQEL 240000Z AUTO 13001KT 9999 CLR M19/M24 A3027 RMK A02 TSNO=]
+
+>>   [2016-01-24 00:05:03 634] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/LEZG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEZG error code: 404; observation: METAR LEZG 240000Z 00000KT 2000 BR NSC 06/06 Q1033=]
+
+>>   [2016-01-24 00:05:04 077] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG error code: 404; observation: METAR LEAG 240000Z AUTO 08007KT 040V100 CAVOK 16/13 Q1033=]
+
+>>   [2016-01-24 00:09:39 655] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/URFF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/URFF error code: 404; observation: METAR URFF 240000Z 10002MPS 7000 FEW015 M13/M14 Q1030 R01/450195NOSIG=]
+
+>>   [2016-01-24 00:09:47 624] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/OEAR: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/OEAR error code: 404; observation: METAR OEAR 240000Z 00000KT 9999 FEW040 23/21 Q1014=]
+
+
+
+====GenericHandler==== [14]
+=========================
+
+","Warnings: 12
+Errors: 427
+Fatals: 0
+Mantis #9167 (ERROR - GenericHandler) : 4991
+Mantis #9168 (WARN - GenericHandler) : 77
+
+====ObservationDecodeHandler==== [427]
+====================================
+>>   [2016-01-24 00:06:11 370] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQAT: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQAT error code: 404; observation: METAR KQAT 232355Z 28005KT 8000 HZ CLR 08/04 A2992 RMK A02A SLP134 T000830044=]
+
+>>   [2016-01-24 00:06:11 434] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQTA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQTA error code: 404; observation: METAR KQTA 232355Z 27007KT 9999 VCTS BKN021CB OVC027 13/10 A2990 RMK AO2A SLP126 57001=]
+
+>>   [2016-01-24 00:26:29 692] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/ETML: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/ETML error code: 404; observation: METAR ETML 240020Z AUTO 24009KT //// // ////// 02/02 Q1029METAR ///=]
+
+>>   [2016-01-24 00:33:10 437] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404; observation: METAR KQEL 240030Z AUTO 15002KT 9999 CLR M17/M24 A3028 RMK A02 TSNO=]
+
+>>   [2016-01-24 00:39:21 601] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/URFF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/URFF error code: 404; observation: METAR URFF 240030Z 11002MPS 7000 BKN014 M12/M14 Q1029 R01/450195NOSIG=]
+
+>>   [2016-01-24 00:56:52 649] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5 error code: 404; observation: METAR K1S5 240055Z AUTO 36004KT 10SM CLR 06/04 A2977 RMK AO2METAR T00600040=]
+
+>>   [2016-01-24 01:00:50 569] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQSN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSN error code: 404; observation: METAR KQSN 240055Z AUTO 08004KT 9999 CLR M02/M12 A3016 RMK AO2 SLP288 T10231125=]
+
+>>   [2016-01-24 01:00:50 805] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC error code: 404; observation: METAR SPJC 240100Z 16012KT 9999 FEW010 OVC020 24/21 Q1011 NOSIG RMK PP000=]
+
+>>   [2016-01-24 01:16:39 007] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5 error code: 404; observation: METAR K1S5 240115Z AUTO 01004KT 10SM BKN120 05/04 A2978 RMK AO2 T00540039=]
+
+>>   [2016-01-24 01:23:02 237] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404; observation: METAR KQEL 240120Z AUTO 21003KT 9999 CLR M15/M25 A3028 RMK A02 TSNO=]
+
+
+
+====GenericHandler==== [12]
+=========================
+>>   [2016-01-24 01:00:07 757] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KDED 240055Z AUTO 34004KT 04/00 A3001 RMK AO1=]
+
+>>   [2016-01-24 01:00:27 190] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KDED 240055Z AUTO 34004KT 04/00 A3001 RMK AO1=]
+
+
+",Asna,
+"dms-decoder-generic-meteocode-forecast","Warnings: 0
+Errors: 7
+Fatals: 0
+
+====GenericHandler==== [7]
+========================
+>>   [2016-01-24 00:46:59 406] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 09:40:16 865] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 09:45:34 983] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 09:46:07 881] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:22:23 527] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:45:15 994] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:46:24 010] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+
+","Warnings: 0
+Errors: 7
+Fatals: 0
+
+====GenericHandler==== [7]
+========================
+>>   [2016-01-24 09:16:23 999] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 09:46:08 145] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 09:46:08 513] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 10:46:40 940] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 11:48:34 723] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 21:45:50 228] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 21:51:56 270] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+
+","Warnings: 0
+Errors: 10
+Fatals: 0
+
+====GenericHandler==== [10]
+=========================
+>>   [2016-01-24 08:50:28 582] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 10:46:48 170] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 12:45:41 657] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 13:47:13 284] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:31:12 306] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:38:23 499] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:46:23 883] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 20:46:24 205] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 21:45:51 452] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 22:46:14 812] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+
+","Warnings: 0
+Errors: 3
+Fatals: 0
+
+====GenericHandler==== [3]
+========================
+>>   [2016-01-24 09:40:29 659] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 09:46:45 124] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+>>   [2016-01-24 10:46:02 403] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+
+",MatthewL,
+"dms-decoder-generic-omnr",N.P.,N.P.,N.P.,N.P.,Asna,
+"dms-decoder-generic-trca",N.P.,N.P.,N.P.,N.P.,Asna,
+"dms-decoder-grib",N.P.,N.P.,N.P.,N.P.,Quinton,
+"dms-decoder-pirep",N.P.,N.P.,N.P.,N.P.,Chris,
+"dms-decoder-rtaf",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-decoder-sarwinds",N.P.,N.P.,N.P.,N.P.,Quinton,
+"dms-encoder-bufr-bundle",N.P.,N.P.,N.P.,N.P.,Quinton,
+"dms-encoder-bufr-xml2bufr","Warnings: 0
+Errors: 124
+Fatals: 0
+Mantis #9422 (ERROR - AbstractValueHandler) : 134
+
+====AbstractValueHandler==== [124]
+================================
+>>   [2016-01-24 00:01:52 356] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -18.8 (-18.800000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:01:52 957] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -3.4 (-3.400000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:02 583] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -8.8 (-8.800000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:07 620] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -32.2 (-32.200000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:29 791] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -14.4 (-14.400000) Expected between 0 and 655.34 Unable to set value]
+
+
+","Warnings: 0
+Errors: 113
+Fatals: 0
+Mantis #9422 (ERROR - AbstractValueHandler) : 122
+
+====AbstractValueHandler==== [113]
+================================
+>>   [2016-01-24 00:01:32 963] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -3.7 (-3.700000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:13 814] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -7.9 (-7.900000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:17 291] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -7.5 (-7.500000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:03:46 794] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -29.3 (-29.300000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:03:53 851] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -21 (-21.000000) Expected between 0 and 655.34 Unable to set value]
+
+
+","Warnings: 0
+Errors: 122
+Fatals: 0
+Mantis #9422 (ERROR - AbstractValueHandler) : 130
+
+====AbstractValueHandler==== [122]
+================================
+>>   [2016-01-24 00:02:04 996] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -7.5 (-7.500000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:05 088] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -27.4 (-27.400000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:06 298] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -16 (-16.000000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:06 521] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -0.6 (-0.600000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:07 635] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -5.2 (-5.200000) Expected between 0 and 655.34 Unable to set value]
+
+
+","Warnings: 0
+Errors: 137
+Fatals: 0
+Mantis #9422 (ERROR - AbstractValueHandler) : 137
+
+====AbstractValueHandler==== [137]
+================================
+>>   [2016-01-24 00:01:56 351] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -16.9 (-16.900000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:23 723] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -30.5 (-30.500000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:34 556] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -13 (-13.000000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:35 438] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -5.7 (-5.700000) Expected between 0 and 655.34 Unable to set value]
+
+>>   [2016-01-24 00:02:36 537] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 12111 received: -6.9 (-6.900000) Expected between 0 and 655.34 Unable to set value]
+
+
+",Quinton,
+"dms-encoder-sa",N.P.,"Warnings: 0
+Errors: 1
+Fatals: 0
+Mantis #8189 (ERROR - SAHandler) : 197
+
+====WebWrite==== [1]
+==================
+>>   [2016-01-24 23:02:04 001] [ERROR] [Encoder-SA] [WebWrite] [Unable to load localhost key from /apps/dms/dms-core/webapps/ROOT/WEB-INF/.keys/localhostauthkey]
+
+
+",N.P.,N.P.,Quinton,
+"dms-encoder-sarwinds-wips",N.P.,N.P.,N.P.,N.P.,Quinton,
+"dms-enhanced-generic","Warnings: 896
+Errors: 0
+Fatals: 0
+
+====GenericEnhanced==== [896]
+===========================
+>>   [2016-01-24 00:11:18 206] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 206] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 470] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 470] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 713] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 713] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 026] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 027] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 272] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 272] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+
+","Warnings: 806
+Errors: 0
+Fatals: 0
+
+====GenericEnhanced==== [806]
+===========================
+>>   [2016-01-24 00:11:18 306] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 306] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 558] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 558] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 866] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 866] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 205] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 205] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 495] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 495] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+
+","Warnings: 918
+Errors: 0
+Fatals: 0
+
+====GenericEnhanced==== [918]
+===========================
+>>   [2016-01-24 00:11:18 193] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 193] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 469] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 469] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 727] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 727] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 007] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 007] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 247] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 247] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+
+","Warnings: 718
+Errors: 0
+Fatals: 0
+
+====GenericEnhanced==== [718]
+===========================
+>>   [2016-01-24 00:11:18 328] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 328] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 551] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 551] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 732] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 732] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 921] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:18 921] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 236] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+>>   [2016-01-24 00:11:19 236] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+
+",Vicram U,
+"dms-hydnow-updater",Not found,Not found,Not found,Not found,Asna,
+"dms-manager-generic",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-manager-metar-bufr",N.P.,"Warnings: 6554
+Errors: 0
+Fatals: 0
+
+====NinjoManager==== [214]
+========================
+>>   [2016-01-24 00:02:05 394] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/2400650/cwfd/orig/auto]
+
+>>   [2016-01-24 00:02:17 531] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/8500920/cwkw/orig/auto]
+
+>>   [2016-01-24 00:02:19 647] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/2403602/cwrh/orig/auto]
+
+>>   [2016-01-24 00:31:55 728] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240031/2400650/cwfd/orig/auto]
+
+>>   [2016-01-24 00:38:15 389] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240037/2400650/cwfd/orig/auto]
+
+>>   [2016-01-24 00:40:56 536] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240040/2400650/cwfd/orig/auto]
+
+>>   [2016-01-24 01:01:03 282] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240100/8503992/cwtu/orig/auto]
+
+>>   [2016-01-24 01:01:19 534] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240100/2303093/cwrf/orig/auto]
+
+>>   [2016-01-24 01:01:32 321] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240100/2403602/cwrh/orig/auto]
+
+>>   [2016-01-24 01:01:44 328] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [NinjoManager] [Element already exists: metar_wind_direction in identity: msc/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240100/8500926/cwyk/orig/auto]
+
+
+
+====ComponentController==== [6340]
+================================
+>>   [2016-01-24 00:02:01 987] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/7032685/cynd/orig/man]
+
+>>   [2016-01-24 00:02:15 636] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/2400800/cycy/orig/auto]
+
+>>   [2016-01-24 00:02:18 329] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/4043899/cyky/orig/man]
+
+>>   [2016-01-24 00:02:20 318] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/2400399/cyab/orig/auto]
+
+>>   [2016-01-24 00:02:20 327] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/8502590/cymh/orig/auto]
+
+>>   [2016-01-24 00:02:21 069] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/8101505/cyfc/orig/auto]
+
+>>   [2016-01-24 00:02:21 083] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/2101303/cyxy/orig/man]
+
+>>   [2016-01-24 00:02:21 229] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/2403051/cyxp/orig/auto]
+
+>>   [2016-01-24 00:02:21 604] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/1184791/cyzy/orig/auto]
+
+>>   [2016-01-24 00:02:21 612] [WARN ] [MSC-DMS-Manager-METAR-BUFR:1.thread1] [ComponentController] [ Component Delay Processing Exception: Waiting for identity: nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/decoded-xml-2.0/201601240000/6037776/cyxl/orig/man]
+
+
+",N.P.,N.P.,DJ,
+"dms-manager-synop",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-merger-observation",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-metadata-updater",N.P.,N.P.,N.P.,N.P.,Ben S,
+"dms-pg-ecam-publicemail-warp3",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-pg-ecam-twitteralertgenerator-warp3",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-pg-external-xml",N.P.,N.P.,N.P.,N.P.,DJ,
+"dms-pg-generic-autotaf",N.P.,N.P.,N.P.,N.P.,MichaelS,
+"dms-pg-generic-aviationdata-cmc",N.P.,"Warnings: 946
+Errors: 0
+Fatals: 0
+
+====CustomFileWriter==== [946]
+============================
+>>   [2016-01-24 00:02:25 699] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-msc-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-230j01q-cwxr-orig-auto-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cwxr_230j01q_20160124.txt]
+
+>>   [2016-01-24 00:02:25 762] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-msc-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-2200675-czcp-orig-auto-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/czcp_2200675_20160124.txt]
+
+>>   [2016-01-24 00:02:26 524] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-2503651-cysy-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cysy_2503651_20160124.txt]
+
+>>   [2016-01-24 00:02:26 603] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-8104901-cysj-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cysj_8104901_20160124.txt]
+
+>>   [2016-01-24 00:02:33 257] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-1192946-cyye-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cyye_1192946_20160124.txt]
+
+>>   [2016-01-24 00:02:33 302] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-1123939-cylw-orig-auto-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cylw_1123939_20160124.txt]
+
+>>   [2016-01-24 00:02:38 711] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-2101201-cyqh-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cyqh_2101201_20160124.txt]
+
+>>   [2016-01-24 00:02:38 772] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-8103201-cyqm-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cyqm_8103201_20160124.txt]
+
+>>   [2016-01-24 00:02:39 006] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-nav_canada-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-6119499-cyvv-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cyvv_6119499_20160124.txt]
+
+>>   [2016-01-24 00:02:43 966] [WARN ] [MSC-DMS-PG-Generic-AviationData-CMC:1.thread1] [CustomFileWriter] [(file-dms-aviation-data) <-msc-observation-atmospheric-aviation-metar-1.2-ascii-product-cmc_aviation_ascii-1.0-201601240000-1021830-cyqq-orig-man-complete> Overwriting file due to a file with the same name already being in the export directory: /apps/dms/dms-pg-generic-aviationdata-cmc/data/export/cyqq_1021830_20160124.txt]
+
+
+",N.P.,N.P.,Jason Liu,
+"dms-pg-generic-fm12totdcf",N.P.,N.P.,N.P.,N.P.,MichaelS,
+"dms-pg-generic-ninjo-nswob",N.P.,N.P.,N.P.,N.P.,MichaelS,
+"dms-pg-mfile-warp3",N.P.,N.P.,N.P.,N.P.,MichaelS,
+"dms-pg-ninjo-amdar",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-amdar,
+"dms-pg-ninjo-aqhi",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-aqhi,
+"dms-pg-ninjo-aviation-warning",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-aviation-warning,
+"dms-pg-ninjo-bufr",Not found,Not found,Not found,Not found,dms-pg-ninjo-bufr,
+"dms-pg-ninjo-enhancedca","Warnings: 0
+Errors: 107
+Fatals: 0
+
+====FileRead==== [107]
+====================
+>>   [2016-01-24 03:08:40 758] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512271600-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 16:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:40 759] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512261700-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 17:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:45 762] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512272300-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 23:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 762] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512262000-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 20:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 762] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512270600-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 06:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 762] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512271500-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 15:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 763] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512262200-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 22:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 763] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512300800-305mgff-wnr-105-orig-data_60 with obsTime:Wed Dec 30 08:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 763] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512270500-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 05:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 764] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512280100-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 28 01:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+
+","Warnings: 6
+Errors: 139
+Fatals: 0
+
+====FileRead==== [136]
+====================
+>>   [2016-01-24 03:08:36 890] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512281100-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 28 11:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 898] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512281000-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 28 10:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 898] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251400-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 14:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 899] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512261500-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 15:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 899] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512250600-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 06:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 901] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251600-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 16:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 902] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251100-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 11:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 902] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251900-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 19:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 902] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512252100-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 21:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+>>   [2016-01-24 03:08:36 903] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512260400-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 04:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:36 UTC 2016]
+
+
+
+====ComponentController==== [3]
+=============================
+>>   [2016-01-24 09:07:11 521] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+>>   [2016-01-24 09:07:11 576] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+>>   [2016-01-24 09:07:11 627] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+
+
+====NinJoEnhancedCaPG==== [6]
+===========================
+>>   [2016-01-24 09:07:11 521] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:11 521] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:11 576] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:11 576] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:11 627] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:11 627] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+
+","Warnings: 4
+Errors: 124
+Fatals: 0
+
+====FileRead==== [122]
+====================
+>>   [2016-01-24 03:08:40 023] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512261100-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 11:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:40 024] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512250700-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 07:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:40 024] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512260900-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:40 025] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512270700-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 07:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:40 025] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512260800-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 08:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:40 025] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512260000-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:40 UTC 2016]
+
+>>   [2016-01-24 03:08:45 031] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512282200-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 28 22:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 032] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251500-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 15:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 032] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512310200-305mgff-wnr-105-orig-data_60 with obsTime:Thu Dec 31 02:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+>>   [2016-01-24 03:08:45 032] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512270000-305mgff-wnr-105-orig-data_60 with obsTime:Sun Dec 27 00:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:45 UTC 2016]
+
+
+
+====ComponentController==== [2]
+=============================
+>>   [2016-01-24 09:07:12 617] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+>>   [2016-01-24 10:48:08 660] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+
+
+====NinJoEnhancedCaPG==== [4]
+===========================
+>>   [2016-01-24 09:07:12 617] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:12 617] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+>>   [2016-01-24 10:48:08 660] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 10:48:08 660] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+
+","Warnings: 6
+Errors: 118
+Fatals: 0
+
+====FileRead==== [115]
+====================
+>>   [2016-01-24 03:08:38 699] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512250400-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 04:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 699] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512280800-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 28 08:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 700] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512261300-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 13:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 700] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251300-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 13:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 701] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512261400-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 14:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 701] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512252300-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 23:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 701] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512251700-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 17:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 702] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512250900-305mgff-wnr-105-orig-data_60 with obsTime:Fri Dec 25 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 702] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512280900-305mgff-wnr-105-orig-data_60 with obsTime:Mon Dec 28 09:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+>>   [2016-01-24 03:08:38 703] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201512260600-305mgff-wnr-105-orig-data_60 with obsTime:Sat Dec 26 06:00:00 UTC 2015 is older than the allowed obsTime filter date: Thu Jan 14 03:08:38 UTC 2016]
+
+
+
+====ComponentController==== [3]
+=============================
+>>   [2016-01-24 09:07:08 680] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+>>   [2016-01-24 09:07:08 755] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+>>   [2016-01-24 09:07:13 838] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+
+
+====NinJoEnhancedCaPG==== [6]
+===========================
+>>   [2016-01-24 09:07:08 679] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:08 679] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:08 755] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:08 755] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:13 838] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+
+>>   [2016-01-24 09:07:13 838] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+
+",dms-pg-ninjo-enhancedca,
+"dms-pg-ninjo-enhancedca2",Not found,Not found,Not found,Not found,dms-pg-ninjo-enhancedca2,
+"dms-pg-ninjo-enhancedca-panam",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-enhancedca-panam,
+"dms-pg-ninjo-enhancedra",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-enhancedra,
+"dms-pg-ninjo-enhancedwinide",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-enhancedwinide,
+"dms-pg-ninjo-forestryab","Warnings: 74
+Errors: 0
+Fatals: 0
+
+====NinJoCodeSubstitution==== [74]
+================================
+>>   [2016-01-24 21:30:47 897] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:47 898] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 096] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 096] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 145] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 145] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 179] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 179] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 213] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 21:30:48 213] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+
+","Warnings: 70
+Errors: 0
+Fatals: 0
+
+====NinJoCodeSubstitution==== [70]
+================================
+>>   [2016-01-24 16:30:41 195] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 195] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 224] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 224] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 243] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 244] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 264] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 264] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 293] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.cloud_cover.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+>>   [2016-01-24 16:30:41 293] [WARN ] [NinJo PG:1.thread1] [NinJoCodeSubstitution] [Key: dms.present_weather.MSNG not defined in /code-substitution.properties report value as MSNG element skipped]
+
+
+",N.P.,N.P.,dms-pg-ninjo-forestryab,
+"dms-pg-ninjo-forestrybc",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-forestrybc,
+"dms-pg-ninjo-grca",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-grca,
+"dms-pg-ninjo-hurricane",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-hurricane,
+"dms-pg-ninjo-hurricane2",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-hurricane2,
+"dms-pg-ninjo-metar","Warnings: 0
+Errors: 262
+Fatals: 0
+
+====ComponentController==== [262]
+===============================
+>>   [2016-01-24 00:17:34 278] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5 error code: 404]
+
+>>   [2016-01-24 00:19:39 643] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF error code: 404]
+
+>>   [2016-01-24 00:23:40 432] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/FDMV: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/FDMV error code: 404]
+
+>>   [2016-01-24 00:23:40 477] [ERROR] [NinJo PG:1.thread3] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 00:23:40 482] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/FDLB: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/FDLB error code: 404]
+
+>>   [2016-01-24 00:35:31 370] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG error code: 404]
+
+>>   [2016-01-24 00:35:31 391] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/LEZG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEZG error code: 404]
+
+>>   [2016-01-24 00:36:01 638] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5 error code: 404]
+
+>>   [2016-01-24 00:38:37 006] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/VERP: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VERP error code: 404]
+
+>>   [2016-01-24 00:40:57 730] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/VEBN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VEBN error code: 404]
+
+
+","Warnings: 0
+Errors: 252
+Fatals: 0
+
+====ComponentController==== [252]
+===============================
+>>   [2016-01-24 00:13:55 827] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 00:13:55 858] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF error code: 404]
+
+>>   [2016-01-24 00:26:52 998] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF error code: 404]
+
+>>   [2016-01-24 00:42:54 947] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 00:59:26 006] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQTA: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQTA error code: 404]
+
+>>   [2016-01-24 00:59:26 006] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQKG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQKG error code: 404]
+
+>>   [2016-01-24 00:59:26 008] [ERROR] [NinJo PG:1.thread3] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQDG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQDG error code: 404]
+
+>>   [2016-01-24 00:59:26 040] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQXH: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQXH error code: 404]
+
+>>   [2016-01-24 00:59:26 045] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQVT: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQVT error code: 404]
+
+>>   [2016-01-24 00:59:26 075] [ERROR] [NinJo PG:1.thread3] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQBG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQBG error code: 404]
+
+
+","Warnings: 0
+Errors: 255
+Fatals: 0
+
+====ComponentController==== [255]
+===============================
+>>   [2016-01-24 00:05:07 649] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/LEZG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEZG error code: 404]
+
+>>   [2016-01-24 00:05:07 733] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG error code: 404]
+
+>>   [2016-01-24 00:09:43 053] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/URFF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/URFF error code: 404]
+
+>>   [2016-01-24 00:09:48 108] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/OEAR: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/OEAR error code: 404]
+
+>>   [2016-01-24 00:42:41 676] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/VERP: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VERP error code: 404]
+
+>>   [2016-01-24 00:52:42 056] [ERROR] [NinJo PG:1.thread3] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 01:03:13 797] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQAT: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQAT error code: 404]
+
+>>   [2016-01-24 01:03:13 856] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 01:07:20 625] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQAL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQAL error code: 404]
+
+>>   [2016-01-24 01:09:56 425] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/URFF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/URFF error code: 404]
+
+
+","Warnings: 0
+Errors: 264
+Fatals: 0
+
+====ComponentController==== [264]
+===============================
+>>   [2016-01-24 00:26:32 476] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/ETML: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/ETML error code: 404]
+
+>>   [2016-01-24 00:33:13 025] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 00:39:23 563] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/URFF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/URFF error code: 404]
+
+>>   [2016-01-24 01:00:55 560] [ERROR] [NinJo PG:1.thread3] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQSN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSN error code: 404]
+
+>>   [2016-01-24 01:16:48 274] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5 error code: 404]
+
+>>   [2016-01-24 01:23:05 021] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 01:32:43 786] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+>>   [2016-01-24 01:35:44 169] [ERROR] [NinJo PG:1.thread2] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG error code: 404]
+
+>>   [2016-01-24 01:40:38 842] [ERROR] [NinJo PG:1.thread4] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/VEBN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VEBN error code: 404]
+
+>>   [2016-01-24 01:42:54 272] [ERROR] [NinJo PG:1.thread5] [ComponentController] [ Component Exception: Observation contained an invalid Station rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL error code: 404]
+
+
+",dms-pg-ninjo-metar,
+"dms-pg-ninjo-ncawos",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-ncawos,
+"dms-pg-ninjo-ncawos-panam",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-ncawos-panam,
+"dms-pg-ninjo-nchwos",Not found,Not found,Not found,Not found,dms-pg-ninjo-nchwos,
+"dms-pg-ninjo-nchwos2",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-nchwos2,
+"dms-pg-ninjo-nchwos-panam",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-nchwos-panam,
+"dms-pg-ninjo-omnr",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-omnr,
+"dms-pg-ninjo-pirep",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-pirep,
+"dms-pg-ninjo-rawbulletin",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-rawbulletin,
+"dms-pg-ninjo-rmcq",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-rmcq,
+"dms-pg-ninjo-rwin",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-rwin,
+"dms-pg-ninjo-synop",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-station-catalog,
+"dms-pg-ninjo-station-catalog",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-synop,
+"dms-pg-ninjo-taf",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-taf,
+"dms-pg-ninjo-trca",N.P.,N.P.,N.P.,N.P.,dms-pg-ninjo-trca,
+"dms-pg-ninjo-upperair","Warnings: 0
+Errors: 2
+Fatals: 0
+
+====NinJoUpperAirPG==== [2]
+=========================
+>>   [2016-01-24 12:21:22 433] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+>>   [2016-01-24 12:36:02 336] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+
+","Warnings: 0
+Errors: 1
+Fatals: 0
+
+====NinJoUpperAirPG==== [1]
+=========================
+>>   [2016-01-24 12:11:38 701] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+
+","Warnings: 2
+Errors: 4
+Fatals: 0
+
+====NinJoUpperAirPG==== [3]
+=========================
+>>   [2016-01-24 19:23:08 827] [WARN ] [NinJo PG:1.thread1] [NinJoUpperAirPG] [Unable to retrieve latitude for station ID: 70165]
+
+>>   [2016-01-24 19:23:08 827] [WARN ] [NinJo PG:1.thread1] [NinJoUpperAirPG] [Unable to retrieve longitude for station ID: 70165]
+
+>>   [2016-01-24 12:37:08 789] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+>>   [2016-01-24 12:37:10 023] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+>>   [2016-01-24 23:29:45 740] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+
+
+====ComponentController==== [1]
+=============================
+>>   [2016-01-24 19:23:08 827] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+
+","Warnings: 2
+Errors: 2
+Fatals: 0
+
+====NinJoUpperAirPG==== [1]
+=========================
+>>   [2016-01-24 01:35:49 311] [WARN ] [NinJo PG:1.thread1] [NinJoUpperAirPG] [Unable to retrieve latitude for station ID: 70165]
+
+>>   [2016-01-24 01:35:49 312] [WARN ] [NinJo PG:1.thread1] [NinJoUpperAirPG] [Unable to retrieve longitude for station ID: 70165]
+
+>>   [2016-01-24 12:12:50 131] [ERROR] [NinJo PG:1.thread1] [NinJoUpperAirPG] [NumberformatException encountered when parsing pressure value:
+
+
+
+====ComponentController==== [1]
+=============================
+>>   [2016-01-24 01:35:49 312] [ERROR] [NinJo PG:1.thread1] [ComponentController] [ Component Exception: Could not process incoming message]
+
+
+",dms-pg-ninjo-upperair,
+"dms-pg-sarwinds-web",N.P.,N.P.,N.P.,N.P.,Quinton,
+"dms-pg-station-proximity",N.P.,N.P.,N.P.,N.P.,Ben S,
+"dms-pg-timeliness",N.P.,N.P.,N.P.,N.P.,SebastianS,
+"dms-pg-wxo-hourlyobs",N.P.,N.P.,N.P.,N.P.,Brian D,
+"dms-pg-wxo-recordvalues","Warnings: 22
+Errors: 0
+Fatals: 0
+
+====WebWrite==== [22]
+===================
+>>   [2016-01-24 08:04:39 008] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 010] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 012] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 014] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 016] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 017] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 019] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 021] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 022] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+>>   [2016-01-24 08:04:39 024] [WARN ] [MSC-DMS-PG-WXO-RecordValues:1.thread1] [WebWrite] [(web) {PUT:505} Skipping data due to error: Write transaction did not complete: HTTP Version Not Supported]
+
+
+",N.P.,N.P.,N.P.,Mark V,
+"dms-pg-wxo-syno",N.P.,N.P.,N.P.,N.P.,Shayne B,
+"dms-publisher",N.P.,N.P.,N.P.,N.P.,DanA,
+"dms-quality-assessment",N.P.,N.P.,N.P.,N.P.,Adrian F,

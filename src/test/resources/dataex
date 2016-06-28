@@ -1,0 +1,327 @@
+
+
+      Some of the components still have residual files. 
+
+
+
+         Has file(/s) inside for longer than 5 minutes:
+
+      
+               Number of files in dms-pg-ninjo-aviation-warning:
+         
+                     import: 1
+                     working: 0
+                     reject: 0
+                     temp: 0
+
+            
+               Number of files in dms-pg-sarwinds-web:
+         
+                     import: 0
+                     working: 0
+                     reject: 148
+                     temp: 920
+
+            
+      
+                  Number of files in dms-decoder-amdar:
+         
+                     import: 0
+                     working: 0
+                     reject: 7
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-bufr-tdcf:
+         
+                     import: 0
+                     working: 0
+                     reject: 1760
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-bufr2xml:
+         
+                     import: 0
+                     working: 0
+                     reject: 4418
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-ca:
+         
+                     import: 0
+                     working: 0
+                     reject: 17915
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-generic-grca:
+         
+                     import: 0
+                     working: 0
+                     reject: 240
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-pirep:
+         
+                     import: 0
+                     working: 0
+                     reject: 1
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-ra:
+         
+                     import: 0
+                     working: 0
+                     reject: 33
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-sarwinds:
+         
+                     import: 0
+                     working: 0
+                     reject: 10
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-synop:
+         
+                     import: 0
+                     working: 0
+                     reject: 68
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-taf:
+         
+                     import: 0
+                     working: 0
+                     reject: 134
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-warningsmfile:
+         
+                     import: 0
+                     working: 0
+                     reject: 8
+                     temp: 0
+
+               
+                  Number of files in dms-encoder-ascii-synop:
+         
+                     import: 0
+                     working: 0
+                     reject: 415
+                     temp: 0
+
+               
+                  Number of files in dms-encoder-bufr-xml2bufr:
+         
+                     import: 0
+                     working: 0
+                     reject: 1391
+                     temp: 0
+
+               
+                  Number of files in dms-encoder-sa:
+         
+                     import: 0
+                     working: 0
+                     reject: 1
+                     temp: 0
+
+               
+                  Number of files in dms-encoder-sarwinds-wips:
+         
+                     import: 0
+                     working: 0
+                     reject: 4
+                     temp: 0
+
+               
+                  Number of files in dms-pg-generic-ninjo-nswob:
+         
+                     import: 0
+                     working: 0
+                     reject: 1002807
+                     temp: 0
+
+               
+                  Number of files in dms-pg-mfile-warp3:
+         
+                     import: 0
+                     working: 0
+                     reject: 5
+                     temp: 0
+
+               
+                  Number of files in dms-pg-mt-warp3:
+         
+                     import: 0
+                     working: 0
+                     reject: 1
+                     temp: 0
+
+               
+                  Number of files in dms-pg-ninjo-metar:
+         
+                     import: 0
+                     working: 0
+                     reject: 1514
+                     temp: 0
+
+               
+                  Number of files in dms-pg-ninjo-synop:
+         
+                     import: 0
+                     working: 0
+                     reject: 194
+                     temp: 0
+
+               
+                  Number of files in dms-pg-ninjo-taf:
+         
+                     import: 0
+                     working: 0
+                     reject: 2
+                     temp: 0
+
+               
+                  Number of files in dms-pg-ninjo-upperair:
+         
+                     import: 0
+                     working: 0
+                     reject: 1
+                     temp: 0
+
+               
+                  Number of files in dms-pg-synop:
+         
+                     import: 0
+                     working: 0
+                     reject: 43
+                     temp: 0
+
+               
+                  Number of files in dms-pg-wxo-summary:
+         
+                     import: 0
+                     working: 0
+                     reject: 114
+                     temp: 0
+
+               
+                  Number of files in dms-translator-bufr:
+         
+                     import: 0
+                     working: 0
+                     reject: 716
+                     temp: 0
+
+               
+
+
+         No old files remaining:
+
+                    dms-creator-synop
+                    dms-decoder-aqhi
+                    dms-decoder-aviation-warning
+                    dms-decoder-bufr-winide
+                    dms-decoder-enhanced-bufr-winide
+                    dms-decoder-enhanced-ca
+                    dms-decoder-enhanced-ra
+                    dms-decoder-forestry-ab
+                    dms-decoder-forestry-bc
+                    dms-decoder-generic-bc-tran
+                    dms-decoder-generic-cocorahs
+                    dms-decoder-generic-forestry-ab
+                    dms-decoder-generic-forestry-bc
+                    dms-decoder-generic-metar
+                    dms-decoder-generic-omnr
+                    dms-decoder-generic-panam-minutely-uv
+                    dms-decoder-generic-panam-ncawos
+                    dms-decoder-generic-panam-nchwos
+                    dms-decoder-generic-tdcf-synop
+                    dms-decoder-generic-trca
+                    dms-decoder-generic-wbs
+                    dms-decoder-grib
+                    dms-decoder-hurricane
+                    dms-decoder-jicc
+                    dms-decoder-metar
+                    dms-decoder-mt-warp3
+                    dms-decoder-mt2
+                    dms-decoder-nationalmfile
+                    dms-decoder-ninjo-alert-warp3
+                    dms-decoder-ninjo-alert2
+                    dms-decoder-official-metar-scheduler
+                    dms-decoder-rwin
+                    dms-decoder-upperair
+                    dms-encoder-bufr-bundle
+                    dms-encoder-metar
+                    dms-enhanced-generic
+                    dms-extractor-archive
+                    dms-importer-bulletin
+                    dms-manager-alert-warp3
+                    dms-manager-generic
+                    dms-manager-metar-bufr
+                    dms-manager-sarwinds-surface
+                    dms-manager-synop
+                    dms-metadata-updater
+                    dms-pg-active-alert-summary-warp3
+                    dms-pg-active-alert-summary2
+                    dms-pg-cap
+                    dms-pg-ecam-publicemail
+                    dms-pg-ecam-twitteralertgenerator
+                    dms-pg-external-xml
+                    dms-pg-generic-aviationdata-cmc
+                    dms-pg-generic-fm12totdcf
+                    dms-pg-generic-moored-buoy-fm13
+                    dms-pg-generic-ncawos-fm12
+                    dms-pg-generic-nchwos-fm12
+                    dms-pg-generic-sa
+                    dms-pg-mfile2
+                    dms-pg-mt2
+                    dms-pg-ninjo-amdar
+                    dms-pg-ninjo-aqhi
+                    dms-pg-ninjo-enhancedca
+                    dms-pg-ninjo-enhancedca-panam
+                    dms-pg-ninjo-enhancedra
+                    dms-pg-ninjo-enhancedwinide
+                    dms-pg-ninjo-forestryab
+                    dms-pg-ninjo-forestrybc
+                    dms-pg-ninjo-grca
+                    dms-pg-ninjo-hurricane
+                    dms-pg-ninjo-hurricane2
+                    dms-pg-ninjo-ncawos
+                    dms-pg-ninjo-ncawos-panam
+                    dms-pg-ninjo-nchwos-panam
+                    dms-pg-ninjo-nchwos2
+                    dms-pg-ninjo-omnr
+                    dms-pg-ninjo-pirep
+                    dms-pg-ninjo-rawbulletin
+                    dms-pg-ninjo-rmcq
+                    dms-pg-ninjo-rwin
+                    dms-pg-ninjo-station-catalog
+                    dms-pg-ninjo-trca
+                    dms-pg-official-metar
+                    dms-pg-pre-synop
+                    dms-pg-profile-amdar
+                    dms-pg-reports-warp3
+                    dms-pg-rwin
+                    dms-pg-rwin-alert
+                    dms-pg-sarwinds-ninjo
+                    dms-pg-timeliness
+                    dms-pg-warnings-warp3
+                    dms-pg-warnings2
+                    dms-pg-wxo-canadahotcoldspot
+                    dms-pg-wxo-hourlyobs
+                    dms-pg-wxo-recordvalues
+                    dms-pg-wxo-syno
+                    dms-publisher
+                    dms-quality-assessment
+               

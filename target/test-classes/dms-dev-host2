@@ -1,0 +1,1781 @@
+msc-dms-core-hibernate.log
+msc-dms-core.log
+msc-dms-core-admin-logrotate.log
+msc-dms-core-admin-reference-purge.log
+msc-dms-creator-autotaf.log
+msc-dms-creator-synop.log
+msc-dms-decoder-amdar.log
+msc-dms-decoder-aqhi.log
+msc-dms-decoder-atags.log
+msc-dms-decoder-aviation-warning-US-Alaskan.log
+msc-dms-decoder-aviation-warning-US-Conus.log
+msc-dms-decoder-aviation-warning-US-Convective.log
+msc-dms-decoder-aviation-warning-US-Oceanic.log
+msc-dms-decoder-aviation-warning.log
+msc-dms-decoder-bufr-tdcf.log
+msc-dms-decoder-bufr-winide.log
+msc-dms-decoder-bufr2xml.log
+msc-dms-decoder-ca.log
+msc-dms-decoder-enhanced-bufr-winide.log
+msc-dms-decoder-enhanced-ca.log
+msc-dms-decoder-enhanced-ra.log
+msc-dms-decoder-generic-bc-tran.log
+msc-dms-decoder-generic-cocorahs.log
+msc-dms-decoder-generic-forestry-ab.log
+msc-dms-decoder-generic-forestry-bc.log
+msc-dms-decoder-generic-grca.log
+msc-dms-decoder-generic-hydrometric-fv.log
+msc-dms-decoder-generic-hydrometric-rc.log
+msc-dms-decoder-generic-hydrometric-ts-decode.log
+msc-dms-decoder-generic-hydrometric-ts-identify.log
+msc-dms-decoder-generic-metar.log
+msc-dms-decoder-generic-meteocode-forecast.log
+msc-dms-decoder-generic-omnr.log
+msc-dms-decoder-generic-panam-minutely-uv.log
+msc-dms-decoder-generic-panam-ncawos.log
+msc-dms-decoder-generic-panam-nchwos.log
+msc-dms-decoder-generic-tdcf-synop.log
+msc-dms-decoder-generic-trca.log
+msc-dms-decoder-generic-wbs.log
+msc-dms-decoder-grib.log
+msc-dms-decoder-hurricane.log
+msc-dms-decoder-jicc.log
+msc-dms-decoder-metar.log
+msc-dms-decoded-mfile-warp3.log
+msc-dms-decoder-mt.log
+msc-dms-decoder-mt2.log
+msc-dms-decoder-nationalmfile.log
+msc-dms-decoder-ninjo-alert-warp3.log
+msc-dms-decoder-ninjo-alert2.log
+msc-dms-decoder-official-metar-scheduler.log
+msc-dms-decoder-pirep.log
+msc-dms-decoder-ra.log
+msc-dms-decoder-rtaf.log
+msc-dms-decoder-rwin.log
+msc-dms-decoder-sarwinds.log
+msc-dms-decoder-synop.log
+msc-dms-decoder-taf.log
+msc-dms-decoder-upperair.log
+msc-dms-decoder-warningsmfile.log
+msc-dms-encoder-ascii-synop.log
+msc-dms-encoder-bufr-bundle.log
+msc-dms-encoder-bufr-xml2bufr.log
+msc-dms-encoder-metar.log
+msc-dms-encoder-sa.log
+msc-dms-encoder-sarwinds-wips.log
+msc-dms-enhanced-generic-ca.log
+msc-dms-enhanced-generic.log
+msc-dms-extractor-archive.log
+msc-dms-importer-bulletin.log
+msc-dms-manager-alert-warp3.log
+msc-dms-manager-generic.log
+msc-dms-manager-metar-bufr.log
+msc-dms-manager-sarwinds-surface.log
+msc-dms-manager-synop.log
+msc-dms-manager-merger.log
+msc-dms-metadata-updater.log
+msc-dms-pg-active-alert-summary.log
+msc-dms-pg-active-alert-summary2.log
+msc-dms-pg-cap.log
+msc-dms-pg-cap-warp3.log
+msc-dms-pg-ecam-publicemail.log
+msc-dms-pg-ecam-publicemail.log
+msc-dms-pg-ecam-twitteralertgenerator.log
+msc-dms-pg-ecam-twitteralertgenerator.log
+msc-dms-pg-external-XML.log
+msc-dms-pg-generic-autotaf.log
+msc-dms-pg-generic-aviationdata-cmc.log
+msc-dms-pg-generic-fm12totdcf.log
+msc-dms-pg-generic-moored-buoy-fm13.log
+msc-dms-pg-generic-ncawos-fm12.log
+msc-dms-pg-generic-nchwos-fm12.log
+msc-dms-pg-generic-ninjo-nswob-abfs.log
+msc-dms-pg-generic-ninjo-nswob-bc_tran.log
+msc-dms-pg-generic-ninjo-nswob-bcfs.log
+msc-dms-pg-generic-ninjo-nswob-ca.log
+msc-dms-pg-generic-ninjo-nswob-ca1.1.log
+msc-dms-pg-generic-ninjo-nswob-metar-msc-complete.log
+msc-dms-pg-generic-ninjo-nswob-metar-msc-incomplete.log
+msc-dms-pg-generic-ninjo-nswob-metar-navcan-complete.log
+msc-dms-pg-generic-ninjo-nswob-metar-navcan-incomplete.log
+msc-dms-pg-generic-ninjo-nswob-metar-nws.log
+msc-dms-pg-generic-ninjo-nswob-metar-wmo.log
+msc-dms-pg-generic-ninjo-nswob-on_grca.log
+msc-dms-pg-generic-ninjo-nswob-on_mnrf.log
+msc-dms-pg-generic-ninjo-nswob-on_trca.log
+msc-dms-pg-generic-ninjo-nswob-ra.log
+msc-dms-pg-generic-ninjo-nswob-rmcq.log
+msc-dms-pg-generic-ninjo-nswob-synop-buoy.log
+msc-dms-pg-generic-ninjo-nswob-synop-ship.log
+msc-dms-pg-generic-sa.log
+msc-dms-pg-mfile-warp3.log
+msc-dms-pg-mfile2.log
+msc-dms-pg-mt.log
+msc-dms-pg-mt2.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo-aviation_warning.log
+msc-dms-pg-ninjo-aviation_warning_us.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo-hurricane.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-station-catalog.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-official-metar.log
+msc-dms-pg-pre-synop.log
+msc-dms-pg-profile-amdar.log
+msc-dms-pg-reports.log
+msc-dms-pg-rwin.log
+msc-dms-pg-rwin-alert.log
+msc-dms-pg-sarwinds-ninjo.log
+msc-dms-pg-sarwinds-web.log
+msc-dms-pg-synop.log
+msc-dms-pg-timeliness.log
+msc-dms-pg-warnings.log
+msc-dms-pg-warnings2.log
+msc-dms-pg-wxo-canadahotcoldspot.log
+msc-dms-pg-wxo-hourlyobs-buoy.log
+msc-dms-pg-wxo-hourlyobs-msc.log
+msc-dms-pg-wxo-hourlyobs-us.log
+msc-dms-pg-wxo-recordvalues.log
+msc-dms-pg-wxo-summary.log
+msc-dms-pg-wxo-syno.log
+msc-dms-publisher-dms-archive-amdar-binary.log
+msc-dms-publisher-dms-archive-bufr.log
+msc-dms-publisher-dms-archive-ca.log
+msc-dms-publisher-dms-archive-jicc.log
+msc-dms-publisher-dms-archive-metar.log
+msc-dms-publisher-dms-archive-ncawos.log
+msc-dms-publisher-dms-archive-nchwos.log
+msc-dms-publisher-dms-archive-pirep.log
+msc-dms-publisher-dms-archive-ra.log
+msc-dms-publisher-dms-archive-rwin.log
+msc-dms-publisher-dms-archive-swob.log
+msc-dms-publisher-dms-archive-syno.log
+msc-dms-publisher-dms-archive-taf.log
+msc-dms-publisher-dms-archive-ua-ascii.log
+msc-dms-publisher-dms-archive-ua-binary.log
+msc-dms-publisher-dms-archive-warnings-mfile.log
+msc-dms-publisher-dms-hurricane.log
+msc-dms-publisher-dms-replication.log
+msc-dms-publisher-dms-sarwinds.log
+msc-dms-publisher-dms-syno.log
+msc-dms-publisher-dms-upperair.log
+msc-dms-quality-assessment.log
+msc-dms-translator-bufr.log
+-- Log Status:  
+
+Error - One or more logs contain 'ERROR' (or 'FATAL') entries.
+
+      
+         Total Warnings: 68022             Filtered Total Warnings: 15967
+         Total Errors: 33067               Filtered Total Errors: 21747
+         Total Fatals: 3                   Filtered Total Fatals: 3
+  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-core                                  (msc-dms-core.log)
+
+   WARNINGS: 0
+   ERRORS: 0
+   FATALS: 2
+               
+Details:
+   
+   DMSReference - FATAL:  1
+   DMSReadWriteData - FATAL:  1
+
+Example Logs:
+   
+   DMSReference - FATAL:
+
+[2016-06-21 12:26:04 460] [FATAL] [Core:http-bio-8180-exec-116] [DMSReference] [(dms-publisher-4.7@dms-dev-host2.cmc.ec.gc.ca) (/reference/msc/observation/atmospheric/satellite/sarwinds-1.0-binary/raw-zip-1.0/20160621114526/hudson_bay/radarsat2/scwa/hhhv) (POST) (503) (InterfacePersistenceException: Stale NFS file handle)]
+
+   DMSReadWriteData - FATAL:
+
+[2016-06-21 03:02:10 940] [FATAL] [Core:http-bio-8180-exec-28] [DMSReadWriteData] [(dms-pg-ninjo-3.6@dms-dev-host2.cmc.ec.gc.ca) (/data/nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/decoded-xml-2.0/201606210300/8401502/cydf/orig) (GET) (500) (ClientAbortException: : Client application aborted connection to web server before response could be returned))]
+
+
+               
+
+   Mantis #8280 (ERROR - DMSReadWriteData) : 38  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-creator-autotaf                       (msc-dms-creator-autotaf.log)
+
+   WARNINGS: 0
+   ERRORS: 17296
+   FATALS: 0
+               
+Details:
+   
+   AutoTAFHandler - ERROR:  17296
+
+Example Logs:
+   
+   AutoTAFHandler - ERROR:
+
+[2016-06-21 00:00:01 942] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread6] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+[2016-06-21 00:00:01 942] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread6] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+[2016-06-21 00:00:01 942] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread6] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+[2016-06-21 00:00:01 942] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread6] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+[2016-06-21 00:00:01 942] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread6] [AutoTAFHandler] [Unable to get any rule definitions for rule: Rule [ elementName=WIND_SP  operator=DELTA_COND  thresholdValue=8  conditionValue=15.0  priority=7    output=null  ] with key: delta_condwind_sp]
+[2016-06-21 00:00:05 005] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread3] [AutoTAFHandler] [Unable to continue as could not find wind_gust_main]
+[2016-06-21 00:00:05 005] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread3] [AutoTAFHandler] [Unable to continue as could not find wind_gust_main]
+[2016-06-21 00:00:05 923] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread3] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+[2016-06-21 00:00:05 923] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread3] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+[2016-06-21 00:00:05 924] [ERROR] [MSC-DMS-Creator-AutoTAF:1.thread3] [AutoTAFHandler] [Unable to continue as could not find wind_direction[t-1]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-creator-synop                         (msc-dms-creator-synop.log)
+
+   WARNINGS: 0
+   ERRORS: 8
+   FATALS: 0
+               
+Details:
+   
+   AbstractHandler - ERROR:  8
+
+Example Logs:
+   
+   AbstractHandler - ERROR:
+
+[2016-06-21 09:01:56 382] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 09:01:56 414] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 12:06:31 023] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 12:06:31 084] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 12:06:33 100] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 12:06:33 166] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 15:03:10 948] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread4] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-06-21 15:03:10 979] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread4] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+
+
+               
+
+   Mantis #9104 (WARN - AbstractElementGenerator) : 4  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-amdar                         (msc-dms-decoder-amdar.log)
+
+   WARNINGS: 53
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   AMDARDecoder - WARN:  53
+
+Example Logs:
+   
+   AMDARDecoder - WARN:
+
+[2016-06-21 00:04:15 728] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread4] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210000_RRX__25519:bulletins_from_metpx:station:type:3:Bulletins:20160621000414:20160621000414]
+[2016-06-21 00:04:15 780] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread4] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210000_RRX__25520:bulletins_from_metpx:station:type:3:Bulletins:20160621000414:20160621000414]
+[2016-06-21 00:04:15 863] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread4] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210000_RRX__25521:bulletins_from_metpx:station:type:3:Bulletins:20160621000414:20160621000414]
+[2016-06-21 00:04:19 100] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210000_RRX__25545:bulletins_from_metpx:station:type:3:Bulletins:20160621000417:20160621000417]
+[2016-06-21 00:04:19 132] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210000_RRX__25543:bulletins_from_metpx:station:type:3:Bulletins:20160621000417:20160621000417]
+[2016-06-21 00:04:19 198] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210000_RRX__25544:bulletins_from_metpx:station:type:3:Bulletins:20160621000417:20160621000417]
+[2016-06-21 01:03:59 584] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210100_RRX__36233:bulletins_from_metpx:station:type:3:Bulletins:20160621010355:20160621010355]
+[2016-06-21 01:03:59 603] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210100_RRX__36231:bulletins_from_metpx:station:type:3:Bulletins:20160621010355:20160621010355]
+[2016-06-21 01:03:59 615] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: FlightLevel for payload - UDAS01_RJTD_210100_RRX__36232:bulletins_from_metpx:station:type:3:Bulletins:20160621010355:20160621010355]
+[2016-06-21 02:02:03 971] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread2] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_210200___45198:bulletins_from_metpx:station:type:3:Bulletins:20160621020202:20160621020203]
+
+
+               
+
+   Mantis #9105 (WARN - Token) : 28
+   Mantis #9106 (WARN - Section2Decoder) : 25  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aqhi                          (msc-dms-decoder-aqhi.log)
+
+   WARNINGS: 21
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   AQHIHandler - WARN:  21
+
+Example Logs:
+   
+   AQHIHandler - WARN:
+
+[2016-06-21 01:51:17 866] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/30001: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/30001  error code: 404]
+[2016-06-21 01:51:17 950] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/30120: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/30120  error code: 404]
+[2016-06-21 04:50:45 833] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/30001: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/30001  error code: 404]
+[2016-06-21 04:50:45 899] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/30120: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/30120  error code: 404]
+[2016-06-21 06:51:20 144] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/90229: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/90229  error code: 404]
+[2016-06-21 06:51:20 797] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/90302: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/90302  error code: 404]
+[2016-06-21 06:51:20 888] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/90304: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/90304  error code: 404]
+[2016-06-21 06:51:21 740] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/geographical_name/KAHFT: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/geographical_name/KAHFT  error code: 404]
+[2016-06-21 08:51:56 691] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/90229: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/90229  error code: 404]
+[2016-06-21 08:51:57 195] [WARN ] [MSC-DMS-Decoder-AQHI:1.thread1] [AQHIHandler] [Station not found and cannot populate lat/long: Unable to find Station=/station/NAPS_id/90302: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/NAPS_id/90302  error code: 404]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Convective.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   AviationUSConvectiveIdentityGenerator - WARN:  1
+
+Example Logs:
+   
+   AviationUSConvectiveIdentityGenerator - WARN:
+
+[2016-06-21 10:56:18 309] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [AviationUSConvectiveIdentityGenerator] [Sequence ID not found.  Cannot decode message.]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-bufr-tdcf                     (msc-dms-decoder-bufr-tdcf.log)
+
+   WARNINGS: 0
+   ERRORS: 533
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  533
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 00:05:38 928] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:72235:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=82]]
+[2016-06-21 00:05:42 931] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:70326:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=82]]
+[2016-06-21 00:15:33 145] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:72261:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-06-21 00:15:33 145] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:70316:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-06-21 00:15:33 158] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:91413:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=82]]
+[2016-06-21 00:15:33 168] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:72572:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-06-21 00:15:33 178] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606202300:91610:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-06-21 00:15:33 179] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:70273:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-06-21 00:15:33 199] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:72250:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-06-21 00:15:33 201] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201606210000:70026:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+
+
+               
+
+   Mantis #9136 (WARN - TemplateUA) : 2  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-bufr2xml                      (msc-dms-decoder-bufr2xml.log)
+
+   Mantis #9046 (ERROR - main) : 20  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-ca                            (msc-dms-decoder-ca.log)
+
+   WARNINGS: 32
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   Utility - WARN:  32
+
+Example Logs:
+   
+   Utility - WARN:
+
+[2016-06-21 01:02:59 350] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread18] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201606201812/nee is invalid or missing latitude and longitude.]
+[2016-06-21 01:02:59 434] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread18] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-06-21 01:02:59 434] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread18] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201606201812/nee is invalid or missing latitude and longitude.]
+[2016-06-21 01:02:59 517] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread18] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-06-21 01:02:59 964] [WARN ] [MSC-DMS-Decoder-CA:1.thread18] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201606201812/nee is invalid or missing latitude and longitude.]
+[2016-06-21 01:03:00 040] [WARN ] [MSC-DMS-Decoder-CA:1.thread18] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-06-21 01:03:00 040] [WARN ] [MSC-DMS-Decoder-CA:1.thread18] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201606201812/nee is invalid or missing latitude and longitude.]
+[2016-06-21 01:03:00 125] [WARN ] [MSC-DMS-Decoder-CA:1.thread18] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-06-21 02:01:22 178] [WARN ] [MSC-DMS-Decoder-CA:1.thread27] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201606201812/nee is invalid or missing latitude and longitude.]
+[2016-06-21 02:01:22 259] [WARN ] [MSC-DMS-Decoder-CA:1.thread27] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+
+
+               
+
+   Mantis #8764 (WARN - NotificationServiceHttpImpl) : 602
+   Mantis #8764 (ERROR - ComponentController) : 614
+   Mantis #9047 (ERROR - ComponentController) : 4638
+   Mantis #9200 (WARN - CAHandler) : 480  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-enhanced-ca                   (msc-dms-decoder-enhanced-ca.log)
+
+   Mantis #9109 (WARN - NotificationServiceHttpImpl) : 4819  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-enhanced-ra                   (msc-dms-decoder-enhanced-ra.log)
+
+   Mantis #9110 (WARN - NotificationServiceHttpImpl) : 8  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-cocorahs              (msc-dms-decoder-generic-cocorahs.log)
+
+   WARNINGS: 0
+   ERRORS: 216
+   FATALS: 0
+               
+Details:
+   
+   ObservationIdentifyHandler - ERROR:  108
+   GenericHandler - ERROR:  108
+
+Example Logs:
+   
+   ObservationIdentifyHandler - ERROR:
+
+[2016-06-21 01:25:04 529] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-14  11:00 AM  2016-06-20 03:17 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM  observation: 2016-06-14  11:00 AM  2016-06-20 03:17 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM]
+[2016-06-21 01:25:04 568] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-15  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM  observation: 2016-06-15  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM]
+[2016-06-21 01:25:04 622] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-16  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM  observation: 2016-06-16  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM]
+[2016-06-21 01:25:04 677] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-17  11:00 AM  2016-06-20 03:56 PM  CAN-ON-390  Wheatley 1.2 NNE - AGRIS  42.10418  -82.45793  NA  0.0  0.00  0.0  0.00  2016-06-20 03:56 PM  observation: 2016-06-17  11:00 AM  2016-06-20 03:56 PM  CAN-ON-390  Wheatley 1.2 NNE - AGRIS  42.10418  -82.45793  NA  0.0  0.00  0.0  0.00  2016-06-20 03:56 PM]
+[2016-06-21 01:25:04 722] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-17  11:00 AM  2016-06-20 03:15 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.15  NA  NA  NA  NA  2016-06-20 03:15 PM  observation: 2016-06-17  11:00 AM  2016-06-20 03:15 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.15  NA  NA  NA  NA  2016-06-20 03:15 PM]
+[2016-06-21 01:25:04 750] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-17  11:00 AM  2016-06-20 12:17 PM  CAN-ON-376  Morpeth 6.0 S - AGRIS  42.339594  -81.850347  1.21  NA  NA  NA  NA  2016-06-20 12:17 PM  observation: 2016-06-17  11:00 AM  2016-06-20 12:17 PM  CAN-ON-376  Morpeth 6.0 S - AGRIS  42.339594  -81.850347  1.21  NA  NA  NA  NA  2016-06-20 12:17 PM]
+[2016-06-21 01:25:04 778] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-18  12:00 PM  2016-06-20 08:45 PM  CAN-ON-360  Hagersville 10.7 WNW - NSCIA  42.990195  -80.176747  0.00  NA  NA  NA  NA  2016-06-20 08:44 PM  observation: 2016-06-18  12:00 PM  2016-06-20 08:45 PM  CAN-ON-360  Hagersville 10.7 WNW - NSCIA  42.990195  -80.176747  0.00  NA  NA  NA  NA  2016-06-20 08:44 PM]
+[2016-06-21 01:25:04 826] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-18  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:15 PM  observation: 2016-06-18  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:15 PM]
+[2016-06-21 01:25:04 836] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-18  11:00 AM  2016-06-20 02:09 PM  CAN-ON-413  Wallacetown 1.9 S - AGRIS  42.616244  -81.470755  0.00  NA  NA  NA  NA  2016-06-20 03:09 PM  observation: 2016-06-18  11:00 AM  2016-06-20 02:09 PM  CAN-ON-413  Wallacetown 1.9 S - AGRIS  42.616244  -81.470755  0.00  NA  NA  NA  NA  2016-06-20 03:09 PM]
+[2016-06-21 01:25:04 847] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-06-18  11:00 AM  2016-06-20 05:00 PM  CAN-ON-424  West Lorne 5.8 NW - AGRIS  42.64191  -81.65464  0.00  NA  NA  NA  NA  2016-06-20 04:59 PM  observation: 2016-06-18  11:00 AM  2016-06-20 05:00 PM  CAN-ON-424  West Lorne 5.8 NW - AGRIS  42.64191  -81.65464  0.00  NA  NA  NA  NA  2016-06-20 04:59 PM]
+
+   GenericHandler - ERROR:
+
+[2016-06-21 01:25:04 530] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-14  11:00 AM  2016-06-20 03:17 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM]
+[2016-06-21 01:25:04 568] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-15  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM]
+[2016-06-21 01:25:04 622] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-16  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:16 PM]
+[2016-06-21 01:25:04 677] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-17  11:00 AM  2016-06-20 03:56 PM  CAN-ON-390  Wheatley 1.2 NNE - AGRIS  42.10418  -82.45793  NA  0.0  0.00  0.0  0.00  2016-06-20 03:56 PM]
+[2016-06-21 01:25:04 722] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-17  11:00 AM  2016-06-20 03:15 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.15  NA  NA  NA  NA  2016-06-20 03:15 PM]
+[2016-06-21 01:25:04 751] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-17  11:00 AM  2016-06-20 12:17 PM  CAN-ON-376  Morpeth 6.0 S - AGRIS  42.339594  -81.850347  1.21  NA  NA  NA  NA  2016-06-20 12:17 PM]
+[2016-06-21 01:25:04 778] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-18  12:00 PM  2016-06-20 08:45 PM  CAN-ON-360  Hagersville 10.7 WNW - NSCIA  42.990195  -80.176747  0.00  NA  NA  NA  NA  2016-06-20 08:44 PM]
+[2016-06-21 01:25:04 826] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-18  11:00 AM  2016-06-20 03:16 PM  CAN-ON-399  Thamesville 6.8 SSE - AGRIS  42.501722  -81.937475  0.00  NA  NA  NA  NA  2016-06-20 03:15 PM]
+[2016-06-21 01:25:04 836] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-18  11:00 AM  2016-06-20 02:09 PM  CAN-ON-413  Wallacetown 1.9 S - AGRIS  42.616244  -81.470755  0.00  NA  NA  NA  NA  2016-06-20 03:09 PM]
+[2016-06-21 01:25:04 847] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-06-18  11:00 AM  2016-06-20 05:00 PM  CAN-ON-424  West Lorne 5.8 NW - AGRIS  42.64191  -81.65464  0.00  NA  NA  NA  NA  2016-06-20 04:59 PM]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-forestry-bc           (msc-dms-decoder-generic-forestry-bc.log)
+
+   Mantis #8024 (ERROR - ObservationIdentifyHandler) : 1441
+   Mantis #8024 (ERROR - GenericHandler) : 1441  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-grca                  (msc-dms-decoder-generic-grca.log)
+
+   Mantis #9113 (ERROR - ObservationIdentifyHandler) : 9
+   Mantis #9115 (ERROR - ComponentController) : 23
+   Mantis #9115 (ERROR - GenericHandler) : 23  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-metar                 (msc-dms-decoder-generic-metar.log)
+
+   WARNINGS: 13
+   ERRORS: 169
+   FATALS: 0
+               
+Details:
+   
+   GenericHandler - WARN:  13
+   ObservationDecodeHandler - ERROR:  169
+
+Example Logs:
+   
+   GenericHandler - WARN:
+
+[2016-06-21 00:04:00 592] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: LWIS CYKG 210000Z AUTO 13014KT 04/00 A2953=]
+[2016-06-21 00:58:48 047] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KP60 210056Z AUTO VRB06G17KT 23/00 A3040 RMK AO1 SLP226METAR T02330000=]
+[2016-06-21 01:04:10 371] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: LWIS CYJF 210100Z AUTO 23011G19KT 29/00 A2974=]
+[2016-06-21 04:02:55 536] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: LWIS CYKG 210400Z AUTO 11010KT 02/00 A2949=]
+[2016-06-21 04:54:40 350] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KSNT 210451Z AUTO VRB05KT 14/00 A3024 RMK AO1 SLP149 T01390000=]
+[2016-06-21 05:02:33 729] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: LWIS CWEU 210500Z AUTO 17009KT 02/00 A2959=]
+[2016-06-21 05:02:50 967] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: LWIS CYBB 210500Z AUTO 10004KT 03/00 A2979=]
+[2016-06-21 06:35:22 095] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR FAWK 210600Z AUTO 18005KT 10/00 Q1027=]
+
+   ObservationDecodeHandler - ERROR:
+
+[2016-06-21 00:05:13 895] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG  error code: 404; observation: METAR LEAG 210000Z AUTO 08013KT CAVOK 20/15 Q1022=]
+[2016-06-21 00:09:04 584] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQN2: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQN2  error code: 404; observation: SPECI KQN2 210002Z AUTO 00000KT 6000 BR SCT002 20/20 A3007 RMK AO2=]
+[2016-06-21 00:09:05 950] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQDG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQDG  error code: 404; observation: SPECI KQDG 210006Z AUTO 07009KT 4000 M BKN003 18/17 A2984 RMK AO2 VIS 4000V9999 PWINO $=]
+[2016-06-21 00:36:21 737] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5  error code: 404; observation: METAR K1S5 210035Z AUTO 11004KT 10SM CLR 27/07 A3001 RMK AO2 LTG DSNT NWMETAR T02710067=]
+[2016-06-21 00:54:07 571] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5  error code: 404; observation: METAR K1S5 210055Z AUTO 00000KT 10SM CLR 27/06 A3000 RMK AO2 T02680057=]
+[2016-06-21 00:59:02 028] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC  error code: 404; observation: METAR SPJC 210100Z 17007KT CAVOK 17/15 Q1015 NOSIG RMK PP000=]
+[2016-06-21 01:12:40 026] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/OEAR: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/OEAR  error code: 404; observation: METAR OEAR 210100Z 00000KT CAVOK 32/09 Q1006=]
+[2016-06-21 01:15:09 221] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5  error code: 404; observation: METAR K1S5 210115Z AUTO 00000KT 10SM CLR 27/07 A3000 RMK AO2 T02670073=]
+[2016-06-21 01:19:40 796] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KJSL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KJSL  error code: 404; observation: METAR KJSL 210100Z AUTO 08008G15KT 040V100 10SM CLR 29/23 A3008 RMK A01=]
+[2016-06-21 01:23:18 120] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL  error code: 404; observation: METAR KQEL 210120Z AUTO 21001KT 9999 CLR 26/16 A2982 RMK A02 TSNO=]
+
+
+               
+
+   Mantis #9167 (ERROR - GenericHandler) : 3229
+   Mantis #9168 (WARN - GenericHandler) : 3  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-meteocode-forecast    (msc-dms-decoder-generic-meteocode-forecast.log)
+
+   WARNINGS: 0
+   ERRORS: 3
+   FATALS: 0
+               
+Details:
+   
+   GenericHandler - ERROR:  3
+
+Example Logs:
+   
+   GenericHandler - ERROR:
+
+[2016-06-21 08:16:13 380] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-06-21 08:16:39 549] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-06-21 12:46:58 600] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-trca                  (msc-dms-decoder-generic-trca.log)
+
+   WARNINGS: 0
+   ERRORS: 344
+   FATALS: 0
+               
+Details:
+   
+   ObservationIdentifyHandler - ERROR:  172
+   GenericHandler - ERROR:  172
+
+Example Logs:
+   
+   ObservationIdentifyHandler - ERROR:
+
+[2016-06-21 00:33:07 137] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:35:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:35:00 PM;]
+[2016-06-21 00:33:07 139] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:40:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:40:00 PM;]
+[2016-06-21 00:33:07 143] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:45:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:45:00 PM;]
+[2016-06-21 00:33:07 145] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:50:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:50:00 PM;]
+[2016-06-21 00:33:07 148] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:55:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:55:00 PM;]
+[2016-06-21 00:33:07 151] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:00:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:00:00 PM;]
+[2016-06-21 00:33:07 154] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:05:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:05:00 PM;]
+[2016-06-21 00:33:07 158] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:10:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:10:00 PM;]
+[2016-06-21 00:33:07 161] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:15:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:15:00 PM;]
+[2016-06-21 00:33:07 165] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:20:00 PM;  observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:20:00 PM;]
+
+   GenericHandler - ERROR:
+
+[2016-06-21 00:33:07 137] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:35:00 PM;]
+[2016-06-21 00:33:07 139] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:40:00 PM;]
+[2016-06-21 00:33:07 143] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:45:00 PM;]
+[2016-06-21 00:33:07 145] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:50:00 PM;]
+[2016-06-21 00:33:07 148] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 7:55:00 PM;]
+[2016-06-21 00:33:07 151] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:00:00 PM;]
+[2016-06-21 00:33:07 154] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:05:00 PM;]
+[2016-06-21 00:33:07 158] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:10:00 PM;]
+[2016-06-21 00:33:07 161] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:15:00 PM;]
+[2016-06-21 00:33:07 165] [ERROR] [MSC-DMS-Decoder-Generic-TRCA] [GenericHandler] [Unable to identify observation: HY033 HEART LAKE PRECIP 0 6/20/2016 8:20:00 PM;]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-metar                         (msc-dms-decoder-metar.log)
+
+   WARNINGS: 233
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   MetarDecoder - WARN:  233
+
+Example Logs:
+   
+   MetarDecoder - WARN:
+
+
+
+
+               
+
+   Mantis #9140 (WARN - TranslationDAO) : 2172
+   Mantis #9141 (WARN - MetarDecoder) : 2944  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-pirep                         (msc-dms-decoder-pirep.log)
+
+   Mantis #9142 (WARN - StationFinder) : 15
+   Mantis #9143 (WARN - AbstractGroupWV|AbstractGroupTB|GroupTP|AbstractGroupIC|USGroupOV|GroupSK|GroupFL|GroupOV) : 21  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-ra                            (msc-dms-decoder-ra.log)
+
+   Mantis #9145 (WARN - RASensorHandler) : 26  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-rwin                          (msc-dms-decoder-rwin.log)
+
+   WARNINGS: 4417
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   TranslationDAO - WARN:  4417
+
+Example Logs:
+   
+   TranslationDAO - WARN:
+
+[2016-06-21 00:00:59 238] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=2 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 241] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 243] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=2 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 290] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_situation value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-situation-NTCIP unit=code codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 293] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=2 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 295] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 297] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=2 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 363] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=2 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 366] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-06-21 00:00:59 368] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread3] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=3 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=2 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+
+
+               
+
+   Mantis #9283 (WARN - RWINDecoder) : 340  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-synop                         (msc-dms-decoder-synop.log)
+
+   Mantis #8760 (ERROR - ComponentController) : 2
+   Mantis #9148 (WARN - AbstractSectionDecode) : 1490
+   Mantis #9149 (WARN - SynopDecoder) : 74
+   Mantis #9150 (ERROR - SynopDecoder) : 82
+   Mantis #9171 (ERROR - ComponentController) : 1
+   Mantis #9172 (WARN - AbstractTokenDecode) : 12243  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-taf                           (msc-dms-decoder-taf.log)
+
+   Mantis #9152 (ERROR - ComponentController) : 5
+   Mantis #9153 (ERROR - TAFHandler) : 26
+   Mantis #9154 (WARN - TAFHandler) : 315
+   Mantis #9155 (WARN - TAFDecoder) : 4  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-upperair                      (msc-dms-decoder-upperair.log)
+
+   Mantis #3305 (ERROR - UpperAirDecoder) : 11
+   Mantis #9156 (WARN - SectionPilot4) : 5
+   Mantis #9156 (WARN - SectionTemp8) : 7  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-ascii-synop                   (msc-dms-encoder-ascii-synop.log)
+
+   WARNINGS: 0
+   ERRORS: 2261
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  920
+   FM12Section1 - ERROR:  371
+   FM12SynopHandler - ERROR:  970
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 00:01:13 322] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:7040442:gbc:orig:20160621000110.490> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:13 331] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:1047172:vou:orig:20160621000112.912> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:13 338] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:1113543:vpe:orig:20160621000113.081> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:18 347] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:7018563:grq:orig:20160621000116.262> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:18 354] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:1192948:vfn:orig:20160621000116.258> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:23 374] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:7043bp9:waf:orig:20160621000118.927> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:23 397] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:6159123:tux:orig:20160621000119.205> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:23 577] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:6080192:tnk:orig:20160621000123.373> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:28 587] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:6110607:tbt:orig:20160621000126.144> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-06-21 00:01:34 305] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201606210000:1128582:wjv:orig:20160621000130.745> Component Exception: The data cannot be sourced from the CA/RA type.]
+
+   FM12Section1 - ERROR:
+
+[2016-06-21 00:01:13 322] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-18]
+[2016-06-21 00:01:13 331] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 560-9]
+[2016-06-21 00:01:18 347] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-31]
+[2016-06-21 00:01:18 354] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 57-23]
+[2016-06-21 00:01:23 577] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 550-2]
+[2016-06-21 00:01:34 304] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-22]
+[2016-06-21 00:01:39 354] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 560-9]
+[2016-06-21 00:01:39 401] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-11]
+[2016-06-21 00:01:44 411] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 58-10]
+[2016-06-21 00:01:44 418] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 560-6]
+
+   FM12SynopHandler - ERROR:
+
+[2016-06-21 00:01:13 322] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-7040442-gbc-orig]
+[2016-06-21 00:01:13 330] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-1047172-vou-orig]
+[2016-06-21 00:01:13 338] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-1113543-vpe-orig]
+[2016-06-21 00:01:18 347] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-7018563-grq-orig]
+[2016-06-21 00:01:18 353] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-1192948-vfn-orig]
+[2016-06-21 00:01:23 374] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-7043bp9-waf-orig]
+[2016-06-21 00:01:23 384] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-6159123-tux-orig]
+[2016-06-21 00:01:23 577] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-6080192-tnk-orig]
+[2016-06-21 00:01:28 586] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-6110607-tbt-orig]
+[2016-06-21 00:01:34 304] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201606210000-1128582-wjv-orig]
+
+
+               
+
+   Mantis #8346 (ERROR - ComponentController) : 115  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-bufr-xml2bufr                 (msc-dms-encoder-bufr-xml2bufr.log)
+
+   WARNINGS: 0
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   AbstractValueHandler - ERROR:  2
+
+Example Logs:
+   
+   AbstractValueHandler - ERROR:
+
+[2016-06-21 00:02:29 594] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 20011 received: 15 (15.000000) Expected between 0 and 14 Unable to set value]
+[2016-06-21 06:02:14 719] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 20011 received: 15 (15.000000) Expected between 0 and 14 Unable to set value]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-sa                            (msc-dms-encoder-sa.log)
+
+   Mantis #8189 (ERROR - SAHandler) : 158  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-enhanced-generic                      (msc-dms-enhanced-generic-ca.log)
+
+   WARNINGS: 6484
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   MinimumDerivationHandler - WARN:  8
+   AbstractDerivationHandler - WARN:  296
+   DMSMessageSummaryDerivationHandler - WARN:  3086
+   MaximumDerivationHandler - WARN:  8
+   GenericEnhanced - WARN:  3086
+
+Example Logs:
+   
+   MinimumDerivationHandler - WARN:
+
+[2016-06-21 05:01:44 403] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 05:01:44 407] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 05:18:37 732] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 05:18:37 737] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 06:17:40 684] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 06:17:40 689] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 13:17:35 321] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 13:17:35 326] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+
+   AbstractDerivationHandler - WARN:
+
+[2016-06-21 00:02:07 833] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:07 833] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:07 833] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:07 833] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:12 507] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:12 507] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:12 507] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:12 507] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:13 655] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-06-21 00:02:13 655] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+
+   DMSMessageSummaryDerivationHandler - WARN:
+
+[2016-06-21 00:00:13 440] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:14 634] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:46 574] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:48 204] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:50 517] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:52 128] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:53 672] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:00:55 767] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:01:02 842] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-06-21 00:01:04 816] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+
+   MaximumDerivationHandler - WARN:
+
+[2016-06-21 05:01:44 402] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 05:01:44 407] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 05:18:37 731] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 05:18:37 737] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 06:17:40 683] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 06:17:40 688] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 13:17:35 320] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-06-21 13:17:35 325] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+
+   GenericEnhanced - WARN:
+
+[2016-06-21 00:00:13 441] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:14 634] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:46 574] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:48 204] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:50 517] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:52 129] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:53 672] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:00:55 768] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:01:02 842] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-06-21 00:01:04 816] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-enhanced-generic                      (msc-dms-enhanced-generic.log)
+
+   WARNINGS: 566
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   GenericEnhanced - WARN:  566
+
+Example Logs:
+   
+   GenericEnhanced - WARN:
+
+[2016-06-21 00:11:31 727] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:31 727] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 004] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 004] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 145] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 145] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 351] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 351] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 500] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-06-21 00:11:32 500] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+
+               
+
+   Mantis #9243 (WARN - MeanSeaLevelPressureDerivationHandler|AbstractDerivationHandler|WetBulbDerivationHandler) : 21  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-manager-sarwinds-surface              (msc-dms-manager-sarwinds-surface.log)
+
+   WARNINGS: 0
+   ERRORS: 11
+   FATALS: 0
+               
+Details:
+   
+   SARWindsSurfaceManager - ERROR:  11
+
+Example Logs:
+   
+   SARWindsSurfaceManager - ERROR:
+
+[2016-06-21 00:15:20 015] [ERROR] [MSC-DMS-Manager-SARWinds-Surface] [SARWindsSurfaceManager] [/data/SAR_surface_baffin_bay.dms-sar: http://localhost:8180/data/msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/decoded-xml-2.0/201606210000/yjrj3: failed to create wind information: For input string: "MSNG"]
+[2016-06-21 00:30:28 193] [ERROR] [MSC-DMS-Manager-SARWinds-Surface] [SARWindsSurfaceManager] [/data/SAR_surface_baffin_bay.dms-sar: http://localhost:8180/data/msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/decoded-xml-2.0/201606210000/yjrj3: failed to create wind information: For input string: "MSNG"]
+[2016-06-21 03:30:39 894] [ERROR] [MSC-DMS-Manager-SARWinds-Surface] [SARWindsSurfaceManager] [/data/SAR_surface_prairies.dms-sar: http://localhost:8180/data/msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/decoded-xml-2.0/201606210300/45140: failed to create wind information: For input string: "MSNG"]
+
+
+               
+
+   Mantis #9177 (ERROR - SARWindsSurfaceManager) : 8  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ecam-twitteralertgenerator-warp3   (msc-dms-pg-ecam-twitteralertgenerator.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  1
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 13:21:52 356] [ERROR] [MSC-DMS-PG-ECAM-TwitterAlertGenerator] [ComponentController] [<msc-alert-environment-hazard-alert-3.0-ascii-consolidated-xml-2.0-20160621132100000-wo_20_80_cwto-sas-1321142261873334881201606210503_wo_20_80_cwto-actual-en_proper_complete_c-fr_proper_complete_c-ninjo> Component Runtime Exception: IllegalArgumentException: No enum constant ca.gc.ec.dms.commons.warnings.alert.IdentifiedDesignation.Name.program_obj_id >> Stack Trace: 
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-external-xml                       (msc-dms-pg-external-XML.log)
+
+   Mantis #8710 (WARN - AbstractHandler) : 1131  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-bcfs.log)
+
+   WARNINGS: 0
+   ERRORS: 684
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  684
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 06:43:51 554] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_19-19-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:43:51 563] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_11-11-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:43:56 575] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_21-21-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:43:56 588] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_37-37-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:43:56 598] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_45-45-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:44:01 610] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_56-56-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:44:01 620] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_67-67-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:44:01 630] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_75-75-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:44:01 640] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_93-93-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-06-21 06:44:01 654] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201606210600-bc_wmb_108-108-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-ca.log)
+
+   WARNINGS: 0
+   ERRORS: 12
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  4
+   runtime - ERROR:  4
+   PGGenericXMLParser - ERROR:  4
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 01:03:08 391] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210100-3012240-nee-11-orig> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210100-3012240-nee-11-orig]
+[2016-06-21 02:01:47 772] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210200-3012240-nee-11-orig> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210200-3012240-nee-11-orig]
+[2016-06-21 06:01:58 214] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210600-3012240-nee-11-orig> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210600-3012240-nee-11-orig]
+[2016-06-21 08:00:33 522] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210800-3012240-nee-11-orig> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210800-3012240-nee-11-orig]
+
+   runtime - ERROR:
+
+[2016-06-21 01:03:08 387] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-06-21 02:01:47 751] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-06-21 06:01:58 212] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-06-21 08:00:33 521] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [runtime] [Error executing FreeMarker template]
+
+   PGGenericXMLParser - ERROR:
+
+[2016-06-21 01:03:08 390] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-06-21 02:01:47 772] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-06-21 06:01:58 213] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-06-21 08:00:33 522] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-ca1.1.log)
+
+   WARNINGS: 0
+   ERRORS: 9
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  3
+   runtime - ERROR:  3
+   PGGenericXMLParser - ERROR:  3
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 09:01:48 088] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606210900-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606210900-3012240-nee-11-orig-data_60]
+[2016-06-21 11:05:46 274] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606211100-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606211100-3012240-nee-11-orig-data_60]
+[2016-06-21 15:02:29 391] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606211500-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606211500-3012240-nee-11-orig-data_60]
+
+   runtime - ERROR:
+
+[2016-06-21 09:01:48 083] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-06-21 11:05:46 269] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-06-21 15:02:29 389] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+
+   PGGenericXMLParser - ERROR:
+
+[2016-06-21 09:01:48 088] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-06-21 11:05:46 274] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-06-21 15:02:29 391] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-navcan-complete.log)
+
+   WARNINGS: 215
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  215
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-06-21 00:04:07 913] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 00:04:08 787] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 00:05:52 758] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 00:06:33 272] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 00:06:33 753] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 00:06:54 262] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 00:06:54 535] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 01:03:38 881] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 01:03:39 069] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 01:03:39 199] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-navcan-incomplete.log)
+
+   WARNINGS: 2
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  2
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-06-21 08:04:51 895] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-incomplete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-06-21 10:04:15 334] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-incomplete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-wmo.log)
+
+   WARNINGS: 113
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  113
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-06-21 01:23:40 086] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: REDZ]
+[2016-06-21 01:23:40 086] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: REDZ]
+[2016-06-21 01:59:50 317] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: RESHRA]
+[2016-06-21 01:59:50 318] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: RESHRA]
+[2016-06-21 02:03:09 529] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: RETSRA]
+[2016-06-21 02:03:09 529] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: RETSRA]
+[2016-06-21 02:04:26 396] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: RERA]
+[2016-06-21 02:04:26 396] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: RERA]
+[2016-06-21 02:06:27 541] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: RESHRA]
+[2016-06-21 02:06:27 541] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: RESHRA]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-ra.log)
+
+   WARNINGS: 28
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   GenericNinjoNswobPGHandler - WARN:  28
+
+Example Logs:
+   
+   GenericNinjoNswobPGHandler - WARN:
+
+[2016-06-21 00:05:06 159] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210000/3072662/orig. Incoming station ID was: pcp]
+[2016-06-21 03:01:51 267] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210300/1161661/orig. Incoming station ID was: zcl]
+[2016-06-21 04:01:53 170] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210400/1161661/orig. Incoming station ID was: zcl]
+[2016-06-21 04:04:48 387] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210400/3072662/orig. Incoming station ID was: pcp]
+[2016-06-21 06:02:01 479] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210600/1161661/orig. Incoming station ID was: zcl]
+[2016-06-21 06:05:16 722] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210600/8401400/orig. Incoming station ID was: wdh]
+[2016-06-21 09:03:33 488] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210900/8401400/orig. Incoming station ID was: wdh]
+[2016-06-21 09:05:13 888] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210900/3072662/orig. Incoming station ID was: pcp]
+[2016-06-21 09:23:24 482] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210915/8402975/orig. Incoming station ID was: wzb]
+[2016-06-21 09:42:50 061] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201606210938/8402975/orig. Incoming station ID was: wzb]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-synop-buoy.log)
+
+   WARNINGS: 3737
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  3737
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-06-21 00:00:44 289] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:00:44 449] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:00:44 575] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:03:44 755] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:03:45 124] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:03:45 436] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:03:55 525] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:04:00 631] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:04:00 724] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:04:05 894] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+
+
+               
+
+   Mantis #XXXX (ERROR - ComponentController) : 1
+   Mantis #XXXX (ERROR - runtime) : 1
+   Mantis #XXXX (ERROR - PGGenericXMLParser) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-synop-ship.log)
+
+   WARNINGS: 31
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  31
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-06-21 00:26:10 156] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:15 562] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:15 644] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:16 197] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:16 281] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:16 454] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:16 539] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:16 707] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 00:26:21 896] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-06-21 01:40:49 446] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+
+
+               
+
+   Mantis #XXXX (ERROR - ComponentController) : 1
+   Mantis #XXXX (ERROR - runtime) : 1
+   Mantis #XXXX (ERROR - PGGenericXMLParser) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-mfile-warp3                        (msc-dms-pg-mfile-warp3.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   Language - WARN:  1
+
+Example Logs:
+   
+   Language - WARN:
+
+[2016-06-21 13:21:56 513] [WARN ] [MSC-DMS-PG-MFile-WaRP3:1.thread1] [Language] [The language requested: all could not be matched with any language.  Defaulting to "Not Applicable"]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-aqhi                         (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 4
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  2
+   NinJoAqhiPG - WARN:  4
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 06:51:24 050] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc:observation:atmospheric:air_quality:aqhi-1.0-xml:decoded-xml-2.0:20160621060000:kahft:20160621065121.768> Component Exception: Could not process incoming message]
+[2016-06-21 10:49:47 318] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc:observation:atmospheric:air_quality:aqhi-1.0-xml:decoded-xml-2.0:20160621100000:kahft:20160621104943.919> Component Exception: Could not process incoming message]
+
+   NinJoAqhiPG - WARN:
+
+[2016-06-21 06:51:24 049] [WARN ] [NinJo PG:1.thread1] [NinJoAqhiPG] [Unable to retrieve latitude for station ID: KAHFT]
+[2016-06-21 06:51:24 050] [WARN ] [NinJo PG:1.thread1] [NinJoAqhiPG] [Unable to retrieve longitude for station ID: KAHFT]
+[2016-06-21 10:49:47 318] [WARN ] [NinJo PG:1.thread1] [NinJoAqhiPG] [Unable to retrieve latitude for station ID: KAHFT]
+[2016-06-21 10:49:47 318] [WARN ] [NinJo PG:1.thread1] [NinJoAqhiPG] [Unable to retrieve longitude for station ID: KAHFT]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedca                   (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 8
+   ERRORS: 26
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  4
+   FileRead - ERROR:  22
+   NinJoEnhancedCaPG - WARN:  8
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 01:03:05 529] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210100-3012240-nee-11-orig> Component Exception: Could not process incoming message]
+[2016-06-21 02:01:45 897] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210200-3012240-nee-11-orig> Component Exception: Could not process incoming message]
+[2016-06-21 06:01:54 373] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210600-3012240-nee-11-orig> Component Exception: Could not process incoming message]
+[2016-06-21 08:00:32 682] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606210800-3012240-nee-11-orig> Component Exception: Could not process incoming message]
+
+   FileRead - ERROR:
+
+[2016-06-21 14:45:45 250] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606102300-6156170-l2c-11-orig  with obsTime:Fri Jun 10 23:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 250] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606110300-6156170-l2c-11-orig  with obsTime:Sat Jun 11 03:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 251] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606102000-6156170-l2c-11-orig  with obsTime:Fri Jun 10 20:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 251] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606102100-6156170-l2c-11-orig  with obsTime:Fri Jun 10 21:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 251] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606111300-6156170-l2c-11-orig  with obsTime:Sat Jun 11 13:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 252] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606110400-6156170-l2c-11-orig  with obsTime:Sat Jun 11 04:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 252] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606110200-6156170-l2c-11-orig  with obsTime:Sat Jun 11 02:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 252] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606110600-6156170-l2c-11-orig  with obsTime:Sat Jun 11 06:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 252] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606110800-6156170-l2c-11-orig  with obsTime:Sat Jun 11 08:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+[2016-06-21 14:45:45 253] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201606101800-6156170-l2c-11-orig  with obsTime:Fri Jun 10 18:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:45:45 UTC 2016]
+
+   NinJoEnhancedCaPG - WARN:
+
+[2016-06-21 01:03:05 528] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 01:03:05 528] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+[2016-06-21 02:01:45 897] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 02:01:45 897] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+[2016-06-21 06:01:54 373] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 06:01:54 373] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+[2016-06-21 08:00:32 682] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 08:00:32 682] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedca2                  (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 6
+   ERRORS: 28
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  3
+   NinJoEnhancedCa2PG - WARN:  6
+   FileRead - ERROR:  25
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 09:01:46 795] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606210900-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+[2016-06-21 11:05:44 311] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606211100-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+[2016-06-21 15:02:31 217] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606211500-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+
+   NinJoEnhancedCa2PG - WARN:
+
+[2016-06-21 09:01:46 795] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 09:01:46 795] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+[2016-06-21 11:05:44 310] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 11:05:44 311] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+[2016-06-21 15:02:31 217] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-06-21 15:02:31 217] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+
+   FileRead - ERROR:
+
+[2016-06-21 14:43:41 794] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606071400-6156170-l2c-11-orig-data_60  with obsTime:Tue Jun 07 14:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:43:41 UTC 2016]
+[2016-06-21 14:43:41 795] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606071300-6156170-l2c-11-orig-data_60  with obsTime:Tue Jun 07 13:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:43:41 UTC 2016]
+[2016-06-21 14:43:41 795] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606071100-6156170-l2c-11-orig-data_60  with obsTime:Tue Jun 07 11:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:43:41 UTC 2016]
+[2016-06-21 14:43:41 795] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606071200-6156170-l2c-11-orig-data_60  with obsTime:Tue Jun 07 12:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:43:41 UTC 2016]
+[2016-06-21 14:44:46 808] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606090000-6156170-l2c-11-orig-data_60  with obsTime:Thu Jun 09 00:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:44:46 UTC 2016]
+[2016-06-21 14:44:46 809] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606081900-6156170-l2c-11-orig-data_60  with obsTime:Wed Jun 08 19:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:44:46 UTC 2016]
+[2016-06-21 14:44:46 809] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606081300-6156170-l2c-11-orig-data_60  with obsTime:Wed Jun 08 13:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:44:46 UTC 2016]
+[2016-06-21 14:44:46 809] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606080100-6156170-l2c-11-orig-data_60  with obsTime:Wed Jun 08 01:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:44:46 UTC 2016]
+[2016-06-21 14:44:46 809] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606081400-6156170-l2c-11-orig-data_60  with obsTime:Wed Jun 08 14:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:44:46 UTC 2016]
+[2016-06-21 14:44:46 810] [ERROR] [NinJo PG:1.thread1] [FileRead] [Payload:msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201606080900-6156170-l2c-11-orig-data_60  with obsTime:Wed Jun 08 09:00:00 UTC 2016  is older than the allowed obsTime filter date: Sat Jun 11 14:44:46 UTC 2016]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-metar                        (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 0
+   ERRORS: 136
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  136
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 00:05:19 320] [ERROR] [NinJo PG:1.thread4] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210000:leag:orig:auto:20160621000514.273> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG  error code: 404]
+[2016-06-21 00:09:08 928] [ERROR] [NinJo PG:1.thread5] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210006:kqdg:orig:auto:20160621000905.254> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KQDG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQDG  error code: 404]
+[2016-06-21 00:09:08 928] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210002:kqn2:orig:auto:20160621000905.189> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KQN2: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQN2  error code: 404]
+[2016-06-21 00:54:11 740] [ERROR] [NinJo PG:1.thread4] [ComponentController] [<nws:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210055:k1s5:orig:auto:20160621005407.062> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5  error code: 404]
+[2016-06-21 00:59:09 124] [ERROR] [NinJo PG:1.thread4] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210100:spjc:orig:man:20160621005904.790> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC  error code: 404]
+[2016-06-21 01:12:44 017] [ERROR] [NinJo PG:1.thread5] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210100:oear:orig:man:20160621011240.117> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/OEAR: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/OEAR  error code: 404]
+[2016-06-21 01:15:14 476] [ERROR] [NinJo PG:1.thread4] [ComponentController] [<nws:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210115:k1s5:orig:auto:20160621011509.703> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/K1S5: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/K1S5  error code: 404]
+[2016-06-21 01:19:45 209] [ERROR] [NinJo PG:1.thread2] [ComponentController] [<nws:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210100:kjsl:orig:auto:20160621011944.507> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KJSL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KJSL  error code: 404]
+[2016-06-21 01:23:20 446] [ERROR] [NinJo PG:1.thread2] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210120:kqel:orig:auto:20160621012318.050> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL  error code: 404]
+[2016-06-21 01:31:12 569] [ERROR] [NinJo PG:1.thread5] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201606210126:kqdg:orig:auto:20160621013112.231> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KQDG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQDG  error code: 404]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-pirep                        (msc-dms-pg-ninjo.log)
+
+   Mantis #9183 (WARN - CodeSubstitution) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-synop                        (msc-dms-pg-ninjo.log)
+
+   Mantis #9188 (ERROR - ComponentController) : 22
+   Mantis #9189 (WARN - NinJoSynoPG) : 22
+   Mantis #9252 (WARN - NinJoSynoPG) : 4
+   Mantis #9253 (ERROR - ComponentController) : 2  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-taf                          (msc-dms-pg-ninjo.log)
+
+   Mantis #9190 (WARN - CustomFileWriter) : 3  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-pre-synop                          (msc-dms-pg-pre-synop.log)
+
+   Mantis #9207 (WARN - HwosExtractor) : 11  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-reports-warp3                      (msc-dms-pg-reports.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   Language - WARN:  1
+
+Example Logs:
+   
+   Language - WARN:
+
+[2016-06-21 13:21:52 323] [WARN ] [MSC-DMS-PG-Reports:1.thread1] [Language] [The language requested: all could not be matched with any language.  Defaulting to "Not Applicable"]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-synop                              (msc-dms-pg-synop.log)
+
+   WARNINGS: 0
+   ERRORS: 6
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  6
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-06-21 00:02:13 094] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201606210000-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201606210000/cykp]
+[2016-06-21 03:01:57 373] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201606210300-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201606210300/cykp]
+[2016-06-21 06:02:04 805] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201606210600-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201606210600/cykp]
+[2016-06-21 09:01:52 961] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201606210900-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201606210900/cykp]
+[2016-06-21 12:01:57 453] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201606211200-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201606211200/cykp]
+[2016-06-21 15:02:12 244] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201606211500-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201606211500/cykp]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-warnings-warp3                     (msc-dms-pg-warnings.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   Language - WARN:  1
+
+Example Logs:
+   
+   Language - WARN:
+
+[2016-06-21 13:21:57 359] [WARN ] [MSC-DMS-PG-Warnings:1.thread1] [Language] [The language requested: all could not be matched with any language.  Defaulting to "Not Applicable"]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-wxo-summary                        (msc-dms-pg-wxo-summary.log)
+
+   Mantis #9272 (WARN - ObservationsCache|RecordValuesHandler) : 25125  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dms-publisher-dms-sarwinds.log)
+
+   WARNINGS: 0
+   ERRORS: 0
+   FATALS: 1
+               
+Details:
+   
+   ReferenceWebWriter - FATAL:  1
+
+Example Logs:
+   
+   ReferenceWebWriter - FATAL:
+
+[2016-06-21 12:26:04 464] [FATAL] [MSC-DMS-PUBLISHER-SARWinds:1.thread4] [ReferenceWebWriter] [(web-reference) <msc-observation-atmospheric-satellite-sarwinds-1.0-binary-raw-zip-1.0-20160621114526-hudson_bay-radarsat2-scwa-hhhv> {POST:503} Retrying data due to error: Write transaction did not complete: Service Unavailable]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-translator-bufr                       (msc-dms-translator-bufr.log)
+
+   Mantis #8665 (WARN - BufrElementCollection) : 26
+   Mantis #9197 (WARN - TranslationDAO) : 26
+   Mantis #9198 (ERROR - ComponentController) : 20
+   
+
+
+~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x
+
+
+
+Passing Logs:
+
+
+        
+   dms-core                                  (msc-dms-core-hibernate.log)  
+   dms-core-admin                            (msc-dms-core-admin-logrotate.log)  
+   dms-core-admin                            (msc-dms-core-admin-reference-purge.log)  
+   dms-decoder-atags                         (msc-dms-decoder-atags.log)  
+   dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Alaskan.log)  
+   dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Conus.log)  
+   dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Oceanic.log)  
+   dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning.log)  
+   dms-decoder-bufr-winide                   (msc-dms-decoder-bufr-winide.log)  
+   dms-decoder-enhanced-bufr-winide          (msc-dms-decoder-enhanced-bufr-winide.log)  
+   dms-decoder-generic-bc-tran               (msc-dms-decoder-generic-bc-tran.log)  
+   dms-decoder-generic-forestry-ab           (msc-dms-decoder-generic-forestry-ab.log)  
+   dms-decoder-generic-hydrometric           (msc-dms-decoder-generic-hydrometric-fv.log)  
+   dms-decoder-generic-hydrometric           (msc-dms-decoder-generic-hydrometric-rc.log)  
+   dms-decoder-generic-hydrometric           (msc-dms-decoder-generic-hydrometric-ts-decode.log)  
+   dms-decoder-generic-hydrometric           (msc-dms-decoder-generic-hydrometric-ts-identify.log)  
+   dms-decoder-generic-omnr                  (msc-dms-decoder-generic-omnr.log)  
+   dms-decoder-generic-panam-minutely-uv     (msc-dms-decoder-generic-panam-minutely-uv.log)  
+   dms-decoder-generic-panam-ncawos          (msc-dms-decoder-generic-panam-ncawos.log)  
+   dms-decoder-generic-panam-nchwos          (msc-dms-decoder-generic-panam-nchwos.log)  
+   dms-decoder-generic-tdcf-synop            (msc-dms-decoder-generic-tdcf-synop.log)  
+   dms-decoder-generic-wbs                   (msc-dms-decoder-generic-wbs.log)  
+   dms-decoder-grib                          (msc-dms-decoder-grib.log)  
+   dms-decoder-hurricane                     (msc-dms-decoder-hurricane.log)  
+   dms-decoder-jicc                          (msc-dms-decoder-jicc.log)  
+   dms-decoder-mfile-warp3                   (msc-dms-decoded-mfile-warp3.log)  
+   dms-decoder-mt-warp3                      (msc-dms-decoder-mt.log)  
+   dms-decoder-mt2                           (msc-dms-decoder-mt2.log)  
+   dms-decoder-nationalmfile                 (msc-dms-decoder-nationalmfile.log)  
+   dms-decoder-ninjo-alert-warp3             (msc-dms-decoder-ninjo-alert-warp3.log)  
+   dms-decoder-ninjo-alert2                  (msc-dms-decoder-ninjo-alert2.log)  
+   dms-decoder-official-metar-scheduler      (msc-dms-decoder-official-metar-scheduler.log)  
+   dms-decoder-rtaf                          (msc-dms-decoder-rtaf.log)  
+   dms-decoder-sarwinds                      (msc-dms-decoder-sarwinds.log)  
+   dms-decoder-warningsmfile                 (msc-dms-decoder-warningsmfile.log)  
+   dms-encoder-bufr-bundle                   (msc-dms-encoder-bufr-bundle.log)  
+   dms-encoder-metar                         (msc-dms-encoder-metar.log)  
+   dms-encoder-sarwinds-wips                 (msc-dms-encoder-sarwinds-wips.log)  
+   dms-extractor-archive                     (msc-dms-extractor-archive.log)  
+   dms-importer-bulletin                     (msc-dms-importer-bulletin.log)  
+   dms-manager-alert-warp3                   (msc-dms-manager-alert-warp3.log)  
+   dms-manager-generic                       (msc-dms-manager-generic.log)  
+   dms-manager-metar-bufr                    (msc-dms-manager-metar-bufr.log)  
+   dms-manager-synop                         (msc-dms-manager-synop.log)  
+   dms-merger-observation                    (msc-dms-manager-merger.log)  
+   dms-metadata-updater                      (msc-dms-metadata-updater.log)  
+   dms-pg-active-alert-summary-warp3         (msc-dms-pg-active-alert-summary.log)  
+   dms-pg-active-alert-summary2              (msc-dms-pg-active-alert-summary2.log)  
+   dms-pg-cap                                (msc-dms-pg-cap.log)  
+   dms-pg-cap-warp3                          (msc-dms-pg-cap-warp3.log)  
+   dms-pg-ecam-publicemail                   (msc-dms-pg-ecam-publicemail.log)  
+   dms-pg-ecam-publicemail-warp3             (msc-dms-pg-ecam-publicemail.log)  
+   dms-pg-ecam-twitteralertgenerator         (msc-dms-pg-ecam-twitteralertgenerator.log)  
+   dms-pg-generic-autotaf                    (msc-dms-pg-generic-autotaf.log)  
+   dms-pg-generic-aviationdata-cmc           (msc-dms-pg-generic-aviationdata-cmc.log)  
+   dms-pg-generic-fm12totdcf                 (msc-dms-pg-generic-fm12totdcf.log)  
+   dms-pg-generic-moored-buoy-fm13           (msc-dms-pg-generic-moored-buoy-fm13.log)  
+   dms-pg-generic-ncawos-fm12                (msc-dms-pg-generic-ncawos-fm12.log)  
+   dms-pg-generic-nchwos-fm12                (msc-dms-pg-generic-nchwos-fm12.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-abfs.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-bc_tran.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-msc-complete.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-msc-incomplete.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-nws.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-on_grca.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-on_mnrf.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-on_trca.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-rmcq.log)  
+   dms-pg-generic-sa                         (msc-dms-pg-generic-sa.log)  
+   dms-pg-mfile2                             (msc-dms-pg-mfile2.log)  
+   dms-pg-mt-warp3                           (msc-dms-pg-mt.log)  
+   dms-pg-mt2                                (msc-dms-pg-mt2.log)  
+   dms-pg-ninjo-amdar                        (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-aviation-warning             (msc-dms-pg-ninjo-aviation_warning.log)  
+   dms-pg-ninjo-aviation-warning             (msc-dms-pg-ninjo-aviation_warning_us.log)  
+   dms-pg-ninjo-enhancedca-panam             (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-enhancedra                   (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-enhancedwinide               (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-forestryab                   (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-forestrybc                   (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-grca                         (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-hurricane                    (msc-dms-pg-ninjo-hurricane.log)  
+   dms-pg-ninjo-ncawos                       (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-ncawos-panam                 (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-nchwos-panam                 (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-nchwos2                      (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-omnr                         (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-rawbulletin                  (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-rmcq                         (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-rwin                         (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-station-catalog              (msc-dms-pg-station-catalog.log)  
+   dms-pg-ninjo-trca                         (msc-dms-pg-ninjo.log)  
+   dms-pg-ninjo-upperair                     (msc-dms-pg-ninjo.log)  
+   dms-pg-official-metar                     (msc-dms-pg-official-metar.log)  
+   dms-pg-profile-amdar                      (msc-dms-pg-profile-amdar.log)  
+   dms-pg-rwin                               (msc-dms-pg-rwin.log)  
+   dms-pg-rwin-alert                         (msc-dms-pg-rwin-alert.log)  
+   dms-pg-sarwinds-ninjo                     (msc-dms-pg-sarwinds-ninjo.log)  
+   dms-pg-sarwinds-web                       (msc-dms-pg-sarwinds-web.log)  
+   dms-pg-timeliness                         (msc-dms-pg-timeliness.log)  
+   dms-pg-warnings2                          (msc-dms-pg-warnings2.log)  
+   dms-pg-wxo-canadahotcoldspot              (msc-dms-pg-wxo-canadahotcoldspot.log)  
+   dms-pg-wxo-hourlyobs                      (msc-dms-pg-wxo-hourlyobs-buoy.log)  
+   dms-pg-wxo-hourlyobs                      (msc-dms-pg-wxo-hourlyobs-msc.log)  
+   dms-pg-wxo-hourlyobs                      (msc-dms-pg-wxo-hourlyobs-us.log)  
+   dms-pg-wxo-recordvalues                   (msc-dms-pg-wxo-recordvalues.log)  
+   dms-pg-wxo-syno                           (msc-dms-pg-wxo-syno.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-amdar-binary.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-bufr.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ca.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-jicc.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-metar.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ncawos.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-nchwos.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-pirep.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ra.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-rwin.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-swob.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-syno.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-taf.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ua-ascii.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ua-binary.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-warnings-mfile.log)  
+   dms-publisher                             (msc-dms-publisher-dms-hurricane.log)  
+   dms-publisher                             (msc-dms-publisher-dms-replication.log)  
+   dms-publisher                             (msc-dms-publisher-dms-syno.log)  
+   dms-publisher                             (msc-dms-publisher-dms-upperair.log)  
+   dms-quality-assessment                    (msc-dms-quality-assessment.log)
+

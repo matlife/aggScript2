@@ -1,0 +1,2219 @@
+msc-dms-core-hibernate.log
+msc-dms-core.log
+msc-dms-creator-autotaf.log
+msc-dms-creator-synop.log
+msc-dms-decoder-amdar.log
+msc-dms-decoder-aqhi.log
+msc-dms-decoder-atags.log
+msc-dms-decoder-aviation-warning-US-Alaskan.log
+msc-dms-decoder-aviation-warning-US-Conus.log
+msc-dms-decoder-aviation-warning-US-Convective.log
+msc-dms-decoder-aviation-warning-US-Oceanic.log
+msc-dms-decoder-aviation-warning.log
+msc-dms-decoder-bufr-tdcf.log
+msc-dms-decoder-bufr-winide.log
+msc-dms-decoder-bufr2xml.log
+msc-dms-decoder-ca.log
+msc-dms-decoder-enhanced-bufr-winide.log
+msc-dms-decoder-enhanced-ca.log
+msc-dms-decoder-enhanced-ra.log
+msc-dms-decoder-generic-bc-tran.log
+msc-dms-decoder-generic-cocorahs.log
+msc-dms-decoder-generic-forestry-ab.log
+msc-dms-decoder-generic-forestry-bc.log
+msc-dms-decoder-generic-grca.log
+msc-dms-decoder-generic-hydrometric.log
+msc-dms-decoder-generic-metar.log
+msc-dms-decoder-generic-meteocode-forecast.log
+msc-dms-decoder-generic-omnr.log
+msc-dms-decoder-generic-panam-minutely-uv.log
+msc-dms-decoder-generic-panam-ncawos.log
+msc-dms-decoder-generic-panam-nchwos.log
+msc-dms-decoder-generic-tdcf-synop.log
+msc-dms-decoder-generic-trca.log
+msc-dms-decoder-generic-wbs.log
+msc-dms-decoder-grib.log
+msc-dms-decoder-hurricane.log
+msc-dms-decoder-jicc.log
+msc-dms-decoder-metar.log
+msc-dms-decoded-mfile-warp3.log
+msc-dms-decoder-mt.log
+msc-dms-decoder-mt2.log
+msc-dms-decoder-nationalmfile.log
+msc-dms-decoder-ninjo-alert-warp3.log
+msc-dms-decoder-ninjo-alert2.log
+msc-dms-decoder-official-metar-scheduler.log
+msc-dms-decoder-pirep.log
+msc-dms-decoder-ra.log
+msc-dms-decoder-rtaf.log
+msc-dms-decoder-rwin.log
+msc-dms-decoder-sarwinds.log
+msc-dms-decoder-synop.log
+msc-dms-decoder-taf.log
+msc-dms-decoder-upperair.log
+msc-dms-decoder-warningsmfile.log
+msc-dms-encoder-ascii-synop.log
+msc-dms-encoder-bufr-bundle.log
+msc-dms-encoder-bufr-xml2bufr.log
+msc-dms-encoder-metar.log
+msc-dms-encoder-sa.log
+msc-dms-encoder-sarwinds-wips.log
+msc-dms-enhanced-generic-ca.log
+msc-dms-enhanced-generic.log
+msc-dms-extractor-archive.log
+msc-dms-importer-bulletin.log
+msc-dms-manager-alert-warp3.log
+msc-dms-manager-generic.log
+msc-dms-manager-metar-bufr.log
+msc-dms-manager-sarwinds-surface.log
+msc-dms-manager-synop.log
+msc-dms-manager-merger.log
+msc-dms-metadata-updater.log
+msc-dms-pg-active-alert-summary.log
+msc-dms-pg-active-alert-summary2.log
+msc-dms-pg-cap.log
+msc-dms-pg-cap-warp3.log
+msc-dms-pg-ecam-publicemail.log
+msc-dms-pg-ecam-publicemail.log
+msc-dms-pg-ecam-twitteralertgenerator.log
+msc-dms-pg-ecam-twitteralertgenerator.log
+msc-dms-pg-external-XML.log
+msc-dms-pg-generic-autotaf.log
+msc-dms-pg-generic-aviationdata-cmc.log
+msc-dms-pg-generic-fm12totdcf.log
+msc-dms-pg-generic-moored-buoy-fm13.log
+msc-dms-pg-generic-ncawos-fm12.log
+msc-dms-pg-generic-nchwos-fm12.log
+msc-dms-pg-generic-ninjo-nswob-abfs.log
+msc-dms-pg-generic-ninjo-nswob-bc_tran.log
+msc-dms-pg-generic-ninjo-nswob-bcfs.log
+msc-dms-pg-generic-ninjo-nswob-ca.log
+msc-dms-pg-generic-ninjo-nswob-ca1.1.log
+msc-dms-pg-generic-ninjo-nswob-metar-msc-complete.log
+msc-dms-pg-generic-ninjo-nswob-metar-msc-incomplete.log
+msc-dms-pg-generic-ninjo-nswob-metar-navcan-complete.log
+msc-dms-pg-generic-ninjo-nswob-metar-navcan-incomplete.log
+msc-dms-pg-generic-ninjo-nswob-metar-nws.log
+msc-dms-pg-generic-ninjo-nswob-metar-wmo.log
+msc-dms-pg-generic-ninjo-nswob-on_grca.log
+msc-dms-pg-generic-ninjo-nswob-on_mnrf.log
+msc-dms-pg-generic-ninjo-nswob-on_trca.log
+msc-dms-pg-generic-ninjo-nswob-ra.log
+msc-dms-pg-generic-ninjo-nswob-rmcq.log
+msc-dms-pg-generic-ninjo-nswob-synop-buoy.log
+msc-dms-pg-generic-ninjo-nswob-synop-ship.log
+msc-dms-pg-generic-sa.log
+msc-dms-pg-mfile-warp3.log
+msc-dms-pg-mfile2.log
+msc-dms-pg-mt.log
+msc-dms-pg-mt2.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo-aviation_warning.log
+msc-dms-pg-ninjo-aviation_warning_us.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo-hurricane.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-station-catalog.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-ninjo.log
+msc-dms-pg-official-metar.log
+msc-dms-pg-pre-synop.log
+msc-dms-pg-profile-amdar.log
+msc-dms-pg-reports.log
+msc-dms-pg-rwin.log
+msc-dms-pg-rwin-alert.log
+msc-dms-pg-sarwinds-ninjo.log
+msc-dms-pg-sarwinds-web.log
+msc-dms-pg-station-proximity.log
+msc-dms-pg-synop.log
+msc-dms-pg-timeliness.log
+msc-dms-pg-warnings.log
+msc-dms-pg-warnings2.log
+msc-dms-pg-wxo-canadahotcoldspot.log
+msc-dms-pg-wxo-hourlyobs-buoy.log
+msc-dms-pg-wxo-hourlyobs-msc.log
+msc-dms-pg-wxo-hourlyobs-us.log
+msc-dms-pg-wxo-recordvalues.log
+msc-dms-pg-wxo-summary.log
+msc-dms-pg-wxo-syno.log
+msc-dms-publisher-dms-archive-amdar-binary.log
+msc-dms-publisher-dms-archive-bufr.log
+msc-dms-publisher-dms-archive-ca.log
+msc-dms-publisher-dms-archive-jicc.log
+msc-dms-publisher-dms-archive-metar.log
+msc-dms-publisher-dms-archive-ncawos.log
+msc-dms-publisher-dms-archive-nchwos.log
+msc-dms-publisher-dms-archive-pirep.log
+msc-dms-publisher-dms-archive-ra.log
+msc-dms-publisher-dms-archive-rwin.log
+msc-dms-publisher-dms-archive-swob.log
+msc-dms-publisher-dms-archive-syno.log
+msc-dms-publisher-dms-archive-taf.log
+msc-dms-publisher-dms-archive-ua-ascii.log
+msc-dms-publisher-dms-archive-ua-binary.log
+msc-dms-publisher-dms-archive-warnings-mfile.log
+msc-dms-publisher-dms-hurricane.log
+msc-dms-publisher-dms-replication.log
+msc-dms-publisher-dms-sarwinds.log
+msc-dms-publisher-dms-syno.log
+msc-dms-publisher-dms-upperair.log
+msc-dms-quality-assessment.log
+msc-dms-translator-bufr.log
+-- Log Status:  
+
+Error - One or more logs contain 'ERROR' (or 'FATAL') entries.
+
+      
+         Total Warnings: 53149             Filtered Total Warnings: 20203
+         Total Errors: 24168               Filtered Total Errors: 15467
+         Total Fatals: 92                  Filtered Total Fatals: 12
+  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-core                                  (msc-dms-core.log)
+
+   WARNINGS: 6
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   QueueManager - WARN:  6
+
+Example Logs:
+   
+   QueueManager - WARN:
+
+[2016-02-03 00:45:46 112] [WARN ] [Core:pool-2-thread-1] [QueueManager] [Queue was not properly locked  skipping: name=dms-enhanced-generic-omnr path=/partners/observation/atmospheric/surface_weather/on_mnr-1.0-ascii/job_synop-xml-2.0]
+[2016-02-03 00:45:46 192] [WARN ] [Core:pool-2-thread-1] [QueueManager] [Queue was not properly locked  skipping: name=dms-manager-generic-abfs path=/partners/observation/atmospheric/surface_weather/ab_forestry-1.0-ascii/decoded-xml-2.0]
+[2016-02-03 00:45:46 224] [WARN ] [Core:pool-2-thread-1] [QueueManager] [Queue was not properly locked  skipping: name=dms-manager-generic-bufr58 path=/msc/observation/atmospheric/surface_weather/bufr58-1.0-binary/decoded_qa-xml-2.0]
+[2016-02-03 00:45:46 452] [WARN ] [Core:pool-2-thread-1] [QueueManager] [Queue was not properly locked  skipping: name=dms-manager-metar-bufr-internal-complete path=/nav_canada/observation/atmospheric/aviation/metar-1.2-ascii/job-xml-1.0]
+[2016-02-03 00:45:46 570] [WARN ] [Core:pool-2-thread-1] [QueueManager] [Queue was not properly locked  skipping: name=dms-merger-observation-ca path=/msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_enhanced-xml-2.0]
+[2016-02-03 00:45:46 800] [WARN ] [Core:pool-2-thread-1] [QueueManager] [Queue was not properly locked  skipping: name=dms-publisher-archive-file-bufr path=/msc/observation/atmospheric/aviation/manned-1.0-binary/decoded-xml-2.0]
+
+
+               
+
+   Mantis #8280 (ERROR - DMSReadWriteData) : 18  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-creator-synop                         (msc-dms-creator-synop.log)
+
+   WARNINGS: 0
+   ERRORS: 32
+   FATALS: 0
+               
+Details:
+   
+   AbstractHandler - ERROR:  32
+
+Example Logs:
+   
+   AbstractHandler - ERROR:
+
+[2016-02-03 00:50:14 384] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 00:50:14 420] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread3] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 01:15:34 465] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread4] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 01:15:34 498] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread4] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 01:27:47 559] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread4] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 01:27:47 593] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread4] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 02:03:24 038] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread1] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 02:03:24 110] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread1] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 02:15:26 995] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread2] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+[2016-02-03 02:15:27 032] [ERROR] [MSC-DMS-Creator-SYNOP:1.thread2] [AbstractHandler] [The observation could not be finalized because an identifier was null/missing or the parsed observation did not contain the required identification elements.]
+
+
+               
+
+   Mantis #9104 (WARN - AbstractElementGenerator) : 16  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-amdar                         (msc-dms-decoder-amdar.log)
+
+   WARNINGS: 52
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   AMDARDecoder - WARN:  52
+
+Example Logs:
+   
+   AMDARDecoder - WARN:
+
+[2016-02-03 01:01:41 154] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread1] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030100_RRD__72463:bulletins_from_metpx:station:type:3:Bulletins:20160203010140:20160203010140]
+[2016-02-03 01:01:41 387] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread1] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030100_RRG__72464:bulletins_from_metpx:station:type:3:Bulletins:20160203010140:20160203010140]
+[2016-02-03 02:01:15 042] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread2] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030200___76451:bulletins_from_metpx:station:type:3:Bulletins:20160203020112:20160203020112]
+[2016-02-03 02:01:15 132] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread1] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030200_RRB__76447:bulletins_from_metpx:station:type:3:Bulletins:20160203020112:20160203020112]
+[2016-02-03 02:01:15 292] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread2] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030200_RRA__76446:bulletins_from_metpx:station:type:3:Bulletins:20160203020112:20160203020113]
+[2016-02-03 02:01:15 447] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread1] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030200_RRD__76449:bulletins_from_metpx:station:type:3:Bulletins:20160203020112:20160203020112]
+[2016-02-03 02:01:15 502] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread3] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030200_RRH__76450:bulletins_from_metpx:station:type:3:Bulletins:20160203020112:20160203020113]
+[2016-02-03 02:01:15 510] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread2] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030200_RRC__76448:bulletins_from_metpx:station:type:3:Bulletins:20160203020112:20160203020112]
+[2016-02-03 04:01:42 245] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread4] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030400_RRG__98486:bulletins_from_metpx:station:type:3:Bulletins:20160203040141:20160203040141]
+[2016-02-03 04:01:42 394] [WARN ] [MSC-DMS-Decoder-AMDAR:1.thread4] [AMDARDecoder] [The following elements are missing: AircraftID FlightLevel for payload - UDOC01_AMMC_030400_RRB__98485:bulletins_from_metpx:station:type:3:Bulletins:20160203040141:20160203040141]
+
+
+               
+
+   Mantis #9105 (WARN - Token) : 20
+   Mantis #9106 (WARN - Section2Decoder) : 52  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-atags                         (msc-dms-decoder-atags.log)
+
+   WARNINGS: 816
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   RTAFSchedule - WARN:  816
+
+Example Logs:
+   
+   RTAFSchedule - WARN:
+
+[2016-02-03 03:33:30 033] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CBBC]
+[2016-02-03 03:33:30 052] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYCA]
+[2016-02-03 03:33:30 071] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYEU]
+[2016-02-03 03:33:30 089] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CWSA]
+[2016-02-03 03:33:30 106] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYAB]
+[2016-02-03 03:33:30 123] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYAH]
+[2016-02-03 03:33:30 141] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYAM]
+[2016-02-03 03:33:30 158] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYAW]
+[2016-02-03 03:33:30 179] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYAY]
+[2016-02-03 03:33:30 201] [WARN ] [MSC-DMS-Decoder-ATags] [RTAFSchedule] [Could not get latest rtaf schedule for icao: CYAZ]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Alaskan.log)
+
+   WARNINGS: 2
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  2
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:14 354] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Alaskan] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=40 group=null name=vertical_extent_top unit=code code source=airmet_sigmet code type=vertical_extent ]]
+[2016-02-03 00:46:14 354] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Alaskan] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=41 group=null name=vertical_extent_bottom unit=code code source=airmet_sigmet code type=vertical_extent ]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Conus.log)
+
+   WARNINGS: 3
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  2
+   ValidStartEndTimeElement - WARN:  1
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:14 094] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Conus] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=40 group=null name=vertical_extent_top unit=code code source=airmet_sigmet code type=vertical_extent ]]
+[2016-02-03 00:46:14 094] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Conus] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=41 group=null name=vertical_extent_bottom unit=code code source=airmet_sigmet code type=vertical_extent ]]
+
+   ValidStartEndTimeElement - WARN:
+
+[2016-02-03 03:28:28 289] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Conus] [ValidStartEndTimeElement] [could not find valid start time]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Convective.log)
+
+   WARNINGS: 7
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  2
+   AviationUSConvectiveIdentityGenerator - WARN:  5
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:14 495] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=40 group=null name=vertical_extent_top unit=code code source=airmet_sigmet code type=vertical_extent ]]
+[2016-02-03 00:46:14 495] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=41 group=null name=vertical_extent_bottom unit=code code source=airmet_sigmet code type=vertical_extent ]]
+
+   AviationUSConvectiveIdentityGenerator - WARN:
+
+[2016-02-03 02:47:30 551] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [AviationUSConvectiveIdentityGenerator] [Sequence ID not found.  Cannot decode message.]
+[2016-02-03 08:43:46 240] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [AviationUSConvectiveIdentityGenerator] [Sequence ID not found.  Cannot decode message.]
+[2016-02-03 10:43:44 669] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [AviationUSConvectiveIdentityGenerator] [Sequence ID not found.  Cannot decode message.]
+[2016-02-03 11:45:16 553] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [AviationUSConvectiveIdentityGenerator] [Sequence ID not found.  Cannot decode message.]
+[2016-02-03 11:45:16 652] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Convective] [AviationUSConvectiveIdentityGenerator] [Sequence ID not found.  Cannot decode message.]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning-US-Oceanic.log)
+
+   WARNINGS: 2
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  2
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:13 866] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Oceanic] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=40 group=null name=vertical_extent_top unit=code code source=airmet_sigmet code type=vertical_extent ]]
+[2016-02-03 00:46:13 866] [WARN ] [MSC-DMS-Decoder-Aviation-Warning-US-Oceanic] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=41 group=null name=vertical_extent_bottom unit=code code source=airmet_sigmet code type=vertical_extent ]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-aviation-warning              (msc-dms-decoder-aviation-warning.log)
+
+   WARNINGS: 2
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  2
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:14 013] [WARN ] [MSC-DMS-Decoder-Aviation-Warning] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=40 group=null name=vertical_extent_top unit=code code source=airmet_sigmet code type=vertical_extent ]]
+[2016-02-03 00:46:14 013] [WARN ] [MSC-DMS-Decoder-Aviation-Warning] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=41 group=null name=vertical_extent_bottom unit=code code source=airmet_sigmet code type=vertical_extent ]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-bufr-tdcf                     (msc-dms-decoder-bufr-tdcf.log)
+
+   WARNINGS: 0
+   ERRORS: 59
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  59
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 00:55:19 095] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71964:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=81]]
+[2016-02-03 00:55:19 209] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread1] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71836:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 00:55:19 486] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread4] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71964:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:15:20 007] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71917:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:15:20 007] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71082:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:15:20 018] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71603:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:15:20 018] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71816:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:15:20 029] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread5] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71815:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:15:20 029] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread3] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71909:ius:orig> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+[2016-02-03 01:30:40 491] [ERROR] [MSC-DMS-DECODER-BUFR-TDCF:1.thread2] [ComponentController] [<wmo:observation:atmospheric:upper_air:temp-1.0-binary:parsed-xml-2.0:201602030000:71043:ius:cca> Component Exception: DecodeException was caught  unable to decode payLoad. >> Cause: Failed template validation! Please verify that this is a valid TDCF observation: ca.gc.ec.dms.decoder.validator.TemplateValidationException: Descriptor mismatch! Template descriptor 2 [001011] and observation descriptor 2 [002011 value=9]]
+
+
+               
+
+   Mantis #9136 (WARN - TemplateUA) : 4  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-bufr2xml                      (msc-dms-decoder-bufr2xml.log)
+
+   Mantis #9046 (ERROR - main) : 35  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-ca                            (msc-dms-decoder-ca.log)
+
+   WARNINGS: 16
+   ERRORS: 20
+   FATALS: 0
+               
+Details:
+   
+   Utility - WARN:  16
+   CAMessage - ERROR:  20
+
+Example Logs:
+   
+   Utility - WARN:
+
+[2016-02-03 11:00:10 772] [WARN ] [MSC-DMS-Decoder-CA:1.thread13] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201602022134/nee is invalid or missing latitude and longitude.]
+[2016-02-03 11:00:10 856] [WARN ] [MSC-DMS-Decoder-CA:1.thread13] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-02-03 11:00:10 857] [WARN ] [MSC-DMS-Decoder-CA:1.thread13] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201602022134/nee is invalid or missing latitude and longitude.]
+[2016-02-03 11:00:10 870] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread8] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201602022134/nee is invalid or missing latitude and longitude.]
+[2016-02-03 11:00:10 946] [WARN ] [MSC-DMS-Decoder-CA:1.thread13] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-02-03 11:00:10 949] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread8] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-02-03 11:00:10 949] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread8] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201602022134/nee is invalid or missing latitude and longitude.]
+[2016-02-03 11:00:11 013] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread8] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+[2016-02-03 13:00:36 886] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread27] [Utility] [The Jicc configuration at : http://localhost:8180/data/msc/metadata/station/surface_weather/jicc-1.0-binary/decoded-xml-1.0/201602031114/nee is invalid or missing latitude and longitude.]
+[2016-02-03 13:00:36 976] [WARN ] [MSC-DMS-Decoder-CA1.0:1.thread27] [Utility] [No station found for [NEE]. Unable to set stationID and latitude/longitude values for the point observation  cause: Unable to find Station=/station/iata/NEE: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/iata/NEE  error code: 404]
+
+   CAMessage - ERROR:
+
+[2016-02-03 01:16:36 824] [ERROR] [MSC-DMS-Decoder-CA:1.thread29] [CAMessage] [Date Time: Wed Feb 03 03:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 01:16:36 837] [ERROR] [MSC-DMS-Decoder-CA:1.thread20] [CAMessage] [Date Time: Wed Feb 03 03:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 01:16:37 081] [ERROR] [MSC-DMS-Decoder-CA1.0:1.thread22] [CAMessage] [Date Time: Wed Feb 03 03:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 01:16:37 090] [ERROR] [MSC-DMS-Decoder-CA1.0:1.thread4] [CAMessage] [Date Time: Wed Feb 03 03:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 07:16:30 968] [ERROR] [MSC-DMS-Decoder-CA:1.thread27] [CAMessage] [Date Time: Wed Feb 03 09:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 07:16:30 969] [ERROR] [MSC-DMS-Decoder-CA1.0:1.thread24] [CAMessage] [Date Time: Wed Feb 03 09:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 07:16:30 970] [ERROR] [MSC-DMS-Decoder-CA1.0:1.thread18] [CAMessage] [Date Time: Wed Feb 03 09:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 07:16:30 982] [ERROR] [MSC-DMS-Decoder-CA:1.thread21] [CAMessage] [Date Time: Wed Feb 03 09:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 10:16:39 051] [ERROR] [MSC-DMS-Decoder-CA:1.thread22] [CAMessage] [Date Time: Wed Feb 03 12:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+[2016-02-03 10:16:39 054] [ERROR] [MSC-DMS-Decoder-CA:1.thread17] [CAMessage] [Date Time: Wed Feb 03 12:00:00 UTC 2016 appears to be in future. CA bulletin is invalid and will not be decoded]
+
+
+               
+
+   Mantis #8764 (WARN - NotificationServiceHttpImpl) : 210
+   Mantis #8764 (ERROR - ComponentController) : 210
+   Mantis #9047 (ERROR - ComponentController) : 3526
+   Mantis #9200 (WARN - CAHandler) : 462  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-enhanced-ca                   (msc-dms-decoder-enhanced-ca.log)
+
+   Mantis #9109 (WARN - NotificationServiceHttpImpl) : 3504  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-enhanced-ra                   (msc-dms-decoder-enhanced-ra.log)
+
+   Mantis #9110 (WARN - NotificationServiceHttpImpl) : 3  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-bc-tran               (msc-dms-decoder-generic-bc-tran.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  1
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:45:53 375] [WARN ] [MSC-DMS-Decoder-Generic-BC-TRAN] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=DATETIME_EIGHTEEN unit=datetime code source=null code type=null ]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-cocorahs              (msc-dms-decoder-generic-cocorahs.log)
+
+   WARNINGS: 0
+   ERRORS: 6
+   FATALS: 0
+               
+Details:
+   
+   ObservationIdentifyHandler - ERROR:  3
+   GenericHandler - ERROR:  3
+
+Example Logs:
+   
+   ObservationIdentifyHandler - ERROR:
+
+[2016-02-03 13:25:05 361] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-02-03  11:00 AM  2016-02-03 11:14 AM  CAN-PE-23  Borden 0.9 SE  46.248177  -63.68515  0.00  0.0  NA  NA  NA  2016-02-03 11:14 AM  observation: 2016-02-03  11:00 AM  2016-02-03 11:14 AM  CAN-PE-23  Borden 0.9 SE  46.248177  -63.68515  0.00  0.0  NA  NA  NA  2016-02-03 11:14 AM]
+[2016-02-03 13:25:05 398] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-02-03  12:00 PM  2016-02-03 12:02 PM  CAN-NS-105  Tusket 7.4 S  43.787671  -65.964864  0.00  0.0  0.00  0.0  0.00  2016-02-03 12:02 PM  observation: 2016-02-03  12:00 PM  2016-02-03 12:02 PM  CAN-NS-105  Tusket 7.4 S  43.787671  -65.964864  0.00  0.0  0.00  0.0  0.00  2016-02-03 12:02 PM]
+[2016-02-03 13:25:05 652] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [ObservationIdentifyHandler] [StationException thrown: Unable to find station using local lookup: stationRecord is null  observation: 2016-02-03  12:00 PM  2016-02-03 01:09 PM  CAN-ON-342  Lurgan Beach 1.4 NNE - LHCC  44.097775  -81.727659  0.62  NA  NA  NA  NA  2016-02-03 01:09 PM  observation: 2016-02-03  12:00 PM  2016-02-03 01:09 PM  CAN-ON-342  Lurgan Beach 1.4 NNE - LHCC  44.097775  -81.727659  0.62  NA  NA  NA  NA  2016-02-03 01:09 PM]
+
+   GenericHandler - ERROR:
+
+[2016-02-03 13:25:05 361] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-02-03  11:00 AM  2016-02-03 11:14 AM  CAN-PE-23  Borden 0.9 SE  46.248177  -63.68515  0.00  0.0  NA  NA  NA  2016-02-03 11:14 AM]
+[2016-02-03 13:25:05 398] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-02-03  12:00 PM  2016-02-03 12:02 PM  CAN-NS-105  Tusket 7.4 S  43.787671  -65.964864  0.00  0.0  0.00  0.0  0.00  2016-02-03 12:02 PM]
+[2016-02-03 13:25:05 652] [ERROR] [MSC-DMS-Decoder-Generic-CoCoRaHS] [GenericHandler] [Unable to identify observation: 2016-02-03  12:00 PM  2016-02-03 01:09 PM  CAN-ON-342  Lurgan Beach 1.4 NNE - LHCC  44.097775  -81.727659  0.62  NA  NA  NA  NA  2016-02-03 01:09 PM]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-forestry-bc           (msc-dms-decoder-generic-forestry-bc.log)
+
+   Mantis #8024 (ERROR - ObservationIdentifyHandler) : 651
+   Mantis #8024 (ERROR - GenericHandler) : 651  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-grca                  (msc-dms-decoder-generic-grca.log)
+
+   Mantis #9113 (ERROR - ObservationIdentifyHandler) : 9
+   Mantis #9115 (ERROR - ComponentController) : 20
+   Mantis #9115 (ERROR - GenericHandler) : 20  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-hydrometric           (msc-dms-decoder-generic-hydrometric.log)
+
+   WARNINGS: 8
+   ERRORS: 0
+   FATALS: 8
+               
+Details:
+   
+   MSC-DMS-Decoder-Generic-Hydrometric-TS-identify - main-1:  80
+   MSC-DMS-Decoder-Generic-Hydrometric-TS-decode - main-1:  80
+   GenericConfigUtil - FATAL:  8
+   CSVGenericConfigDAO - WARN:  8
+
+Example Logs:
+   
+   MSC-DMS-Decoder-Generic-Hydrometric-TS-identify - main-1:
+
+[2016-02-03 00:46:18 956] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [Controller] [Creating 10 threads]
+[2016-02-03 00:46:18 987] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [Controller] [<Start Script Output> Processes: Starting 1 process(es)]
+[2016-02-03 00:46:19 016] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [Controller] [Component Controller set to: ComponentController]
+[2016-02-03 00:46:19 025] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [ComponentController] [Reader Implementation: FileRead.file]
+[2016-02-03 00:46:19 025] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [FileRead] [creating reader: file]
+[2016-02-03 00:46:19 025] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [FileRead] [(file) No format configured  using default: standard]
+[2016-02-03 00:46:19 025] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [FileRead] [(file) No wait time was set  using default: 5000]
+[2016-02-03 00:46:19 026] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [FileRead] [(file) Initial Wait time set to: 5000]
+[2016-02-03 00:46:19 039] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [FileRead] [(file) handlingPayloadAsStream: false]
+[2016-02-03 00:46:19 039] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [FileRead] [(file) readingReferences: false]
+
+   MSC-DMS-Decoder-Generic-Hydrometric-TS-decode - main-1:
+
+[2016-02-03 00:46:18 858] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [Controller] [Creating 10 threads]
+[2016-02-03 00:46:18 875] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [Controller] [<Start Script Output> Processes: Starting 1 process(es)]
+[2016-02-03 00:46:18 899] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [Controller] [Component Controller set to: ComponentController]
+[2016-02-03 00:46:18 913] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [ComponentController] [Reader Implementation: WebRead.web]
+[2016-02-03 00:46:18 913] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [WebRead] [creating reader: web]
+[2016-02-03 00:46:18 913] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [WebRead] [(web) domain set to: localhost]
+[2016-02-03 00:46:18 914] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [WebRead] [(web) port set to: 8180]
+[2016-02-03 00:46:18 914] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [WebRead] [(web) associated confirmation writer name set to: ]
+[2016-02-03 00:46:18 914] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [WebRead] [(web) No format configured  using default: standard]
+[2016-02-03 00:46:18 914] [main-1] [INFO ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [WebRead] [(web) No wait time was set  using default: 5000]
+
+   GenericConfigUtil - FATAL:
+
+[2016-02-03 00:46:19 421] [main-1] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:19 469] [main-1] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:19 797] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-FV] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:19 854] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-RC] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:21 389] [main-1] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:21 739] [main-1] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:22 043] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-RC] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:22 055] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-FV] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:22 190] [main-1] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+[2016-02-03 00:46:22 387] [main-1] [FATAL] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [GenericConfigUtil] [unable to load [STATION|/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv|STATIONID]  configuration will not be available]
+
+   CSVGenericConfigDAO - WARN:
+
+[2016-02-03 00:46:19 421] [main-1] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:19 468] [main-1] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:19 797] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-FV] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:19 854] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-RC] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:21 389] [main-1] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:21 739] [main-1] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:22 043] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-RC] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:22 055] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-FV] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:22 190] [main-1] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-decode] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+[2016-02-03 00:46:22 387] [main-1] [WARN ] [MSC-DMS-Decoder-Generic-Hydrometric-TS-identify] [CSVGenericConfigDAO] [Problem occured during parsing of configuration with dataSourceName [/apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv] and uniqueKeyName [STATIONID] cause: /apps/dms/dms-config/hydrometric/conf/StationCfg_Hydrometric.csv (No such file or directory)]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-metar                 (msc-dms-decoder-generic-metar.log)
+
+   WARNINGS: 484
+   ERRORS: 185
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  480
+   GenericHandler - WARN:  4
+   ObservationDecodeHandler - ERROR:  185
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:03 065] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20001 group=null name=ddd unit=° code source=null code type=null ]]
+[2016-02-03 00:46:03 065] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20001 group=null name=ddd unit=° code source=null code type=null ]]
+[2016-02-03 00:46:03 066] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20001 group=null name=ddd unit=° code source=null code type=null ]]
+[2016-02-03 00:46:03 073] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20001 group=null name=ddd unit=° code source=null code type=null {group=element name=time_displacement value=-10 unit=null code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:03 075] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20002 group=null name=ff unit=n/a code source=null code type=null ]]
+[2016-02-03 00:46:03 076] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20002 group=null name=ff unit=n/a code source=null code type=null ]]
+[2016-02-03 00:46:03 081] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20002 group=null name=ff unit=n/a code source=null code type=null ]]
+[2016-02-03 00:46:03 095] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20002 group=null name=ff unit=n/a code source=null code type=null {group=element name=time_displacement value=-10 unit=null code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:03 695] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20001 group=null name=ddd unit=° code source=null code type=null ]]
+[2016-02-03 00:46:03 695] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=20001 group=null name=ddd unit=° code source=null code type=null ]]
+
+   GenericHandler - WARN:
+
+[2016-02-03 02:56:29 279] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KP58 030251Z AUTO 08024G31KT 01/00 A2982 RMK AO1 PK WND 07031/0213METAR PRESFR SLP107 P0011 60035 T00110000 58050=]
+[2016-02-03 02:56:30 036] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KP69 030252Z AUTO 00000KT 02/00 A3024 RMK AO1 SLP262 T00170000METAR 51009=]
+[2016-02-03 03:38:20 878] [WARN ] [MSC-DMS-Decoder-Generic-METAR] [GenericHandler] [Unable to decode: This is not a number: name=VVVV; value=Infinity. Skip observation: METAR KCGE 030332Z AUTO 11006KT 02/00 A3031 RMK AO1=]
+
+   ObservationDecodeHandler - ERROR:
+
+[2016-02-03 00:57:57 181] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF  error code: 404; observation: SPECI KQSF 030051Z AUTO 09002KT 4000 HZ CLR 00/M10 A3032 RMK AO2 SLP329=]
+[2016-02-03 00:59:04 706] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC  error code: 404; observation: METAR SPJC 030100Z 17009KT 9999 FEW011 OVC050 25/22 Q1011 NOSIG RMKPP000=]
+[2016-02-03 01:02:15 813] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC  error code: 404; observation: METAR SPJC 030100Z 17009KT 9999 FEW011 OVC050 25/22 Q1011 NOSIG RMK PP000=]
+[2016-02-03 01:05:21 182] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG  error code: 404; observation: METAR LEAG 030100Z AUTO VRB02KT CAVOK 13/09 Q1026=]
+[2016-02-03 01:09:43 193] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/OEAR: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/OEAR  error code: 404; observation: METAR OEAR 030100Z 00000KT 9999 SCT040 21/16 Q1016=]
+[2016-02-03 01:21:46 974] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL  error code: 404; observation: METAR KQEL 030120Z AUTO 25003KT 9999 BKN043 M08/M16 A3044 RMK A02 TSNO=]
+[2016-02-03 01:26:26 115] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/ETML: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/ETML  error code: 404; observation: METAR ETML 030120Z AUTO 26027G41KT //// // ////// 06/03 Q1000METAR ///=]
+[2016-02-03 01:34:51 710] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG  error code: 404; observation: METAR LEAG 030130Z AUTO 31002KT CAVOK 14/10 Q1026=]
+[2016-02-03 01:41:48 577] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/VEBN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VEBN  error code: 404; observation: METAR VEBN 030130Z 25005KT BR NSC 13/09 Q1017=]
+[2016-02-03 01:42:48 830] [ERROR] [MSC-DMS-Decoder-Generic-METAR] [ObservationDecodeHandler] [StationException thrown: Unable to find Station=/station/icao/VERP: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VERP  error code: 404; observation: METAR VERP 030100Z 01007KT 2000 HZ NSC 18/13 Q1015 NOSIG=]
+
+
+               
+
+   Mantis #9167 (ERROR - GenericHandler) : 2945
+   Mantis #9168 (WARN - GenericHandler) : 48  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-meteocode-forecast    (msc-dms-decoder-generic-meteocode-forecast.log)
+
+   WARNINGS: 0
+   ERRORS: 7
+   FATALS: 0
+               
+Details:
+   
+   GenericHandler - ERROR:  7
+
+Example Logs:
+   
+   GenericHandler - ERROR:
+
+[2016-02-03 00:47:29 151] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-02-03 08:22:29 170] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-02-03 09:45:33 207] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-02-03 09:46:01 962] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-02-03 09:46:27 513] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-02-03 10:46:29 746] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+[2016-02-03 12:46:13 922] [ERROR] [MSC-DMS-Decoder-Generic-Meteocode-Forecast:1.thread1] [GenericHandler] [Unable to identify observation: ]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-generic-wbs                   (msc-dms-decoder-generic-wbs.log)
+
+   WARNINGS: 16
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  16
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:45:57 567] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=pppp.pp unit=hPa code source=null code type=null ]]
+[2016-02-03 00:45:57 568] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=pppp.pp unit=hPa code source=null code type=null ]]
+[2016-02-03 00:45:57 568] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=ttt unit=°C code source=null code type=null ]]
+[2016-02-03 00:45:57 568] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=ttt unit=°C code source=null code type=null ]]
+[2016-02-03 00:45:57 569] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=fff unit=m/s code source=null code type=null ]]
+[2016-02-03 00:45:57 569] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=fff unit=m/s code source=null code type=null ]]
+[2016-02-03 00:45:57 570] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=ddd unit=° code source=null code type=null ]]
+[2016-02-03 00:45:57 570] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=ddd unit=° code source=null code type=null ]]
+[2016-02-03 00:45:57 597] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=FFF unit=m/s code source=null code type=null ]]
+[2016-02-03 00:45:57 597] [WARN ] [MSC-DMS-Decoder-Generic-WBS] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=null name=FFF unit=m/s code source=null code type=null ]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-metar                         (msc-dms-decoder-metar.log)
+
+   WARNINGS: 232
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   MetarRunwayState - WARN:  2
+   MetarDecoder - WARN:  230
+
+Example Logs:
+   
+   MetarRunwayState - WARN:
+
+[2016-02-03 08:02:49 572] [WARN ] [MSC-DMS-Decoder-METAR:1.thread7] [MetarRunwayState] [The WS 26290054 could not be parsed. Skipping that token]
+[2016-02-03 08:02:49 798] [WARN ] [MSC-DMS-Decoder-METAR:1.thread7] [MetarRunwayState] [The WS 26290054 could not be parsed. Skipping that token]
+
+   MetarDecoder - WARN:
+
+
+
+
+               
+
+   Mantis #2358 (WARN - MetarHandler) : 2
+   Mantis #9140 (WARN - TranslationDAO) : 1412
+   Mantis #9141 (WARN - MetarDecoder) : 2605  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-ninjo-alert2                  (msc-dms-decoder-ninjo-alert2.log)
+
+   WARNINGS: 2
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ZoneLookup - WARN:  2
+
+Example Logs:
+   
+   ZoneLookup - WARN:
+
+[2016-02-03 00:47:49 316] [WARN ] [MSC-DMS-Decoder-NinJo-Alert2:main-1] [ZoneLookup] [The following CLC entries could not be found and matched with the zone basic metadata; therefore  no SGC codes could be added to it: [000001  000002  000003  000005  000005-000006-006212-006214  000005-006214  000006  000006-006212  000007  000007-006151-006153-006211  000008  000008-000009-006134-006141-006143  000008-006141-006143  000009  000009-006134  000010  000010-006131-006133  000011  000012  000013  000014  000015  000016  000017  000018  000019  000020  000020-080019-090002  000021  000021-080017-090001  001000  001100  001100-001210-001220-001230-001240-001250-001260-001270-001300  001110  001111  001112  001113  001120  001130  001131  001132  001140  001150  001160  001170  001180  001200  001210  001211  001211-001212  001211-001214  001212  001212-001213  001213  001213-001214  001214  001220  001230  001240  001241  001242  001250  001260  001261  001262  001270  001271  001272  001280  001300  001310  001311  001312  001320  001321  001322  002000  002100  002120  002121  002122  002123  002200  002210  002210-002310-002410-002510-002710-002810-002910-004460-004470  002211  002211-002221  002212  002212-002222  002220  002221  002222  002300  002310  002320  002400  002410  002411  002411-002421  002412  002412-002422  002420  002421  002422  002500  002510  002511  002512  002600  002610  002610-004700-004810-004821-004823  002620  002700  002710  002720  002800  002810  002811  002811-002821  002812  002812-002822  002820  002821  002822  002900  002910  002911  002911-002921  002912  002912-002922  002920  002921  002922  003000  003100  003110  003110-003120-004310-004410-004420-004430-004440-004450  003111  003112  003120  003121  003122  003140  003140-003150-003160-003170-003210-003220-003230-003240-003250-003260-003270-003280-003310-003320-003330-003340-003350-003370-003380  003141  003141-003142-003143-003144  003141-003142-003143-003148  003141-003142-003147-003148  003141-003146-003147-003148  003142  003142-003143-003144-003145  003143  003143-003144-003145-003146  003144  003144-003145-003146-003147  003145  003145-003146-003147-003148  003146  003147  003148  003150  003151  003152  003160  003161  003161-003162-003163-003164  003161-003162-003163-003168  003161-003162-003167-003168  003161-003166-003167-003168  003162  003162-003163-003164-003165  003163  003163-003164-003165-003166  003164  003164-003165-003166-003167  003165  003165-003166-003167-003168  003166  003167  003168  003170  003171  003172  003200  003210  003220  003230  003231  003232  003240  003241  003242  003250  003251  003252  003260  003261  003262  003270  003271  003272  003280  003281  003281-003282-003283-003284  003281-003282-003283-003288  003281-003282-003287-003288  003281-003286-003287-003288  003282  003282-003283-003284-003285  003283  003283-003284-003285-003286  003284  003284-003285-003286-003287  003285  003285-003286-003287-003288  003286  003287  003288  003290  003300  003310  003311  003312  003320  003321  003322  003330  003331  003332  003340  003341  003342  003350  003351  003351-003352-003353-003354  003351-003352-003353-003358  003351-003352-003357-003358  003351-003356-003357-003358  003352  003352-003353-003354-003355  003353  003353-003354-003355-003356  003354  003354-003355-003356-003357  003355  003355-003356-003357-003358  003356  003357  003358  003360  003360-003400-003520-003530-003540-003550  003361  003362  003370  003371  003371-003372-003373-003374  003371-003372-003373-003378  003371-003372-003377-003378  003371-003376-003377-003378  003372  003372-003373-003374-003375  003373  003373-003374-003375-003376  003374  003374-003375-003376-003377  003375  003375-003376-003377-003378  003376  003377  003378  003380  003381  003381-003382-003383-003384  003381-003382-003383-003388  003381-003382-003387-003388  003381-003386-003387-003388  003382  003382-003383-003384-003385  003383  003383-003384-003385-003386  003384  003384-003385-003386-003387  003385  003385-003386-003387-003388  003386  003387  003388  003400  003410  003411  003412  003420  003421  003422  003430  003431  003432  003440  003441  003442  003450  003451  003452  003460  003461  003462  003470  003471  003471-003472-003473-003474  003471-003472-003473-003478  003471-003472-003477-003478  003471-003476-003477-003478  003472  003472-003473-003474-003475  003473  003473-003474-003475-003476  003474  003474-003475-003476-003477  003475  003475-003476-003477-003478  003476  003477  003478  003500  003510  003510-003600-004100  003511  003512  003520  003521  003521-003522-003523-003524  003521-003522-003523-003528  003521-003522-003527-003528  003521-003526-003527-003528  003522  003522-003523-003524-003525  003523  003523-003524-003525-003526  003524  003524-003525-003526-003527  003525  003525-003526-003527-003528  003526  003527  003528  003530  003531  003531-003532-003533-003534  003531-003532-003533-003538  003531-003532-003537-003538  003531-003536-003537-003538  003532  003532-003533-003534-003535  003533  003533-003534-003535-003536  003534  003534-003535-003536-003537  003535  003535-003536-003537-003538  003536  003537  003538  003540  003541  003541-003542-003543-003544  003541-003542-003543-003548  003541-003542-003547-003548  003541-003546-003547-003548  003542  003542-003543-003544-003545  003543  003543-003544-003545-003546  003544  003544-003545-003546-003547  003545  003545-003546-003547-003548  003546  003547  003548  003550  003551  003551-003552-003553-003554  003551-003552-003553-003558  003551-003552-003557-003558  003551-003556-003557-003558  003552  003552-003553-003554-003555  003553  003553-003554-003555-003556  003554  003554-003555-003556-003557  003555  003555-003556-003557-003558  003556  003557  003558  003560  003570  003580  003600  003610  003611  003612  003620  003621  003622  003630  003631  003631-003632-003633-003634  003631-003632-003633-003638  003631-003632-003637-003638  003631-003636-003637-003638  003632  003632-003633-003634-003635  003633  003633-003634-003635-003636  003634  003634-003635-003636-003637  003635  003635-003636-003637-003638  003636  003637  003638  003640  003641  003641-003642-003643-003644  003641-003642-003643-003648  003641-003642-003647-003648  003641-003646-003647-003648  003642  003642-003643-003644-003645  003643  003643-003644-003645-003646  003644  003644-003645-003646-003647  003645  003645-003646-003647-003648  003646  003647  003648  003650  003651  003651-003652-003653-003654  003651-003652-003653-003658  003651-003652-003657-003658  003651-003656-003657-003658  003652  003652-003653-003654-003655  003653  003653-003654-003655-003656  003654  003654-003655-003656-003657  003655  003655-003656-003657-003658  003656  003657  003658  004000  004100  004110  004200  004210  004310  004320  004320-004500-004600  004410  004420  004421  004422  004430  004440  004450  004460  004460-004470  004461  004461-004471  004462  004462-004472  004470  004471  004472  004500  004510  004520  004610  004611  004612  004621  004622  004710  004720  004810  004820  004821  004821-004823  004822  004823  005000  005000-006000-007000  005100  005100-005200  005110  005120  005130  005140  005141  005142  005200  005210  005211  005212  005220  005221  005222  005230  005231  005232  005300  005300-005400-005500-005610-005620-008320  005310  005311  005312  005320  005321  005322  005330  005331  005332  005400  005410  005411  005412  005420  005421  005422  005430  005431  005432  005500  005510  005511  005512  005520  005521  005522  005530  005531  005532  005540  005541  005542  005600  005610  005611  005612  005620  005621  005622  005630  006000  006100  006110  006110-006120-006130-006140-006170-006180-006300-006410-006420-006450-006460-006570-006610-006620-006630-006730-006740-006750-006820-006830-006840-007110  006111  006112  006120  006121  006122  006130  006131  006131-006132  006132  006133  006133-006134-006135  006134  006135  006140  006141  006141-006142  006142  006143  006143-006144  006144  006150  006150-006160-006200  006151  006151-006152  006152  006153  006153-006154  006154  006160  006161  006162  006170  006171  006172  006180  006200  006210  006211  006211-006212-006213  006212  006213  006214  006214-006215  006215  006220  006221  006222  006230  006231  006232  006240  006241  006242  006250  006260  006270  006271  006272  006300  006310  006311  006312  006320  006330  006340  006350  006360  006361  006362  006400  006410  006411  006412  006420  006421  006422  006430  006430-006440-006510-006520-006530-006540-006550-006560-007720-007730-007800  006431  006432  006440  006450  006460  006510  006520  006530  006540  006550  006551  006551-006552  006552  006553  006560  006561  006561-006562  006562  006570  006571  006572  006610  006620  006630  006631  006632  006633  006634  006635  006640  006640-006650-006660-006670-006680-006710-006720-006760-006770-006810-006850-006860-006870-006880-007140-007300-007410-007420-007430-007440-007450-007510-007520-007530-007540-007550-007560-007570  006641  006642  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006820  006821  006822  006830  006831  006832  006840  006850  006860  006870  006880  007000  007100  007110  007110-007120-007130-007150-007160-007170-007180-007190-007200-007460-007580-007590-007600  007111  007112  007120  007130  007140  007150  007160  007170  007180  007190  007200  007210  007220  007230  007300  007310  007320  007330  007340  007350  007360  007370  007380  007400  007410  007410-007430-007440-007450-007560-007570  007420  007430  007440  007450  007460  007460-007580-007590-007600  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007640  007641  007642  007650  007651  007652  007660  007661  007662  007670  007680  007710  007720  007730  007731  007732  007810  007820  007830  007831  007832  007840  007850  007860  007870  008000  008100  008100-008310-008400  008110  008111  008112  008113  008114  008115  008116  008200  008210  008220  008300  008310  008311  008312  008313  008320  008410  008411  008412  008412-008413  008413  008510  008610  008620-008630-008640  008630  008710  010000  010000-020000  010000-020000-031000-032000-034000-035000-036000-037000-041000-043000-044000-045000-046000  010001  010002  010003  010004  010005  010006  010007  010008  010009  010010  010011  010012  010013  010014  010015  010016  010017  010018  010019  010020  010021  010021-020011-030005  010022  010023  010024  010025  010026  010027  011000-012000-013000  014000  014600  020000  020001  020002  020003  020004  020005  020006  020007  020008  020009  020010  020012  020013  020014  020015  020016  020017  021100-021300-025300-025400  021200-021400-022100  022000  022200-022300-022400  023100-023300-023400  023200-024100-024200  025000  025100-025200-025500-025600-025700  026000  027200-027300-027400  027500-027600-027700  028000  029000  029100-029200  029300  029400  029500  029600  029700  030000  030000-097910  030001  030002  030003  030004  031000-032000-034000-035000-036000-037000  031100-031400-031500-031800-031900-032200-032300-032400-032500-032600-032700-032800-034300-034400-034700-037000  033000-038000-039000  034500-034600-035000-036000-037600-037700  036900  038700  040000  040001  040001-040002-040003-040004-040005-040006-040007-040008-040010-040012-040013-040014-040015  040002  040003  040004  040005  040006  040007  040008  040010  040011  040012  040013  040014  040015  040016  040017  040018  040019  040022  040023  040024  040025  040026  040027  040028  040029  040030  040031  040032  040033  040034  040035  040036  040037  040039  040040  040041  040042  040043  040044  040045  040046  040047  040048-040049-040050-040051-040052-040053-040054-040055-040056-040057-040058-040059-040060-040061-040062-040063-040064-040065-040066-040067  040068  050000  050001  050002  060000  060001  060002  060003  060004  061000-062000-063000-064000-065000-066100-066200-066300-067000-068000  066400  066400-070000  070000  070001  070002  070003  070004  070005  070006  070008  070011  070013  070015  070019  070020  070021  075260  080000  080004  080005  080006-080007-080013-080014-080016-080017-080019-080045-081100-081200-081400-081500-082100-082200-082300-082400-082500-082610-082630-082640-082650-082700-082800-083000-084000-085000-086000-087000-088000-089100-089200-089300-089400-089500-089600  080010  080011  080012  080015  080017-080019-088000-089300-089400-089500-089600-091000-092000-093000  080022  080024  080025  080037  080038  080039  080042  080043  080044  080045  080046  080047  081100-081200-082100-082200-089100-089200  081210  081220  081410  081420  082510  082520  082530  082610  082620  082630  082640  082660  082711  082712  082713  082714  082721  082722  082723  083100-083300-083400-083500-083600  088300  088400  088500  088600  088700  089110  089120  089210  089220  089400  089500  089700  089800  090000  090001  090002  090003  090004  090005  090006  090007  090008  090009  091000-092000-093000  091800  092100  092200  092300  092500  092600  092700  093500  093600  093700  094000-095000-096000  094100  094700  094730  094800  095000  095100  095800  096100  096200  096220  096300  096320  096410  096510  096560  097000-098000-099000  097100  097120  097200  097220  097300  097320  097330  097400  097430  097500  097520  097600  097640  097700  097740  097800  097820  098100  098140  098150  098200  098260  098300  098400  098500  098510  098520  098530  099100  099120  099200  099220]]
+[2016-02-03 00:48:01 257] [WARN ] [MSC-DMS-Decoder-NinJo-Alert2:main-1] [ZoneLookup] [The following CLC's could not be found; therefore  no polygonal coordinates can be associated with it: [040001-040002-040003-040004-040005-040006-040007-040008-040010-040012-040013-040014-040015  040000  030000  080000  091000-092000-093000  050000  097600-097730-097810  060000  070000  098000  031100-031400-031500-031800-031900-032200-032300-032400-032500-032600-032700-032800-034300-034400-034700-037000  082712  082722  001110  001120  001130  001140  001150  001160  001170  001180  001210  001220  001230  001240  001250  001260  001270  001280  001310  001320  002120  002210  002220  002310  002320  002410  002420  002510  002610  002620  002710  002720  002810  002820  002910  002920  003110  003120  003140  003150  003160  003170  003210  003220  003230  003240  003250  003260  003270  003280  003290  003310  003320  003330  003340  003350  003360  003370  003380  003410  003420  003430  003440  003450  003460  003470  003510  003520  003530  003540  003550  003560  003570  003580  003610  003620  003630  003640  003650  004110  004210  004310  004320  004410  004420  004430  004440  004450  004460  004470  004710  004720  004810  005110  005120  005130  005140  005210  005220  005230  005310  005320  005330  005410  005420  005430  005510  005520  005530  005540  005610  005620  005630  006110  006120  006130  006140  006150  006160  006170  006180  006210  006220  006230  006240  006250  006260  006270  006310  006320  006330  006340  006350  006360  006410  006420  006430  006440  006450  006460  006510  006520  006530  006540  006550  006560  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006820  006830  006840  006850  006860  006870  006880  007110  007120  007130  007140  007150  007160  007170  007180  007190  007210  007220  007230  007310  007320  007330  007340  007350  007360  007370  007380  007410  007420  007430  007440  007450  007460  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007640  007650  007660  007670  007680  007710  007720  007730  007810  007820  007830  007840  007850  007860  007870  008110  008210  008220  008310  008320  008410  008510  008610  008630  008710  080042  080043  090001  090002  000020  000021  080044  080022  080011  080005  080010  080012  080004  080024  080025  060001  060002  060003  060004  050001  050002  070002  070001  070013  070006  070015  070011  070005  010001  010008  010007  010011  010027  010002  010012  010006  010005  010004  010009  010003  010010  020001  020003  020004  030001  030002  040001  040003  040004  040005  040006  040007  040008  040002  030003  040010  040016  040017  040018  040019  040022  040023  020002  090003  010015  010013  010014  090004  090005  090006  040024  040012  040025  040026  040027  040028  040029  040030  040014  040031  040032  040033  040034  040035  040036  040037  040039  040040  040041  040042  040043  040044  040015  040045  040046  040047  040013  040011  080015  070008  070020  070021  070019  070004  070003  020012  020005  010024  010025  010026  020016  020015  020014  020013  080038  010023  010016  010017  020006  020007  010020  030004  080037  080038  080039  080037  030004  020016  010020  080039  080045  090008  090009  080047  090007  000001  000002  000003  014600  029300  029400  029500  029600  029700  036900  038700  066400  075260  081210  081220  081410  081420  082510  082520  082610  082620  082630  082640  082711  082712  082713  082714  082721  082722  082723  088300  088400  088500  088600  088700  089110  089120  089210  089220  089400  089500  089700  089800  091800  092100  092200  092300  092500  092600  092700  093500  093600  093700  094100  094730  094800  095100  095800  096100  096220  096320  096410  096510  096560  097120  097220  097320  097330  097430  097520  097640  097740  097820  098140  098150  098260  098300  098400  098510  098520  098530  099120  099220  000005  000006  000007  000008  000009  000010  000011  000012  000013  000014  000015  000016  000017  000018  000019  001111  001112  001113  001120  001131  001132  001140  001150  001160  001170  001180  001211  001212  001213  001214  001220  001230  001241  001242  001250  001261  001262  001271  001272  001280  001311  001312  001321  001322  002121  002122  002123  002211  002212  002221  002222  002310  002320  002411  002412  002421  002422  002511  002512  002610  002620  002710  002720  002811  002812  002821  002822  002911  002912  002921  002922  003111  003112  003121  003122  003141  003142  003143  003144  003145  003146  003147  003148  003151  003152  003161  003162  003163  003164  003165  003166  003167  003168  003171  003172  003210  003220  003231  003232  003241  003242  003251  003252  003261  003262  003271  003272  003281  003282  003283  003284  003285  003286  003287  003288  003290  003311  003312  003321  003322  003331  003332  003341  003342  003351  003352  003353  003354  003355  003356  003357  003358  003361  003362  003371  003372  003373  003374  003375  003376  003377  003378  003381  003382  003383  003384  003385  003386  003387  003388  003411  003412  003421  003422  003431  003432  003441  003442  003451  003452  003461  003462  003471  003472  003473  003474  003475  003476  003477  003478  003511  003512  003521  003522  003523  003524  003525  003526  003527  003528  003531  003532  003533  003534  003535  003536  003537  003538  003541  003542  003543  003544  003545  003546  003547  003548  003551  003552  003553  003554  003555  003556  003557  003558  003560  003570  003580  003611  003612  003621  003622  003631  003632  003633  003634  003635  003636  003637  003638  003641  003642  003643  003644  003645  003646  003647  003648  003651  003652  003653  003654  003655  003656  003657  003658  004110  004210  004310  004320  004410  004421  004422  004430  004440  004450  004461  004462  004471  004472  004510  004520  004611  004612  004621  004622  004710  004720  004810  004821  004822  004823  005110  005120  005130  005141  005142  005211  005212  005221  005222  005231  005232  005311  005312  005321  005322  005331  005332  005411  005412  005421  005422  005431  005432  005511  005512  005521  005522  005531  005532  005541  005542  005611  005612  005621  005622  005630  006111  006112  006121  006122  006131  006132  006133  006134  006135  006141  006142  006143  006144  006151  006152  006153  006154  006161  006162  006171  006172  006180  006211  006212  006213  006214  006215  006221  006222  006231  006232  006241  006242  006250  006260  006271  006272  006311  006312  006320  006330  006340  006350  006361  006362  006411  006412  006421  006422  006431  006432  006440  006450  006460  006510  006520  006530  006540  006551  006552  006553  006561  006562  006571  006572  006610  006620  006631  006632  006633  006634  006635  006641  006642  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006821  006822  006831  006832  006840  006850  006860  006870  006880  007111  007112  007120  007130  007140  007150  007160  007170  007180  007190  007210  007220  007230  007310  007320  007330  007340  007350  007360  007370  007380  007410  007420  007430  007440  007450  007460  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007641  007642  007651  007652  007661  007662  007670  007680  007710  007720  007731  007732  007810  007820  007831  007832  007840  007850  007860  007870  008111  008112  008113  008114  008115  008116  008210  008220  008311  008312  008313  008320  008411  008412  008413  008510  008610  008710  000012  000013  000014  000015  000016  000017  000018  000019  005110  005140  006111  006112  006121  006122  006131-006132  006133-006134-006135  006141-006142  006143-006144  006151-006152  006153-006154  006161  006162  006171  006172  006180  006211-006212-006213  006214-006215  006271  006272  006311  006312  006320  006330  006340  006350  006360  006410  006420  006430  006440  006450  006460  006510  006520  006530  006540  006550  006560  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006821  006822  006831  006832  006840  006850  006860  006870  006880  007140  007310  007320  007330  007340  007350  007360  007370  007380  007410  007420  007430  007440  007450  007460  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007640  007650  007660  007670  007680  007710  007720  007730  007810  007820  007830  007840  007850  007860  007870  002100  002200  002300  002400  002500  002600  002700  002800  002900  003111  003112  003121  003122  003140  003150  003160  003170  003210  003220  003230  003240  003250  003260  003270  003280  003290  003310  003320  003330  003340  003350  003360  003370  003380  003410  003420  003430  003440  003450  003460  003470  003510  003520  003530  003540  003550  003560  003570  003580  003610  003620  003630  003640  003650  004110  005110  005120  005130  005140  005210  005220  005230  005310  005320  005330  005410  005420  005430  005510  005520  005530  005540  005610  005620  006110  006120  006130  006140  006150  006160  006170  006180  006210  006220  006230  006240  006250  006260  006270  006310  006320  006330  006340  006350  006360  006410  006420  006430  006440  006450  006460  006510  006520  006530  006540  006550  006560  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006820  006830  006840  006850  006860  006870  006880  007320  007330  007340  007350  007360  007370  007410  007420  007430  007440  007450  007530  007540  007550  007560  007710  007720  007730  007810  007820  007830  007840  007850  007860  007870  002121  002122  002123  002211-002221  002212-002222  002300  002411-002421  002412-002422  002511  002512  002600  002700  002811-002821  002812-002822  002911-002921  002912-002922  003111  003112  003121  003122  003141-003142-003143-003144  003141-003142-003143-003148  003141-003142-003147-003148  003141-003146-003147-003148  003142-003143-003144-003145  003143-003144-003145-003146  003144-003145-003146-003147  003145-003146-003147-003148  003151  003152  003161-003162-003163-003164  003161-003162-003163-003168  003161-003162-003167-003168  003161-003166-003167-003168  003162-003163-003164-003165  003163-003164-003165-003166  003164-003165-003166-003167  003165-003166-003167-003168  003171  003172  003210  003220  003231  003232  003241  003242  003251  003252  003261  003262  003271  003272  003281-003282-003283-003284  003281-003282-003283-003288  003281-003282-003287-003288  003281-003286-003287-003288  003282-003283-003284-003285  003283-003284-003285-003286  003284-003285-003286-003287  003285-003286-003287-003288  003290  003311  003312  003321  003322  003331  003332  003341  003342  003351-003352-003353-003354  003351-003352-003353-003358  003351-003352-003357-003358  003351-003356-003357-003358  003352-003353-003354-003355  003353-003354-003355-003356  003354-003355-003356-003357  003355-003356-003357-003358  003361  003362  003371-003372-003373-003374  003371-003372-003373-003378  003371-003372-003377-003378  003371-003376-003377-003378  003372-003373-003374-003375  003373-003374-003375-003376  003374-003375-003376-003377  003375-003376-003377-003378  003381-003382-003383-003384  003381-003382-003383-003388  003381-003382-003387-003388  003381-003386-003387-003388  003382-003383-003384-003385  003383-003384-003385-003386  003384-003385-003386-003387  003385-003386-003387-003388  003411  003412  003421  003422  003431  003432  003441  003442  003451  003452  003461  003462  003471-003472-003473-003474  003471-003472-003473-003478  003471-003472-003477-003478  003471-003476-003477-003478  003472-003473-003474-003475  003473-003474-003475-003476  003474-003475-003476-003477  003475-003476-003477-003478  003511  003512  003521-003522-003523-003524  003521-003522-003523-003528  003521-003522-003527-003528  003521-003526-003527-003528  003522-003523-003524-003525  003523-003524-003525-003526  003524-003525-003526-003527  003525-003526-003527-003528  003531-003532-003533-003534  003531-003532-003533-003538  003531-003532-003537-003538  003531-003536-003537-003538  003532-003533-003534-003535  003533-003534-003535-003536  003534-003535-003536-003537  003535-003536-003537-003538  003541-003542-003543-003544  003541-003542-003543-003548  003541-003542-003547-003548  003541-003546-003547-003548  003542-003543-003544-003545  003543-003544-003545-003546  003544-003545-003546-003547  003545-003546-003547-003548  003551-003552-003553-003554  003551-003552-003553-003558  003551-003552-003557-003558  003551-003556-003557-003558  003552-003553-003554-003555  003553-003554-003555-003556  003554-003555-003556-003557  003555-003556-003557-003558  003560  003570  003580  003611  003612  003621  003622  003631-003632-003633-003634  003631-003632-003633-003638  003631-003632-003637-003638  003631-003636-003637-003638  003632-003633-003634-003635  003633-003634-003635-003636  003634-003635-003636-003637  003635-003636-003637-003638  003641-003642-003643-003644  003641-003642-003643-003648  003641-003642-003647-003648  003641-003646-003647-003648  003642-003643-003644-003645  003643-003644-003645-003646  003644-003645-003646-003647  003645-003646-003647-003648  003651-003652-003653-003654  003651-003652-003653-003658  003651-003652-003657-003658  003651-003656-003657-003658  003652-003653-003654-003655  003653-003654-003655-003656  003654-003655-003656-003657  003655-003656-003657-003658  004110  005110  005120  005130  005141  005142  005211  005212  005221  005222  005231  005232  005311  005312  005321  005322  005331  005332  005411  005412  005421  005422  005431  005432  005511  005512  005521  005522  005531  005532  005541  005542  005611  005612  005621  005622  006111  006112  006121  006122  006131-006132  006133-006134-006135  006141-006142  006143-006144  006151-006152  006153-006154  006161  006162  006171  006172  006180  006211-006212-006213  006214-006215  006221  006222  006231  006232  006241  006242  006250  006260  006271  006272  006311  006312  006320  006330  006340  006350  006361  006362  006411  006412  006421  006422  006430  006440  006450  006460  006510  006520  006530  006540  006551-006552  006553  006561-006562  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006821  006822  006831  006832  006840  006850  006860  006870  006880  007320  007330  007340  007350  007360  007370  007410  007420  007430  007440  007450  007530  007540  007550  007560  007710  007720  007731  007732  007810  007820  007830  007840  007850  007860  007870  005110  005140  006111  006112  006121  006122  006131-006132  006133-006134-006135  006141-006142  006143-006144  006151-006152  006153-006154  006161  006162  006171  006172  006180  006211-006212-006213  006214-006215  006271  006272  006311  006312  006320  006330  006340  006350  006360  006410  006420  006430  006440  006450  006460  006510  006520  006530  006540  006550  006560  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006821  006822  006831  006832  006840  006850  006860  006870  006880  007140  007310  007320  007330  007340  007350  007360  007370  007380  007410  007420  007430  007440  007450  007460  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007640  007650  007660  007670  007680  007710  007720  007730  007810  007820  007831  007832  007840  007850  007860  007870  000012  000013  000014  000015  000016  000017  000018  000019  001110  001120  001130  001140  001150  001160  001170  001180  001210  001220  001230  001240  001250  001260  001270  001310  001320  002210  002310  002410  002510  002610  002710  002810  002910  003111  003112  003121  003122  003140  003150  003160  003170  003210  003220  003230  003240  003250  003260  003270  003280  003290  003310  003320  003330  003340  003350  003360  003370  003380  003410  003420  003430  003440  003450  003460  003470  003510  003520  003530  003540  003550  003610  003620  003630  003640  003650  004110  004210  004310  004320  004410  004421  004422  004430  004440  004450  004461-004471  004510  004610  004710  004720  004810  004821-004823  005110  005120  005130  005140  005210  005220  005230  005310  005320  005330  005410  005420  005430  005510  005520  005530  005540  005610  005620  006110  006120  006130  006140  006150  006160  006170  006180  006210  006220  006230  006240  006250  006260  006270  006310  006320  006330  006340  006350  006360  006410  006420  006430  006440  006450  006460  006510  006520  006530  006540  006550  006560  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006820  006830  006840  006850  006860  006870  006880  007110  007120  007130  007140  007150  007160  007170  007180  007190  007210  007220  007230  007310  007320  007330  007340  007350  007360  007370  007380  007410  007420  007430  007440  007450  007460  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007640  007650  007660  007670  007680  007710  007720  007730  007810  007820  007830  007840  007850  007860  007870  008111  008112  008113  008114  008115  008116  008310  008320  008410  001111  001112  001113  001120  001131  001132  001140  001150  001160  001170  001180  001211-001212  001211-001214  001212-001213  001213-001214  001220  001230  001241  001242  001250  001261  001262  001271  001272  001311  001312  001321  001322  002211  002212  002310  002411  002412  002511  002512  002610  002710  002811  002812  002911  002912  003111  003112  003121  003122  003141-003142-003143-003144  003141-003142-003143-003148  003141-003142-003147-003148  003141-003146-003147-003148  003142-003143-003144-003145  003143-003144-003145-003146  003144-003145-003146-003147  003145-003146-003147-003148  003151  003152  003161-003162-003163-003164  003161-003162-003163-003168  003161-003162-003167-003168  003161-003166-003167-003168  003162-003163-003164-003165  003163-003164-003165-003166  003164-003165-003166-003167  003165-003166-003167-003168  003171  003172  003210  003220  003231  003232  003241  003242  003251  003252  003261  003262  003271  003272  003281-003282-003283-003284  003281-003282-003283-003288  003281-003282-003287-003288  003281-003286-003287-003288  003282-003283-003284-003285  003283-003284-003285-003286  003284-003285-003286-003287  003285-003286-003287-003288  003290  003311  003312  003321  003322  003331  003332  003341  003342  003351-003352-003353-003354  003351-003352-003353-003358  003351-003352-003357-003358  003351-003356-003357-003358  003352-003353-003354-003355  003353-003354-003355-003356  003354-003355-003356-003357  003355-003356-003357-003358  003361  003362  003371-003372-003373-003374  003371-003372-003373-003378  003371-003372-003377-003378  003371-003376-003377-003378  003372-003373-003374-003375  003373-003374-003375-003376  003374-003375-003376-003377  003375-003376-003377-003378  003381-003382-003383-003384  003381-003382-003383-003388  003381-003382-003387-003388  003381-003386-003387-003388  003382-003383-003384-003385  003383-003384-003385-003386  003384-003385-003386-003387  003385-003386-003387-003388  003411  003412  003421  003422  003431  003432  003441  003442  003451  003452  003461  003462  003471-003472-003473-003474  003471-003472-003473-003478  003471-003472-003477-003478  003471-003476-003477-003478  003472-003473-003474-003475  003473-003474-003475-003476  003474-003475-003476-003477  003475-003476-003477-003478  003511  003512  003521-003522-003523-003524  003521-003522-003523-003528  003521-003522-003527-003528  003521-003526-003527-003528  003522-003523-003524-003525  003523-003524-003525-003526  003524-003525-003526-003527  003525-003526-003527-003528  003531-003532-003533-003534  003531-003532-003533-003538  003531-003532-003537-003538  003531-003536-003537-003538  003532-003533-003534-003535  003533-003534-003535-003536  003534-003535-003536-003537  003535-003536-003537-003538  003541-003542-003543-003544  003541-003542-003543-003548  003541-003542-003547-003548  003541-003546-003547-003548  003542-003543-003544-003545  003543-003544-003545-003546  003544-003545-003546-003547  003545-003546-003547-003548  003551-003552-003553-003554  003551-003552-003553-003558  003551-003552-003557-003558  003551-003556-003557-003558  003552-003553-003554-003555  003553-003554-003555-003556  003554-003555-003556-003557  003555-003556-003557-003558  003611  003612  003621  003622  003631-003632-003633-003634  003631-003632-003633-003638  003631-003632-003637-003638  003631-003636-003637-003638  003632-003633-003634-003635  003633-003634-003635-003636  003634-003635-003636-003637  003635-003636-003637-003638  003641-003642-003643-003644  003641-003642-003643-003648  003641-003642-003647-003648  003641-003646-003647-003648  003642-003643-003644-003645  003643-003644-003645-003646  003644-003645-003646-003647  003645-003646-003647-003648  003651-003652-003653-003654  003651-003652-003653-003658  003651-003652-003657-003658  003651-003656-003657-003658  003652-003653-003654-003655  003653-003654-003655-003656  003654-003655-003656-003657  003655-003656-003657-003658  004110  004210  004310  004320  004410  004421  004422  004430  004440  004450  004461  004471  004510  004710  004720  004810  004821-004823  005110  005120  005130  005141  005142  005211  005212  005221  005222  005231  005232  005311  005312  005321  005322  005331  005332  005411  005412  005421  005422  005431  005432  005511  005512  005521  005522  005531  005532  005541  005542  005611  005612  005621  005622  006111  006112  006121  006122  006131-006132  006133-006134-006135  006141-006142  006143-006144  006151-006152  006153-006154  006161  006162  006171  006172  006180  006211-006212-006213  006214-006215  006221  006222  006231  006232  006241  006242  006250  006260  006271  006272  006311  006312  006320  006330  006340  006350  006361  006362  006411  006412  006421  006422  006431  006432  006440  006450  006460  006510  006520  006530  006540  006551-006552  006553  006561-006562  006570  006610  006620  006630  006640  006650  006660  006670  006680  006710  006720  006730  006740  006750  006760  006770  006810  006821  006822  006831  006832  006840  006850  006860  006870  006880  007110  007120  007130  007140  007150  007160  007170  007180  007190  007210  007220  007230  007310  007320  007330  007340  007350  007360  007370  007380  007410  007420  007430  007440  007450  007460  007510  007520  007530  007540  007550  007560  007570  007580  007590  007610  007620  007630  007640  007650  007660  007670  007680  007710  007720  007731  007732  007810  007820  007831  007832  007840  007850  007860  007870  008111  008112  008113  008114  008115  008311  008312  008313  008320  008411  008412-008413  003140-003150-003160-003170-003210-003220-003230-003240-003250-003260-003270-003280-003310-003320-003330-003340-003350-003370-003380  008100-008310-008400  002210-002310-002410-002510-002710-002810-002910-004460-004470  003110-003120-004310-004410-004420-004430-004440-004450  001100-001210-001220-001230-001240-001250-001260-001270-001300  008620-008630-008640  003360-003400-003520-003530-003540-003550  007110-007120-007130-007150-007160-007170-007180-007190-007200-007460-007580-007590-007600  003290  006430-006440-006510-006520-006530-006540-006550-006560-007720-007730-007800  006110-006120-006130-006140-006170-006180-006300-006410-006420-006450-006460-006570-006610-006620-006630-006730-006740-006750-006820-006830-006840-007110  003510-003600-004100  005300-005400-005500-005610-005620-008320  005100-005200  006150-006160-006200  004210  007410-007430-007440-007450-007560-007570  002610-004700-004810-004821-004823  004320-004500-004600  080026-080027-080028-080029-080030-080031-080032-080033-090034-080035-080036  010016  010017  010020  010023  020005  020006  020007  020017  080037  080038  080039  010016  010017  010020  010023  020005  020006  020007  030004  080037  080038  080039  010024  010025  010026  020013  020014  020015  020016  010024  010025  010026  020013  020014  020015  020016  081210  081220  081410  081420  089110  089120  089210  089220  010001  010002  010003  010004  010005  010006  010007  010008  010009  010010  010011  010012  010013  010014  010015  010027  020001  020002  020003  020004  030001  030002  030003  040001  040002  040003  040004  040005  040006  040007  040008  040010  040012  040013  040014  040015  040068  050001  050002  060001  060002  060003  060004  070001  070002  070003  070004  070005  070006  070008  070011  070013  070015  070019  070020  070021  080004  080005  080010  080011  080012  080015  080022  080024  080025  080046  090003  090004  090005  090006  040016  040017  040018  040019  040022  040023  040024  040025  000005-000006-006212-006214  000007-006151-006153-006211  000008-000009-006134-006141-006143  000010-006131-006133]]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-pirep                         (msc-dms-decoder-pirep.log)
+
+   Mantis #9142 (WARN - StationFinder) : 22
+   Mantis #9143 (WARN - AbstractGroupWV|AbstractGroupTB|GroupTP|AbstractGroupIC|USGroupOV|GroupSK|GroupFL|GroupOV) : 55  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-ra                            (msc-dms-decoder-ra.log)
+
+   Mantis #9144 (ERROR - ComponentController) : 4
+   Mantis #9145 (WARN - RASensorHandler) : 24  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-rwin                          (msc-dms-decoder-rwin.log)
+
+   WARNINGS: 5611
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   TranslationDAO - WARN:  5611
+
+Example Logs:
+   
+   TranslationDAO - WARN:
+
+[2016-02-03 02:21:05 890] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=1 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:05 893] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=7 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:05 896] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=7 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=2 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 037] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=2 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 040] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=7 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 043] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=2 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=2 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 204] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=1 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 208] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=7 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 212] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=pavement name=pavement_surface-status value=7 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=pavement-state-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=2 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+[2016-02-03 02:21:06 383] [WARN ] [MSC-DMS-Decoder-RWIN:1.thread1] [TranslationDAO] [Using element-mapping:/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml - Unable to translate IncomingElement(mappingId=<null> inPkgId=<null> group=precipitation name=precipitation_moisture-on-sensor value=2 unit= codeSrc=<null> codeType=<null> qualifiers=(IncomingQualifier(group=<null> name=categorical-table value=precipitation-indicator-NTCIP unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)  IncomingQualifier(group=<null> name=index value=1 unit=unitless codeSrc=<null> codeType=<null> assocName=<null>)))]
+
+
+               
+
+   Mantis #9283 (WARN - RWINDecoder) : 368  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-synop                         (msc-dms-decoder-synop.log)
+
+   Mantis #8760 (ERROR - ComponentController) : 4
+   Mantis #6324 (WARN - TranslationDAO) : 4
+   Mantis #9148 (WARN - AbstractSectionDecode) : 1104
+   Mantis #9149 (WARN - SynopDecoder) : 44
+   Mantis #9150 (ERROR - SynopDecoder) : 61
+   Mantis #9172 (WARN - AbstractTokenDecode) : 7742
+   Mantis #9215 (ERROR - SynopDecoder) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-taf                           (msc-dms-decoder-taf.log)
+
+   Mantis #9152 (ERROR - ComponentController) : 16
+   Mantis #9153 (ERROR - TAFHandler) : 41
+   Mantis #9154 (WARN - TAFHandler) : 410
+   Mantis #9155 (WARN - TAFDecoder) : 35
+   Mantis #9284 (ERROR - TAFHandler) : 1
+   Mantis #9606 (WARN - PointObservation|CustomFileWriter|WebWrite) : 10  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-upperair                      (msc-dms-decoder-upperair.log)
+
+   Mantis #3305 (ERROR - UpperAirDecoder) : 14
+   Mantis #9156 (WARN - SectionPilot4) : 2
+   Mantis #9156 (WARN - SectionTemp8) : 4  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-decoder-warningsmfile                 (msc-dms-decoder-warningsmfile.log)
+
+   Mantis #9175 (WARN - ZoneLookup) : 2  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-ascii-synop                   (msc-dms-encoder-ascii-synop.log)
+
+   WARNINGS: 0
+   ERRORS: 14540
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  6869
+   FM12Section1 - ERROR:  361
+   FM12SynopHandler - ERROR:  7310
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 00:46:25 026] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:7043b79:wqr:orig:20160203004609.919> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 112] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:7051163:wsf:orig:20160203004609.929> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 325] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:8105210:asf:orig:20160203004609.940> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 357] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:1026562:voq:orig:20160203004609.919> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 398] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:1015630:voo:orig:20160203004616.191> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 476] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:7040442:gbc:orig:20160203004616.303> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 529] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:7054096:wst:orig:20160203004616.184> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 594] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:1018598:wyj:orig:20160203004616.287> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 629] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:1108824:wwa:orig:20160203004623.912> Component Exception: The data cannot be sourced from the CA/RA type.]
+[2016-02-03 00:46:25 640] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [ComponentController] [<msc:observation:atmospheric:surface_weather:ca-1.1-ascii:product_synop_tac-xml-2.0:201601282100:1063461:wlp:orig:20160203004625.567> Component Exception: The data cannot be sourced from the CA/RA type.]
+
+   FM12Section1 - ERROR:
+
+[2016-02-03 05:09:51 243] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 560-9]
+[2016-02-03 05:09:51 251] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 560-5]
+[2016-02-03 05:09:51 260] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-12]
+[2016-02-03 05:09:56 269] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 560-8]
+[2016-02-03 05:09:56 273] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 580-8]
+[2016-02-03 05:09:56 276] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-20]
+[2016-02-03 05:09:56 280] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-23]
+[2016-02-03 05:09:56 283] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 56-29]
+[2016-02-03 05:09:56 287] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 580-4]
+[2016-02-03 05:09:56 291] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12Section1] [The token generator: class ca.gc.ec.dms.encoder.ascii.synop.token.common.Token5appp generated a token string that is invalid: 58-12]
+
+   FM12SynopHandler - ERROR:
+
+[2016-02-03 00:46:25 018] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-7043b79-wqr-orig]
+[2016-02-03 00:46:25 108] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-7051163-wsf-orig]
+[2016-02-03 00:46:25 308] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-8105210-asf-orig]
+[2016-02-03 00:46:25 349] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-1026562-voq-orig]
+[2016-02-03 00:46:25 396] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-1015630-voo-orig]
+[2016-02-03 00:46:25 474] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-7040442-gbc-orig]
+[2016-02-03 00:46:25 512] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-7054096-wst-orig]
+[2016-02-03 00:46:25 538] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-1018598-wyj-orig]
+[2016-02-03 00:46:25 622] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-1108824-wwa-orig]
+[2016-02-03 00:46:25 638] [ERROR] [MSC-DMS-Encoder-ASCII-SYNOP:1.thread1] [FM12SynopHandler] [Unable to find the correction levels for identity: msc-observation-atmospheric-surface_weather-ca-1.1-ascii-product_synop_tac-xml-2.0-201601282100-1063461-wlp-orig]
+
+
+               
+
+   Mantis #8346 (ERROR - ComponentController) : 481  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-bufr-bundle                   (msc-dms-encoder-bufr-bundle.log)
+
+   WARNINGS: 0
+   ERRORS: 5
+   FATALS: 0
+               
+Details:
+   
+   Bundle - ERROR:  5
+
+Example Logs:
+   
+   Bundle - ERROR:
+
+[2016-02-03 00:46:17 514] [ERROR] [Encoder-BUFR-Bundle] [Bundle] [Duplicate station found: 71716]
+[2016-02-03 00:46:17 514] [ERROR] [Encoder-BUFR-Bundle] [Bundle] [Duplicate station found: 71907]
+[2016-02-03 00:46:17 514] [ERROR] [Encoder-BUFR-Bundle] [Bundle] [Duplicate station found: 71731]
+[2016-02-03 00:46:17 515] [ERROR] [Encoder-BUFR-Bundle] [Bundle] [Duplicate station found: 71909]
+[2016-02-03 00:46:17 516] [ERROR] [Encoder-BUFR-Bundle] [Bundle] [Duplicate station found: 71618]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-bufr-xml2bufr                 (msc-dms-encoder-bufr-xml2bufr.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   AbstractValueHandler - ERROR:  1
+
+Example Logs:
+   
+   AbstractValueHandler - ERROR:
+
+[2016-02-03 12:06:19 865] [ERROR] [XML2BUFR] [AbstractValueHandler] [Invalid range for descriptor: 20011 received: 15 (15.000000) Expected between 0 and 14 Unable to set value]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-encoder-sa                            (msc-dms-encoder-sa.log)
+
+   Mantis #8189 (ERROR - SAHandler) : 122  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-enhanced-generic                      (msc-dms-enhanced-generic-ca.log)
+
+   WARNINGS: 5143
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   MinimumDerivationHandler - WARN:  4
+   AbstractDerivationHandler - WARN:  56
+   DMSMessageSummaryDerivationHandler - WARN:  2540
+   MaximumDerivationHandler - WARN:  4
+   GenericEnhanced - WARN:  2539
+
+Example Logs:
+   
+   MinimumDerivationHandler - WARN:
+
+[2016-02-03 04:19:17 155] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-02-03 04:19:17 162] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-02-03 12:01:23 938] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+[2016-02-03 12:01:23 939] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MinimumDerivationHandler] [Unable to calculate derivation value for: minimum_value_24h Error message: For input string: "MSNG"]
+
+   AbstractDerivationHandler - WARN:
+
+[2016-02-03 02:16:45 838] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 02:16:45 838] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 02:16:45 838] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 02:16:45 838] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 03:19:07 557] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 03:19:07 557] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 03:19:07 557] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 03:19:07 557] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 04:06:57 838] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+[2016-02-03 04:06:57 838] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [AbstractDerivationHandler] [Unable to generate Derivation Element for handler: max_wind_value_24h. Derivation value was Null.]
+
+   DMSMessageSummaryDerivationHandler - WARN:
+
+[2016-02-03 00:45:53 577] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: peak_wind_mm_value was missing. Unable to generate this section of the dms message summary.]
+[2016-02-03 00:48:15 917] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:48:39 678] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:51:12 688] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:51:48 742] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:52:36 749] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:52:39 129] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:55:21 751] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 00:57:43 641] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+[2016-02-03 01:00:36 102] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [DMSMessageSummaryDerivationHandler] [Token value map was not loaded properly. Map was missing config key: peak_wind_mm_value]
+
+   MaximumDerivationHandler - WARN:
+
+[2016-02-03 04:19:17 153] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-02-03 04:19:17 161] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-02-03 12:01:23 937] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+[2016-02-03 12:01:23 939] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [MaximumDerivationHandler] [Unable to calculate derivation value for: maximum_value_24h Error message: For input string: "MSNG"]
+
+   GenericEnhanced - WARN:
+
+[2016-02-03 00:48:15 917] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:48:39 678] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:51:12 688] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:51:48 742] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:52:36 749] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:52:39 129] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:55:21 751] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 00:57:43 641] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 01:00:36 102] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+[2016-02-03 01:01:07 552] [WARN ] [MSC-DMS-Enhanced-Generic_CA1.1:1.thread1] [GenericEnhanced] [dms_message_summary_value_1h is not valid. No derivation for this handler will occur for Mapping: CA_hourly_mapping.xml]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-enhanced-generic                      (msc-dms-enhanced-generic.log)
+
+   WARNINGS: 422
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   DMSMessageSummaryDerivationHandler - WARN:  2
+   GenericEnhanced - WARN:  420
+
+Example Logs:
+   
+   DMSMessageSummaryDerivationHandler - WARN:
+
+[2016-02-03 00:45:53 598] [WARN ] [MSC-DMS-Enhanced-Generic_Default:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: peak_wind_mm_value was missing. Unable to generate this section of the dms message summary.]
+[2016-02-03 00:45:53 602] [WARN ] [MSC-DMS-Enhanced-Generic_Default:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: peak_wind_mm_value was missing. Unable to generate this section of the dms message summary.]
+
+   GenericEnhanced - WARN:
+
+[2016-02-03 01:11:15 946] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:15 946] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:16 091] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:16 092] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:16 228] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:16 229] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:21 468] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:21 468] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:21 859] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [peak_wind_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+[2016-02-03 01:11:21 859] [WARN ] [MSC-DMS-Enhanced-Generic_Default:1.thread1] [GenericEnhanced] [mean_sea_level_pressure_value_1h is not valid. No derivation for this handler will occur for Mapping: bctran_mapping.xml]
+
+
+               
+
+   Mantis #9243 (WARN - MeanSeaLevelPressureDerivationHandler|AbstractDerivationHandler|WetBulbDerivationHandler) : 6  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-manager-sarwinds-surface              (msc-dms-manager-sarwinds-surface.log)
+
+   Mantis #9177 (ERROR - SARWindsSurfaceManager) : 2  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-metadata-updater                      (msc-dms-metadata-updater.log)
+
+   WARNINGS: 0
+   ERRORS: 0
+   FATALS: 1
+               
+Details:
+   
+   Controller - FATAL:  1
+
+Example Logs:
+   
+   Controller - FATAL:
+
+[2016-02-03 00:46:41 814] [FATAL] [MetadataUpdater:main-1] [Controller] [Unable to create Component controller]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-cap                                (msc-dms-pg-cap.log)
+
+   Mantis #9179 (WARN - ZoneLookup) : 2  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-cap-warp3                          (msc-dms-pg-cap-warp3.log)
+
+   WARNINGS: 0
+   ERRORS: 0
+   FATALS: 1
+               
+Details:
+   
+   Controller - FATAL:  1
+
+Example Logs:
+   
+   Controller - FATAL:
+
+[2016-02-03 00:46:35 696] [FATAL] [MSC-DMS-PG-CAP-WaRP3] [Controller] [Null Pointer thrown during initialization or configuration of controller]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-external-xml                       (msc-dms-pg-external-XML.log)
+
+   WARNINGS: 10
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  10
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-02-03 00:46:35 215] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_source code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:35 215] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_src code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:39 813] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_source code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:39 814] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_src code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:40 609] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_source code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:40 609] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_src code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:41 059] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_source code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:41 059] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_src code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:41 461] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_source code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+[2016-02-03 00:46:41 461] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=snow_depth unit=cm code source=null code type=null {group=classification name=data_type value=official unit=code code source=std_code_src code type=data_type assoc name=null} {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-5 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=5 unit=min code source=null code type=null assoc name=null} ]]
+
+
+               
+
+   Mantis #8710 (WARN - AbstractHandler) : 1734  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-bcfs.log)
+
+   WARNINGS: 0
+   ERRORS: 453
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  453
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 04:42:34 830] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_11-11-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:34 851] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_19-19-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:34 868] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_21-21-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:39 884] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_45-45-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:39 899] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_56-56-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:39 913] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_37-37-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:39 925] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_59-59-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:40 089] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_67-67-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:40 216] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_72-72-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+[2016-02-03 04:42:40 229] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-bcfs:1.thread1] [ComponentController] [<partners-observation-atmospheric-surface_weather-bc_forestry-1.1-ascii-decoded_qa-xml-2.0-201602030400-bc_wmb_75-75-orig-level_1> Component Runtime Exception: StringIndexOutOfBoundsException: String index out of range: -1 >> Stack Trace: 
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-ca.log)
+
+   WARNINGS: 0
+   ERRORS: 6
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  2
+   runtime - ERROR:  2
+   PGGenericXMLParser - ERROR:  2
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 11:00:27 884] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201602031100-3012240-nee-11-orig> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201602031100-3012240-nee-11-orig]
+[2016-02-03 13:00:45 367] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201602031300-3012240-nee-11-orig> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201602031300-3012240-nee-11-orig]
+
+   runtime - ERROR:
+
+[2016-02-03 11:00:27 873] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-02-03 13:00:45 363] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [runtime] [Error executing FreeMarker template]
+
+   PGGenericXMLParser - ERROR:
+
+[2016-02-03 11:00:27 883] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-02-03 13:00:45 367] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-ca1.1.log)
+
+   WARNINGS: 0
+   ERRORS: 12
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  4
+   runtime - ERROR:  4
+   PGGenericXMLParser - ERROR:  4
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 03:00:54 077] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030300-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030300-3012240-nee-11-orig-data_60]
+[2016-02-03 06:00:49 779] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030600-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030600-3012240-nee-11-orig-data_60]
+[2016-02-03 08:01:10 158] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030800-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030800-3012240-nee-11-orig-data_60]
+[2016-02-03 09:00:26 906] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030900-3012240-nee-11-orig-data_60> Component Exception: Unable to serialize to output xml for identity msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030900-3012240-nee-11-orig-data_60]
+
+   runtime - ERROR:
+
+[2016-02-03 03:00:54 066] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-02-03 06:00:49 774] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-02-03 08:01:10 157] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+[2016-02-03 09:00:26 904] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [runtime] [Error executing FreeMarker template]
+
+   PGGenericXMLParser - ERROR:
+
+[2016-02-03 03:00:54 076] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-02-03 06:00:49 779] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-02-03 08:01:10 158] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+[2016-02-03 09:00:26 906] [ERROR] [MSC-DMS-PG-Generic-NinJo-NSWOB-ca1.1:1.thread1] [PGGenericXMLParser] [Error while parsing the XML Template NSWOBTemplate.ftl The following has evaluated to null or missing:
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-navcan-complete.log)
+
+   WARNINGS: 219
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  219
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-02-03 01:03:30 495] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:03:30 713] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:05:07 685] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:06:39 780] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:07:15 212] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:07:15 397] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:07:15 630] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:07:20 832] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:07:20 951] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 01:07:21 201] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-complete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-navcan-incomplete.log)
+
+   WARNINGS: 3
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  3
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-02-03 07:08:00 549] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-incomplete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 09:08:13 086] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-incomplete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+[2016-02-03 11:04:57 911] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-navcan-incomplete:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: report_type and std type: report_type and incoming code value: LWIS]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-nws.log)
+
+   WARNINGS: 32
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  32
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-02-03 01:02:20 638] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: UP]
+[2016-02-03 01:02:20 639] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: UP]
+[2016-02-03 01:02:20 640] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: UP]
+[2016-02-03 01:02:20 640] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: UP]
+[2016-02-03 01:26:58 804] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -PLSN]
+[2016-02-03 01:26:58 804] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -PLSN]
+[2016-02-03 01:26:58 805] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -PLSN]
+[2016-02-03 01:26:58 805] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -PLSN]
+[2016-02-03 01:43:33 109] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: -TSSN]
+[2016-02-03 01:43:33 110] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-nws:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: -TSSN]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-wmo.log)
+
+   WARNINGS: 234
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  234
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-02-03 00:55:56 393] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: RESHUP]
+[2016-02-03 00:55:56 393] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: RESHUP]
+[2016-02-03 00:56:32 030] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: RERA]
+[2016-02-03 00:56:32 031] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_auto and std type: present_weather and incoming code value: RERA]
+[2016-02-03 01:08:31 239] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -DZFG]
+[2016-02-03 01:08:31 239] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -DZFG]
+[2016-02-03 01:08:31 239] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -DZFG]
+[2016-02-03 01:08:31 239] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -DZFG]
+[2016-02-03 01:55:56 265] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -SHSNRA]
+[2016-02-03 01:55:56 265] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-metar-wmo:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: metar and type: present_weather_manned and std type: present_weather and incoming code value: -SHSNRA]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-ra.log)
+
+   WARNINGS: 24
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   GenericNinjoNswobPGHandler - WARN:  24
+
+Example Logs:
+   
+   GenericNinjoNswobPGHandler - WARN:
+
+[2016-02-03 01:01:07 574] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030100/1161661/orig. Incoming station ID was: zcl]
+[2016-02-03 01:02:38 692] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030100/8402975/orig. Incoming station ID was: wzb]
+[2016-02-03 01:05:09 213] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030100/8204700/orig. Incoming station ID was: esa]
+[2016-02-03 02:01:51 103] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030200/3072662/orig. Incoming station ID was: pcp]
+[2016-02-03 03:05:08 509] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030300/8204700/orig. Incoming station ID was: esa]
+[2016-02-03 04:01:05 477] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030400/1161661/orig. Incoming station ID was: zcl]
+[2016-02-03 05:01:42 292] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030500/3072662/orig. Incoming station ID was: pcp]
+[2016-02-03 06:01:14 079] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030600/1161661/orig. Incoming station ID was: zcl]
+[2016-02-03 07:01:41 580] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030700/3072662/orig. Incoming station ID was: pcp]
+[2016-02-03 08:01:13 559] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-ra:1.thread1] [GenericNinjoNswobPGHandler] [No result found for query  aborting derivation. Query was: /data/msc/observation/atmospheric/surface_weather/ra-1.0-ascii/product_metar_unofficial-xml-2.0/201602030800/1161661/orig. Incoming station ID was: zcl]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-synop-buoy.log)
+
+   WARNINGS: 3994
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  3994
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-02-03 00:47:23 084] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:23 856] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:24 046] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:24 261] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:24 480] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:24 684] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:24 873] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:25 066] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:25 263] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+[2016-02-03 00:47:25 416] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-buoy:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 001855 and std type: wind_speed_source_unit and incoming code value: /]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-synop-ship.log)
+
+   WARNINGS: 2841
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementHandler - WARN:  2841
+
+Example Logs:
+   
+   ElementHandler - WARN:
+
+[2016-02-03 00:47:23 633] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:47:24 489] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:47:24 723] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:47:24 984] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:48:05 184] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:50:10 320] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:50:10 619] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:50:10 722] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004377 and std type: horizontal_visibility and incoming code value: //]
+[2016-02-03 00:50:55 862] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004677 and std type: present_weather and incoming code value: //]
+[2016-02-03 00:50:55 862] [WARN ] [MSC-DMS-PG-Generic-NinJo-NSWOB-synop-ship:1.thread1] [ElementHandler] [Unable to get the substitution value using input code src: wmo_tac and type: 004677 and std type: present_weather and incoming code value: //]
+
+
+               
+
+   Mantis #XXXX (ERROR - ComponentController) : 9
+   Mantis #XXXX (ERROR - runtime) : 9
+   Mantis #XXXX (ERROR - PGGenericXMLParser) : 9  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-mfile-warp3                        (msc-dms-pg-mfile-warp3.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   CustomFileWriter - WARN:  1
+
+Example Logs:
+   
+   CustomFileWriter - WARN:
+
+[2016-02-03 00:45:54 347] [WARN ] [MSC-DMS-PG-MFile-WaRP3:main-1] [CustomFileWriter] [(file-dms-importer-bulletin) Using default file naming due to errors parsing: conf/proper.filename.xml: Can not find configuration at: conf/proper.filename.xml]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-amdar                        (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-aqhi                         (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-aviation-warning             (msc-dms-pg-ninjo-aviation_warning_us.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   NinJoUSAviationWarningPG - WARN:  1
+
+Example Logs:
+   
+   NinJoUSAviationWarningPG - WARN:
+
+[2016-02-03 03:28:31 797] [WARN ] [NinJo PG-Aviation_Warning:1.thread1] [NinJoUSAviationWarningPG] [No classification/forecast element found while searching for Flight Level value]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedca                   (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 4
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  2
+   NinJoEnhancedCaPG - WARN:  4
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 11:00:22 602] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201602031100-3012240-nee-11-orig> Component Exception: Could not process incoming message]
+[2016-02-03 13:00:44 507] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.0-ascii-decoded_enhanced-xml-2.0-201602031300-3012240-nee-11-orig> Component Exception: Could not process incoming message]
+
+   NinJoEnhancedCaPG - WARN:
+
+[2016-02-03 11:00:22 602] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+[2016-02-03 11:00:22 602] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+[2016-02-03 13:00:44 507] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve latitude for station ID: NEE]
+[2016-02-03 13:00:44 507] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCaPG] [Unable to retrieve longitude for station ID: NEE]
+
+
+               
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedca-panam             (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedca2                  (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 9
+   ERRORS: 4
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  4
+   NinJoEnhancedCa2PG - WARN:  8
+   ControllerFactory - WARN:  1
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 03:00:53 651] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030300-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+[2016-02-03 06:00:46 316] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030600-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+[2016-02-03 08:01:11 282] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030800-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+[2016-02-03 09:00:27 981] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_enhanced-xml-2.0-201602030900-3012240-nee-11-orig-data_60> Component Exception: Could not process incoming message]
+
+   NinJoEnhancedCa2PG - WARN:
+
+[2016-02-03 03:00:53 650] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-02-03 03:00:53 650] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+[2016-02-03 06:00:46 316] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-02-03 06:00:46 316] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+[2016-02-03 08:01:11 282] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-02-03 08:01:11 282] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+[2016-02-03 09:00:27 980] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve latitude for station ID: NEE]
+[2016-02-03 09:00:27 980] [WARN ] [NinJo PG:1.thread1] [NinJoEnhancedCa2PG] [Unable to retrieve longitude for station ID: NEE]
+
+   ControllerFactory - WARN:
+
+[2016-02-03 00:46:15 428] [WARN ] [NinJo PG:main-1] [ControllerFactory] [Could not find class component.name: component.name]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedra                   (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-enhancedwinide               (msc-dms-pg-ninjo.log)
+
+   Mantis #9183 (WARN - CodeSubstitution) : 1
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-forestryab                   (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-forestrybc                   (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-grca                         (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-hurricane2                   (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 0
+   ERRORS: 0
+   FATALS: 2
+               
+Details:
+   
+   ComponentController - FATAL:  1
+   Controller - FATAL:  1
+
+Example Logs:
+   
+   ComponentController - FATAL:
+
+[2016-02-03 00:45:55 394] [FATAL] [NinJo PG:main-1] [ComponentController] [Configuration failed due to: Component not set in Component Controller]
+
+   Controller - FATAL:
+
+[2016-02-03 00:45:55 394] [FATAL] [NinJo PG:main-1] [Controller] [Configuration Failed!]
+[2016-02-03 00:45:55 394] [FATAL] [NinJo PG:main-1] [ComponentController] [Configuration failed due to: Component not set in Component Controller]
+
+
+               
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-metar                        (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 0
+   ERRORS: 130
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  130
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 00:58:02 541] [ERROR] [NinJo PG:1.thread5] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030051:kqsf:orig:auto:20160203005757.911> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KQSF: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQSF  error code: 404]
+[2016-02-03 00:59:04 784] [ERROR] [NinJo PG:1.thread2] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030100:spjc:orig:man:20160203005903.967> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/SPJC: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/SPJC  error code: 404]
+[2016-02-03 01:05:25 529] [ERROR] [NinJo PG:1.thread2] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030100:leag:orig:auto:20160203010521.655> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG  error code: 404]
+[2016-02-03 01:09:49 504] [ERROR] [NinJo PG:1.thread4] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030100:oear:orig:man:20160203010947.471> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/OEAR: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/OEAR  error code: 404]
+[2016-02-03 01:21:52 606] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030120:kqel:orig:auto:20160203012149.207> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/KQEL: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/KQEL  error code: 404]
+[2016-02-03 01:26:29 639] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030120:etml:orig:auto:20160203012627.683> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/ETML: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/ETML  error code: 404]
+[2016-02-03 01:34:52 171] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030130:leag:orig:auto:20160203013450.112> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/LEAG: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/LEAG  error code: 404]
+[2016-02-03 01:41:48 637] [ERROR] [NinJo PG:1.thread4] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030130:vebn:orig:man:20160203014148.425> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/VEBN: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VEBN  error code: 404]
+[2016-02-03 01:42:53 385] [ERROR] [NinJo PG:1.thread3] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030100:verp:orig:man:20160203014251.480> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/VERP: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VERP  error code: 404]
+[2016-02-03 01:44:26 093] [ERROR] [NinJo PG:1.thread1] [ComponentController] [<wmo:observation:atmospheric:aviation:metar-1.1-ascii:parsed-xml-2.0:201602030130:verp:orig:man:20160203014422.545> Component Exception: Observation contained an invalid Station  rejecting Observation.Unable to find Station=/station/icao/VERP: Error occured while reading from InputStream: failed to GET from url: http://localhost:8180/station/icao/VERP  error code: 404]
+
+
+               
+
+   Mantis #9185 (WARN - ControllerFactory) : 5  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-ncawos                       (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-ncawos-panam                 (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ControllerFactory - WARN:  1
+
+Example Logs:
+   
+   ControllerFactory - WARN:
+
+[2016-02-03 00:46:01 210] [WARN ] [NinJo PG:main-1] [ControllerFactory] [Could not find class component.name: component.name]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-nchwos-panam                 (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ControllerFactory - WARN:  1
+
+Example Logs:
+   
+   ControllerFactory - WARN:
+
+[2016-02-03 00:45:59 008] [WARN ] [NinJo PG:main-1] [ControllerFactory] [Could not find class component.name: component.name]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-nchwos2                      (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-omnr                         (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-pirep                        (msc-dms-pg-ninjo.log)
+
+   Mantis #9183 (WARN - CodeSubstitution) : 6
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-rawbulletin                  (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 3  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-rmcq                         (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-rwin                         (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-synop                        (msc-dms-pg-ninjo.log)
+
+   Mantis #9188 (ERROR - ComponentController) : 13
+   Mantis #9189 (WARN - NinJoSynoPG) : 13
+   Mantis #9185 (WARN - ControllerFactory) : 3  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-taf                          (msc-dms-pg-ninjo.log)
+
+   Mantis #9190 (WARN - CustomFileWriter) : 3
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-trca                         (msc-dms-pg-ninjo.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ControllerFactory - WARN:  1
+
+Example Logs:
+   
+   ControllerFactory - WARN:
+
+[2016-02-03 00:45:56 457] [WARN ] [NinJo PG:main-1] [ControllerFactory] [Could not find class component.name: component.name]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-ninjo-upperair                     (msc-dms-pg-ninjo.log)
+
+   Mantis #9185 (WARN - ControllerFactory) : 1  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-pre-synop                          (msc-dms-pg-pre-synop.log)
+
+   Mantis #9207 (WARN - HwosExtractor) : 42  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-synop                              (msc-dms-pg-synop.log)
+
+   WARNINGS: 0
+   ERRORS: 5
+   FATALS: 0
+               
+Details:
+   
+   ComponentController - ERROR:  5
+
+Example Logs:
+   
+   ComponentController - ERROR:
+
+[2016-02-03 03:01:44 776] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201602030300-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201602030300/cykp]
+[2016-02-03 06:01:51 633] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201602030600-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201602030600/cykp]
+[2016-02-03 09:02:26 953] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201602030900-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201602030900/cykp]
+[2016-02-03 12:01:52 861] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201602031200-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201602031200/cykp]
+[2016-02-03 15:02:08 774] [ERROR] [MSC-DMS-PG-Synop:1.thread1] [ComponentController] [<nav_canada-observation-atmospheric-surface_weather-awos-2.0-binary-product_pre_syno-xml-2.0-201602031500-cykp> Component Exception: WMO ID is missing  please to create synop for identity nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/product_pre_syno-xml-2.0/201602031500/cykp]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-wxo-hourlyobs                      (msc-dms-pg-wxo-hourlyobs-msc.log)
+
+   Mantis #9191 (WARN - CustomFileWriter) : 2
+   Mantis #9983 (WARN - HourlyPG) : 405  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-wxo-hourlyobs                      (msc-dms-pg-wxo-hourlyobs-us.log)
+
+   WARNINGS: 2
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   Observation - WARN:  2
+
+Example Logs:
+   
+   Observation - WARN:
+
+
+
+
+               
+
+   Mantis #9193 (WARN - Observation) : 23  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-wxo-summary                        (msc-dms-pg-wxo-summary.log)
+
+   Mantis #9272 (WARN - ObservationsCache|RecordValuesHandler) : 12283  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dms-publisher-dms-replication.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   Properties - WARN:  1
+
+Example Logs:
+   
+   Properties - WARN:
+
+[2016-02-03 00:46:11 436] [WARN ] [Replication Publisher:main] [Properties] [unable to load conf.d/dms.replication.key.properties  cause: Cannot locate configuration source conf.d/dms.replication.key.properties]
+
+
+                 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-translator-bufr                       (msc-dms-translator-bufr.log)
+
+   Mantis #8665 (WARN - BufrElementCollection) : 62
+   Mantis #9197 (WARN - TranslationDAO) : 62
+   Mantis #9198 (ERROR - ComponentController) : 31
+   
+
+
+~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x
+
+
+
+Passing Logs:
+
+
+        
+   dms-core                                  (msc-dms-core-hibernate.log)  
+   dms-creator-autotaf                       (msc-dms-creator-autotaf.log)  
+   dms-decoder-aqhi                          (msc-dms-decoder-aqhi.log)  
+   dms-decoder-bufr-winide                   (msc-dms-decoder-bufr-winide.log)  
+   dms-decoder-enhanced-bufr-winide          (msc-dms-decoder-enhanced-bufr-winide.log)  
+   dms-decoder-generic-forestry-ab           (msc-dms-decoder-generic-forestry-ab.log)  
+   dms-decoder-generic-omnr                  (msc-dms-decoder-generic-omnr.log)  
+   dms-decoder-generic-panam-minutely-uv     (msc-dms-decoder-generic-panam-minutely-uv.log)  
+   dms-decoder-generic-panam-ncawos          (msc-dms-decoder-generic-panam-ncawos.log)  
+   dms-decoder-generic-panam-nchwos          (msc-dms-decoder-generic-panam-nchwos.log)  
+   dms-decoder-generic-tdcf-synop            (msc-dms-decoder-generic-tdcf-synop.log)  
+   dms-decoder-generic-trca                  (msc-dms-decoder-generic-trca.log)  
+   dms-decoder-grib                          (msc-dms-decoder-grib.log)  
+   dms-decoder-hurricane                     (msc-dms-decoder-hurricane.log)  
+   dms-decoder-jicc                          (msc-dms-decoder-jicc.log)  
+   dms-decoder-mfile-warp3                   (msc-dms-decoded-mfile-warp3.log)  
+   dms-decoder-mt-warp3                      (msc-dms-decoder-mt.log)  
+   dms-decoder-mt2                           (msc-dms-decoder-mt2.log)  
+   dms-decoder-nationalmfile                 (msc-dms-decoder-nationalmfile.log)  
+   dms-decoder-ninjo-alert-warp3             (msc-dms-decoder-ninjo-alert-warp3.log)  
+   dms-decoder-official-metar-scheduler      (msc-dms-decoder-official-metar-scheduler.log)  
+   dms-decoder-rtaf                          (msc-dms-decoder-rtaf.log)  
+   dms-decoder-sarwinds                      (msc-dms-decoder-sarwinds.log)  
+   dms-encoder-metar                         (msc-dms-encoder-metar.log)  
+   dms-encoder-sarwinds-wips                 (msc-dms-encoder-sarwinds-wips.log)  
+   dms-extractor-archive                     (msc-dms-extractor-archive.log)  
+   dms-importer-bulletin                     (msc-dms-importer-bulletin.log)  
+   dms-manager-alert-warp3                   (msc-dms-manager-alert-warp3.log)  
+   dms-manager-generic                       (msc-dms-manager-generic.log)  
+   dms-manager-metar-bufr                    (msc-dms-manager-metar-bufr.log)  
+   dms-manager-synop                         (msc-dms-manager-synop.log)  
+   dms-merger-observation                    (msc-dms-manager-merger.log)  
+   dms-pg-active-alert-summary-warp3         (msc-dms-pg-active-alert-summary.log)  
+   dms-pg-active-alert-summary2              (msc-dms-pg-active-alert-summary2.log)  
+   dms-pg-ecam-publicemail                   (msc-dms-pg-ecam-publicemail.log)  
+   dms-pg-ecam-publicemail-warp3             (msc-dms-pg-ecam-publicemail.log)  
+   dms-pg-ecam-twitteralertgenerator         (msc-dms-pg-ecam-twitteralertgenerator.log)  
+   dms-pg-ecam-twitteralertgenerator-warp3   (msc-dms-pg-ecam-twitteralertgenerator.log)  
+   dms-pg-generic-autotaf                    (msc-dms-pg-generic-autotaf.log)  
+   dms-pg-generic-aviationdata-cmc           (msc-dms-pg-generic-aviationdata-cmc.log)  
+   dms-pg-generic-fm12totdcf                 (msc-dms-pg-generic-fm12totdcf.log)  
+   dms-pg-generic-moored-buoy-fm13           (msc-dms-pg-generic-moored-buoy-fm13.log)  
+   dms-pg-generic-ncawos-fm12                (msc-dms-pg-generic-ncawos-fm12.log)  
+   dms-pg-generic-nchwos-fm12                (msc-dms-pg-generic-nchwos-fm12.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-abfs.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-bc_tran.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-msc-complete.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-metar-msc-incomplete.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-on_grca.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-on_mnrf.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-on_trca.log)  
+   dms-pg-generic-ninjo-nswob                (msc-dms-pg-generic-ninjo-nswob-rmcq.log)  
+   dms-pg-generic-sa                         (msc-dms-pg-generic-sa.log)  
+   dms-pg-mfile2                             (msc-dms-pg-mfile2.log)  
+   dms-pg-mt-warp3                           (msc-dms-pg-mt.log)  
+   dms-pg-mt2                                (msc-dms-pg-mt2.log)  
+   dms-pg-ninjo-aviation-warning             (msc-dms-pg-ninjo-aviation_warning.log)  
+   dms-pg-ninjo-hurricane                    (msc-dms-pg-ninjo-hurricane.log)  
+   dms-pg-ninjo-station-catalog              (msc-dms-pg-station-catalog.log)  
+   dms-pg-official-metar                     (msc-dms-pg-official-metar.log)  
+   dms-pg-profile-amdar                      (msc-dms-pg-profile-amdar.log)  
+   dms-pg-reports-warp3                      (msc-dms-pg-reports.log)  
+   dms-pg-rwin                               (msc-dms-pg-rwin.log)  
+   dms-pg-rwin-alert                         (msc-dms-pg-rwin-alert.log)  
+   dms-pg-sarwinds-ninjo                     (msc-dms-pg-sarwinds-ninjo.log)  
+   dms-pg-sarwinds-web                       (msc-dms-pg-sarwinds-web.log)  
+   dms-pg-station-proximity                  (msc-dms-pg-station-proximity.log)  
+   dms-pg-timeliness                         (msc-dms-pg-timeliness.log)  
+   dms-pg-warnings-warp3                     (msc-dms-pg-warnings.log)  
+   dms-pg-warnings2                          (msc-dms-pg-warnings2.log)  
+   dms-pg-wxo-canadahotcoldspot              (msc-dms-pg-wxo-canadahotcoldspot.log)  
+   dms-pg-wxo-hourlyobs                      (msc-dms-pg-wxo-hourlyobs-buoy.log)  
+   dms-pg-wxo-recordvalues                   (msc-dms-pg-wxo-recordvalues.log)  
+   dms-pg-wxo-syno                           (msc-dms-pg-wxo-syno.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-amdar-binary.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-bufr.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ca.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-jicc.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-metar.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ncawos.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-nchwos.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-pirep.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ra.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-rwin.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-swob.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-syno.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-taf.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ua-ascii.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-ua-binary.log)  
+   dms-publisher                             (msc-dms-publisher-dms-archive-warnings-mfile.log)  
+   dms-publisher                             (msc-dms-publisher-dms-hurricane.log)  
+   dms-publisher                             (msc-dms-publisher-dms-sarwinds.log)  
+   dms-publisher                             (msc-dms-publisher-dms-syno.log)  
+   dms-publisher                             (msc-dms-publisher-dms-upperair.log)  
+   dms-quality-assessment                    (msc-dms-quality-assessment.log)
+
