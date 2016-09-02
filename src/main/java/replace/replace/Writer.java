@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.sql.Date;
 import java.util.ArrayList;
@@ -25,13 +26,16 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.WorkbookUtil;
 import org.bson.types.ObjectId;
+import org.elasticsearch.client.Client;
+import org.elasticsearch.client.transport.TransportClient;
+import org.elasticsearch.common.transport.InetSocketTransportAddress;
+import org.json.JSONObject;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
-
 /*
  * Writer writes parsed data in to an excel file. An instance of Writer will be created for each host. 
  * */
@@ -72,6 +76,8 @@ public class Writer {
 		hosts = chkloghosts;
 		hosts_chkdata = chkdatahosts;
 	}
+	
+
 	/*
 	 **************************************** PUBLIC METHODS FOR WRITING TO MONGO ***********************************************************
 	 */
@@ -215,6 +221,32 @@ public class Writer {
 		return manifestComponents;
 	}
 	
+	public void writeToES() throws FileNotFoundException{
+		System.out.println("Writing to ES");
+		// Add manifest components to an arraylist
+		System.out.println(this.parser.getConfigFile());
+		Scanner scanner = new Scanner (new File(this.parser.getConfigFile())).useDelimiter("\n");
+		ArrayList<String> manifestComponents = new ArrayList<String>();
+		while (scanner.hasNext()){
+			manifestComponents.add(scanner.next());
+		}
+		scanner.close();
+		
+		// Iterate over manifest components to display host information
+		ComponentNode component;
+		HashMap components;
+		for (String componentName : manifestComponents){
+			componentName=componentName.replace("\r", "");
+			for (String host : hosts){
+				component = this.parser.getComponent(componentName, host);
+				if (component != null){
+					component.pushLogs();
+				}
+
+			}
+		}
+	}
+	
 	/*
 	 **************************************** PUBLIC METHODS FOR WRITING TO EXCEL ***********************************************************
 	 */
@@ -328,7 +360,6 @@ public class Writer {
 		return row;
 	}
 
-	/*
-	 **************************************** PRIVATE METHODS **********************************************************
-	 */
+
+
 }

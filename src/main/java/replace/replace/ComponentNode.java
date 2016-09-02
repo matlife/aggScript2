@@ -1,11 +1,20 @@
 package replace.replace;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.client.Client;
+import org.elasticsearch.client.transport.TransportClient;
+import org.elasticsearch.common.transport.InetSocketTransportAddress;
+import org.json.JSONObject;
 
 
 public class ComponentNode {
@@ -22,6 +31,7 @@ public class ComponentNode {
 	ArrayList<LogNode> warnings;
 	ArrayList<LogNode> fatals;
 	ArrayList<String> mantises;
+	ArrayList<String> context;
 	/*
 	 **************************************** PUBLIC FIELDS ************************************************************
 	 */
@@ -60,7 +70,6 @@ public class ComponentNode {
 		this.numWarnings = numWarnings;
 		this.numErrors = numErrors;
 		this.numFatals = numFatals;
-		
 		this.mantises = (ArrayList<String>) mantises.clone();
 		this.isOK = true;
 		if ((numWarnings + numErrors + numFatals) > 0){
@@ -92,6 +101,16 @@ public class ComponentNode {
 	}
 	
 	/*
+	 **************************************** PRIVATE METHODS **********************************************************
+	 */
+	public Client getElasticSearch() throws UnknownHostException {
+	    Client client = TransportClient.builder().build()
+	            .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("dms-dev19.to.on.ec.gc.ca"), 9300));
+
+	    return client;
+	}
+	
+	/*
 	 * Return a string representing the number of warnings, errors, and fatals. Also prints out mantises.
 	 * */
 	public String getSummary(){
@@ -105,18 +124,56 @@ public class ComponentNode {
 		if (this.isOK){
 			return "N.P.";
 		}
+		
 		string += String.format("Warnings: %d\nErrors: %d\nFatals: %d\n", this.numWarnings, this.numErrors, this.numFatals);
 		for (String mantis : mantises){
 			string += mantis + "\n";
 		}
+		
 		Collection<LogNode> logs = logMap.values();
 		for (LogNode log : logs){
 			string += log.toString() + "\n";
+			
+			
 		}
 		
 		return string;
 	}
+	
+	/*
+	 * Return a string representing the number of warnings, errors, and fatals. Also prints out mantises.
+	 * */
+	public void pushLogs(){
+		String string = "";
+		DateFormat formatter = new SimpleDateFormat("yyyyMMdd");
+		
+		if (logMap == null){
+			System.out.println("Logmap doesn't exist for " + this.name );
+			return;
+		}
+		Collection<LogNode> logs = logMap.values();
+		for (LogNode log : logs){
+			string += log.toString() + "\n";
+			ArrayList<JSONObject> jsonobs = log.getJSONlogs();
+			Client elasticClient = null;
+			try {
+				elasticClient = getElasticSearch();
+			} catch (UnknownHostException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			for (JSONObject j: jsonobs){
+				//System.out.println(j);
+				System.out.println(formatter.format(j.get("datetime")));
+				final IndexResponse indexResponse = elasticClient.prepareIndex("dms_logs", formatter.format(j.get("datetime"))).setSource(j.toString()).get();
+			}
+			
+			
+		}
+		
 
+	}
+	
 	public String getName(){
 		String string = "";
 		string += String.format("%s\n", this.name);

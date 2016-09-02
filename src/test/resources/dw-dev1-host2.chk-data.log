@@ -1,0 +1,32 @@
+-- Data Status:
+
+      All componenets are free of residual files.
+
+      
+                  Number of files in dms-publisher:
+         
+                     import: 0
+                     working: 0
+                     reject: 232
+                     temp: 0
+
+               
+
+         No old files remaining:
+
+                    dms-converter-metadata
+                    dms-creator-qc-tool-ticket
+                    dms-decoder-jicc
+                    dms-enhanced-generic
+                    dms-hydnow-updater
+                    dms-manager-generic
+                    dms-manager-job
+                    dms-merger-observation
+                    dms-metadata-updater
+                    dms-pg-external-xml
+                    dms-pg-metadata
+                    dms-pg-station-proximity
+                    dms-quality-assessment
+               
+      
+      

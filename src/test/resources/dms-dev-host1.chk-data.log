@@ -7,56 +7,40 @@
          Has file(/s) inside for longer than 5 minutes:
 
       
-               Number of files in dms-creator-autotaf:
+               Number of files in dms-decoder-generic-omnr:
          
-                     import: 19183
-                     working: 0
+                     import: 0
+                     working: 1
+                     reject: 0
+                     temp: 0
+
+            
+               Number of files in dms-extractor-archive:
+         
+                     import: 342
+                     working: 3
+                     reject: 0
+                     temp: 0
+
+            
+               Number of files in dms-pg-generic-autotaf:
+         
+                     import: 721
+                     working: 1
+                     reject: 0
+                     temp: 1
+
+            
+               Number of files in dms-pg-wxo-summary:
+         
+                     import: 0
+                     working: 7
                      reject: 0
                      temp: 0
 
             
       
-                  Number of files in dms-creator-synop:
-         
-                     import: 0
-                     working: 0
-                     reject: 2
-                     temp: 0
-
-               
-                  Number of files in dms-decoder-bufr-tdcf:
-         
-                     import: 0
-                     working: 0
-                     reject: 2832
-                     temp: 0
-
-               
-                  Number of files in dms-decoder-bufr2xml:
-         
-                     import: 0
-                     working: 0
-                     reject: 4768
-                     temp: 0
-
-               
-                  Number of files in dms-decoder-ca:
-         
-                     import: 0
-                     working: 0
-                     reject: 28768
-                     temp: 0
-
-               
-                  Number of files in dms-decoder-generic-grca:
-         
-                     import: 0
-                     working: 0
-                     reject: 333
-                     temp: 0
-
-               
-                  Number of files in dms-decoder-generic-omnr:
+                  Number of files in dms-decoder-aviation-warning:
          
                      import: 0
                      working: 0
@@ -64,11 +48,51 @@
                      temp: 0
 
                
+                  Number of files in dms-decoder-bufr-tdcf:
+         
+                     import: 0
+                     working: 0
+                     reject: 2394
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-bufr2xml:
+         
+                     import: 0
+                     working: 0
+                     reject: 4006
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-ca:
+         
+                     import: 0
+                     working: 0
+                     reject: 25118
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-generic-grca:
+         
+                     import: 0
+                     working: 0
+                     reject: 194
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-generic-hydrometric:
+         
+                     import: 0
+                     working: 0
+                     reject: 218
+                     temp: 0
+
+               
                   Number of files in dms-decoder-ra:
          
                      import: 0
                      working: 0
-                     reject: 44
+                     reject: 4
                      temp: 0
 
                
@@ -76,7 +100,7 @@
          
                      import: 0
                      working: 0
-                     reject: 10
+                     reject: 7
                      temp: 0
 
                
@@ -84,7 +108,7 @@
          
                      import: 0
                      working: 0
-                     reject: 32
+                     reject: 18
                      temp: 0
 
                
@@ -92,7 +116,15 @@
          
                      import: 0
                      working: 0
-                     reject: 161
+                     reject: 114
+                     temp: 0
+
+               
+                  Number of files in dms-decoder-warningsmfile:
+         
+                     import: 0
+                     working: 0
+                     reject: 16
                      temp: 0
 
                
@@ -100,7 +132,7 @@
          
                      import: 0
                      working: 0
-                     reject: 8493
+                     reject: 853
                      temp: 0
 
                
@@ -108,11 +140,19 @@
          
                      import: 0
                      working: 0
-                     reject: 2306
+                     reject: 956
                      temp: 0
 
                
-                  Number of files in dms-encoder-sarwinds-wips:
+                  Number of files in dms-encoder-sa:
+         
+                     import: 0
+                     working: 0
+                     reject: 31
+                     temp: 0
+
+               
+                  Number of files in dms-manager-alert-warp3:
          
                      import: 0
                      working: 0
@@ -120,19 +160,19 @@
                      temp: 0
 
                
+                  Number of files in dms-pg-ecam-twitteralertgenerator-warp3:
+         
+                     import: 0
+                     working: 0
+                     reject: 90
+                     temp: 0
+
+               
                   Number of files in dms-pg-generic-ninjo-nswob:
          
                      import: 0
                      working: 0
-                     reject: 9467
-                     temp: 0
-
-               
-                  Number of files in dms-pg-ninjo-aqhi:
-         
-                     import: 0
-                     working: 0
-                     reject: 51
+                     reject: 76
                      temp: 0
 
                
@@ -140,7 +180,7 @@
          
                      import: 0
                      working: 0
-                     reject: 39
+                     reject: 34
                      temp: 0
 
                
@@ -148,7 +188,7 @@
          
                      import: 0
                      working: 0
-                     reject: 36
+                     reject: 40
                      temp: 0
 
                
@@ -156,7 +196,7 @@
          
                      import: 0
                      working: 0
-                     reject: 1332
+                     reject: 1426
                      temp: 0
 
                
@@ -164,7 +204,7 @@
          
                      import: 0
                      working: 0
-                     reject: 350
+                     reject: 344
                      temp: 0
 
                
@@ -172,7 +212,7 @@
          
                      import: 0
                      working: 0
-                     reject: 5
+                     reject: 2
                      temp: 0
 
                
@@ -180,15 +220,15 @@
          
                      import: 0
                      working: 0
-                     reject: 19
+                     reject: 10
                      temp: 0
 
                
-                  Number of files in dms-pg-synop:
+                  Number of files in dms-publisher:
          
                      import: 0
                      working: 0
-                     reject: 47
+                     reject: 14
                      temp: 0
 
                
@@ -196,7 +236,7 @@
          
                      import: 0
                      working: 0
-                     reject: 604
+                     reject: 300
                      temp: 0
 
                
@@ -204,10 +244,11 @@
 
          No old files remaining:
 
+                    dms-creator-autotaf
+                    dms-creator-synop
                     dms-decoder-amdar
                     dms-decoder-aqhi
                     dms-decoder-atags
-                    dms-decoder-aviation-warning
                     dms-decoder-bufr-winide
                     dms-decoder-enhanced-bufr-winide
                     dms-decoder-enhanced-ca
@@ -216,12 +257,10 @@
                     dms-decoder-generic-cocorahs
                     dms-decoder-generic-forestry-ab
                     dms-decoder-generic-forestry-bc
-                    dms-decoder-generic-hydrometric
                     dms-decoder-generic-metar
                     dms-decoder-generic-meteocode-forecast
                     dms-decoder-generic-panam-minutely-uv
-                    dms-decoder-generic-panam-ncawos
-                    dms-decoder-generic-panam-nchwos
+                    dms-decoder-generic-rmcq
                     dms-decoder-generic-tdcf-synop
                     dms-decoder-generic-trca
                     dms-decoder-generic-wbs
@@ -231,23 +270,18 @@
                     dms-decoder-metar
                     dms-decoder-mfile-warp3
                     dms-decoder-mt-warp3
-                    dms-decoder-mt2
                     dms-decoder-nationalmfile
                     dms-decoder-ninjo-alert-warp3
-                    dms-decoder-ninjo-alert2
                     dms-decoder-official-metar-scheduler
                     dms-decoder-pirep
                     dms-decoder-rtaf
                     dms-decoder-rwin
                     dms-decoder-upperair
-                    dms-decoder-warningsmfile
                     dms-encoder-bufr-bundle
                     dms-encoder-metar
-                    dms-encoder-sa
+                    dms-encoder-sarwinds-wips
                     dms-enhanced-generic
-                    dms-extractor-archive
                     dms-importer-bulletin
-                    dms-manager-alert-warp3
                     dms-manager-generic
                     dms-manager-metar-bufr
                     dms-manager-sarwinds-surface
@@ -255,14 +289,11 @@
                     dms-merger-observation
                     dms-metadata-updater
                     dms-pg-active-alert-summary-warp3
-                    dms-pg-active-alert-summary2
                     dms-pg-cap
                     dms-pg-cap-warp3
                     dms-pg-ecam-publicemail-warp3
                     dms-pg-ecam-twitteralertgenerator
-                    dms-pg-ecam-twitteralertgenerator-warp3
                     dms-pg-external-xml
-                    dms-pg-generic-autotaf
                     dms-pg-generic-aviationdata-cmc
                     dms-pg-generic-fm12totdcf
                     dms-pg-generic-moored-buoy-fm13
@@ -270,11 +301,13 @@
                     dms-pg-generic-nchwos-fm12
                     dms-pg-generic-sa
                     dms-pg-mfile-warp3
-                    dms-pg-mfile2
                     dms-pg-mt-warp3
-                    dms-pg-mt2
                     dms-pg-ninjo-amdar
+                    dms-pg-ninjo-aqhi
+                    dms-pg-ninjo-autotaf
                     dms-pg-ninjo-aviation-warning
+                    dms-pg-ninjo-dndawos
+                    dms-pg-ninjo-dndhwos
                     dms-pg-ninjo-enhancedca-panam
                     dms-pg-ninjo-enhancedra
                     dms-pg-ninjo-enhancedwinide
@@ -301,16 +334,15 @@
                     dms-pg-rwin-alert
                     dms-pg-sarwinds-ninjo
                     dms-pg-sarwinds-web
+                    dms-pg-swob
                     dms-pg-timeliness
                     dms-pg-warnings-warp3
-                    dms-pg-warnings2
                     dms-pg-wxo-canadahotcoldspot
                     dms-pg-wxo-hourlyobs
                     dms-pg-wxo-recordvalues
-                    dms-pg-wxo-summary
                     dms-pg-wxo-syno
-                    dms-publisher
                     dms-quality-assessment
+                    dms-quality-assessment-autotaf
                
 
       

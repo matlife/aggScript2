@@ -1,0 +1,1012 @@
+msc-dms-converter-metadata.log
+msc-dms-core-hibernate.log
+msc-dms-core.log
+msc-dms-core-admin-logrotate.log
+msc-dms-core-admin-reference-purge.log
+msc-dms-creator-qc-tool-ticket.log
+msc-dms-decoder-jicc.log
+msc-dms-enhanced-generic-job.log
+msc-dms-enhanced-generic.log
+msc-dms-hydnow-updater-fv.log
+msc-dms-hydnow-updater-metadata.log
+msc-dms-hydnow-updater-rc.log
+msc-dms-hydnow-updater-ts-csv.log
+msc-dms-manager-generic-job.log
+msc-dms-manager-generic.log
+msc-dms-manager-job.log
+msc-dms-merger-observation-job.log
+msc-dms-metadata-updater.log
+msc-dms-pg-external-XML.log
+msc-dms-pg-metadata.log
+msc-dms-pg-station-proximity.log
+msc-dw-publisher-bufr.log
+msc-dw-publisher-buoy.log
+msc-dw-publisher-ca.log
+msc-dw-publisher-da.log
+msc-dw-publisher-dnd.log
+msc-dw-publisher-hydrometric.log
+msc-dw-publisher-job.log
+msc-dw-publisher-metar.log
+msc-dw-publisher-ncawos.log
+msc-dw-publisher-nchwos.log
+msc-dw-publisher-partners-bcfs.log
+msc-dw-publisher-partners-bctran.log
+msc-dw-publisher-partners-cocorahs.log
+msc-dw-publisher-partners-grca.log
+msc-dw-publisher-partners-omnr.log
+msc-dw-publisher-partners-rmcq.log
+msc-dw-publisher-partners-trca.log
+msc-dw-publisher-ra.log
+msc-dw-publisher-replication.log
+msc-dw-publisher-rwin.log
+msc-dw-publisher-syno.log
+msc-dw-publisher-taf.log
+msc-dw-publisher-tdcf.log
+msc-dw-publisher-warnings-mfile.log
+msc-dms-quality-assessment-job.log
+msc-dms-quality-assessment.log
+-- Log Status:  
+
+Error - One or more logs contain 'ERROR' (or 'FATAL') entries.
+
+      
+         Total Warnings: 96418             Filtered Total Warnings: 61976
+         Total Errors: 342                 Filtered Total Errors: 342
+         Total Fatals: 11201               Filtered Total Fatals: 11198
+  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-core                                  (msc-dms-core.log)
+
+   WARNINGS: 55295
+   ERRORS: 26
+   FATALS: 0
+               
+Details:
+   
+   Elementalizer - WARN:  8059
+   QueueManager - ERROR:  3
+   ElementalDataPayloadDAO - WARN:  47236
+   HostFilter - ERROR:  23
+
+Example Logs:
+   
+   Elementalizer - WARN:
+
+[2016-09-01 00:00:41 778] [WARN ] [Core:http-bio-8180-exec-143] [Elementalizer] [For input=/data/msc/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/3012212/cyed/orig/auto : Found invalid coded information for Qualifier=datetime_significance in Element=date_time]
+[2016-09-01 00:00:41 793] [WARN ] [Core:http-bio-8180-exec-143] [Elementalizer] [For input=/data/msc/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/3012212/cyed/orig/auto : Found invalid coded information for Qualifier=data_acquisition in Element=horizontal_visibility]
+[2016-09-01 00:00:41 794] [WARN ] [Core:http-bio-8180-exec-143] [Elementalizer] [For input=/data/msc/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/3012212/cyed/orig/auto : Found invalid coded information for Qualifier=cloud_amount_reporting_method in Element=cloud_amount_coded]
+[2016-09-01 00:00:41 883] [WARN ] [Core:http-bio-8180-exec-143] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/7118366/cytq/orig/auto : Found invalid coded information for Qualifier=datetime_significance in Element=date_time]
+[2016-09-01 00:01:12 153] [WARN ] [Core:http-bio-8180-exec-133] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/6059407/cyxz/orig/man : Found invalid coded information for Qualifier=datetime_significance in Element=date_time]
+[2016-09-01 00:01:12 167] [WARN ] [Core:http-bio-8180-exec-133] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/6059407/cyxz/orig/man : Found invalid coded information for Qualifier=data_acquisition in Element=horizontal_visibility]
+[2016-09-01 00:01:12 167] [WARN ] [Core:http-bio-8180-exec-133] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/6059407/cyxz/orig/man : Found invalid coded information for Qualifier=cloud_amount_reporting_method in Element=cloud_amount_coded]
+[2016-09-01 00:01:12 228] [WARN ] [Core:http-bio-8180-exec-133] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/1060845/cybd/orig/man : Found invalid coded information for Qualifier=datetime_significance in Element=date_time]
+[2016-09-01 00:01:12 244] [WARN ] [Core:http-bio-8180-exec-133] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/1060845/cybd/orig/man : Found invalid coded information for Qualifier=data_acquisition in Element=horizontal_visibility]
+[2016-09-01 00:01:12 244] [WARN ] [Core:http-bio-8180-exec-133] [Elementalizer] [For input=/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010000/1060845/cybd/orig/man : Found invalid coded information for Qualifier=cloud_amount_reporting_method in Element=cloud_amount_coded]
+
+   QueueManager - ERROR:
+
+[2016-09-01 05:15:14 505] [ERROR] [Core:pool-2-thread-1] [QueueManager] [DataSetDefinition id for taxonomy was not found | path: /dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.00. Queue will not be added to the active queue list.]
+[2016-09-01 05:49:09 535] [ERROR] [Core:pool-2-thread-1] [QueueManager] [DataSetDefinition id for taxonomy was not found | path: /dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.00. Queue will not be added to the active queue list.]
+[2016-09-01 05:57:58 659] [ERROR] [Core:pool-2-thread-1] [QueueManager] [DataSetDefinition id for taxonomy was not found | path: /dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.00. Queue will not be added to the active queue list.]
+
+   ElementalDataPayloadDAO - WARN:
+
+[2016-09-01 00:01:31 225] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> avg_wnd_spd_pcpn_gag_pst1mt is an unknown element]
+[2016-09-01 00:01:31 225] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> avg_cum_pcpn_gag_wt_fltrd_pst5mts is an unknown element]
+[2016-09-01 00:01:31 225] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> avg_wnd_spd_pcpn_gag_pst10mts is an unknown element]
+[2016-09-01 00:01:31 225] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> min_rel_hum_pst1hr is an unknown element]
+[2016-09-01 00:01:31 225] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> avg_air_temp_pst1hr is an unknown element]
+[2016-09-01 00:01:31 225] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> avg_globl_solr_radn_pst1hr is an unknown element]
+[2016-09-01 00:01:31 226] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> pcpn_amt_snc_top_of_hr is an unknown element]
+[2016-09-01 00:01:31 226] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> min_batry_volt_pst1hr is an unknown element]
+[2016-09-01 00:01:31 226] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> max_rel_hum_pst1hr is an unknown element]
+[2016-09-01 00:01:31 226] [WARN ] [Core:http-bio-8180-exec-127] [ElementalDataPayloadDAO] [</data/msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0/201608312348/6159123/tux/61/orig/data_1> data_avail_pst1hr is an unknown element]
+
+   HostFilter - ERROR:
+
+[2016-09-01 05:49:44 435] [ERROR] [Core:http-bio-8180-exec-64] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/partners/observation/atmospheric/surface_weather/on_grca-1.0-ascii/raw-ascii-1.0/20160901050000000/on_grca_17772/17772/orig) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:44 662] [ERROR] [Core:http-bio-8180-exec-52] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/msc/observation/atmospheric/surface_weather/bufr58-1.0-binary/raw-binary-1.0/201609010500/cmmr/orig) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:44 713] [ERROR] [Core:http-bio-8180-exec-60] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/partners/observation/atmospheric/surface_weather/on_trca-1.0-ascii/raw-ascii-1.0/20160901051000000/on_trca_hy044/hy044/orig) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:44 730] [ERROR] [Core:http-bio-8180-exec-6] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/raw-ascii-1.0/201609010000/pbgj) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:44 867] [ERROR] [Core:http-bio-8180-exec-73] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609010528/1100031/cyxx/orig/man) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:44 905] [ERROR] [Core:http-bio-8180-exec-57] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/msc/metadata/hydrospheric/hydrometric/wsc_metadata-1.0-csv/site_raw-ascii-1.0/20160901053002/groups) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:44 964] [ERROR] [Core:http-bio-8180-exec-92] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/raw-cmml-2.02/20160901053350/nb_dot_rnbfr) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:45 114] [ERROR] [Core:http-bio-8180-exec-47] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/nav_canada/observation/atmospheric/surface_weather/awos-1.0-binary/raw-binary-1.0/201609010538/cyyd/orig) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:45 357] [ERROR] [Core:http-bio-8180-exec-62] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/msc/forecast/atmospheric/aviation/atags-1.0-csv/product-autotaf_ascii-1.0/201609010520/cyqb/201609010600/201609020600/orig) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+[2016-09-01 05:49:45 863] [ERROR] [Core:http-bio-8180-exec-80] [HostFilter] [(dms-publisher-4.8@dw-dev1-host2.cmc.ec.gc.ca) (/data/msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609010500/3016505/ntk/ntk/160/orig) (PUT) (403) (SecurityFrameworkException: Security Framework Error >> Localhost verification failed  authentication key is invalid or outdated)]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-enhanced-generic                      (msc-dms-enhanced-generic.log)
+
+   WARNINGS: 75
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   DMSMessageSummaryDerivationHandler - WARN:  63
+   GenericEnhanced - WARN:  12
+
+Example Logs:
+   
+   DMSMessageSummaryDerivationHandler - WARN:
+
+[2016-09-01 05:14:58 363] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: hor_vis_vv_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 364] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: wind_ff_alternate_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 543] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: hor_vis_vv_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 543] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: wind_ff_alternate_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 583] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: hor_vis_vv_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 583] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: peak_wind_mm_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 604] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: hor_vis_vv_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 604] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: wind_ff_alternate_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 679] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: hor_vis_vv_value was missing. Unable to generate this section of the dms message summary.]
+[2016-09-01 05:14:58 679] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [DMSMessageSummaryDerivationHandler] [Config value for: wind_ff_alternate_value was missing. Unable to generate this section of the dms message summary.]
+
+   GenericEnhanced - WARN:
+
+[2016-09-01 05:14:58 551] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset CoCoRaHS_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:14:58 928] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset Hydrometric_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:14:58 932] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset Moored_buoy_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:14:58 942] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset METAR_1.2 enhanced subdirectory was empty or null.]
+[2016-09-01 05:48:52 796] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset CoCoRaHS_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:48:53 303] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset Hydrometric_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:48:53 307] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset Moored_buoy_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:48:53 318] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset METAR_1.2 enhanced subdirectory was empty or null.]
+[2016-09-01 05:57:44 537] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset CoCoRaHS_1.0 enhanced subdirectory was empty or null.]
+[2016-09-01 05:57:44 931] [WARN ] [MSC-DMS-Enhanced-Generic-Job:main-1] [GenericEnhanced] [Dataset Hydrometric_1.0 enhanced subdirectory was empty or null.]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-hydnow-updater                        (msc-dms-hydnow-updater-rc.log)
+
+   WARNINGS: 0
+   ERRORS: 12
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  12
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-01 09:36:49 094] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901090810/05ad007/ec_wsc-05ad007> could not properly remove URI from queue]
+[2016-09-01 09:44:09 662] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901091717/08ha003/ec_wsc-08ha003> could not properly remove URI from queue]
+[2016-09-01 10:12:19 916] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901090223/02ec014/ec_wsc-02ec014> could not properly remove URI from queue]
+[2016-09-01 10:12:33 403] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901091250/05ob007/ec_wsc-05ob007> could not properly remove URI from queue]
+[2016-09-01 10:12:46 091] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901091519/07ge001/ec_wsc-07ge001> could not properly remove URI from queue]
+[2016-09-01 10:12:54 294] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901092111/09cb001/ec_wsc-09cb001> could not properly remove URI from queue]
+[2016-09-01 10:13:02 219] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901091723/08ha069/ec_wsc-08ha069> could not properly remove URI from queue]
+[2016-09-01 10:13:25 298] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901091719/08ha010/ec_wsc-08ha010> could not properly remove URI from queue]
+[2016-09-01 10:13:37 265] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901090630/02zc002/ec_wsc-02zc002> could not properly remove URI from queue]
+[2016-09-01 10:13:46 936] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160901091637/08fb004/ec_wsc-08fb004> could not properly remove URI from queue]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-hydnow-updater                        (msc-dms-hydnow-updater-ts-csv.log)
+
+   WARNINGS: 21
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   SqlExceptionHelper - ERROR:  1
+   SqlExceptionHelper - WARN:  1
+   TimeSeriesCSVHandler - WARN:  20
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   SqlExceptionHelper - ERROR:
+
+[2016-09-01 01:28:08 324] [ERROR] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [SqlExceptionHelper] [ORA-00001: unique constraint (DMS_HYDNOW.PK_DATA) violated
+
+   SqlExceptionHelper - WARN:
+
+[2016-09-01 01:28:08 324] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [SqlExceptionHelper] [SQL Error: 1  SQLState: 23000]
+
+   TimeSeriesCSVHandler - WARN:
+
+[2016-09-01 01:27:07 761] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-01 01:27:07 763] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(1) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Aug 31 20:14:00 UTC 2016  parameterId=47}]]
+[2016-09-01 01:27:13 780] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-01 01:27:13 780] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(2) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Aug 31 20:14:00 UTC 2016  parameterId=47}]]
+[2016-09-01 01:27:19 796] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-01 01:27:19 797] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(3) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Aug 31 20:14:00 UTC 2016  parameterId=47}]]
+[2016-09-01 01:28:08 324] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-01 01:28:08 325] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(1) in 6000ms; Hibernate Exception Caught: could not execute statement]
+[2016-09-01 02:21:32 187] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-01 02:21:32 188] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(1) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Aug 31 22:14:00 UTC 2016  parameterId=47}]]
+
+   WebRead - ERROR:
+
+[2016-09-01 01:28:49 150] [ERROR] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_time_series-1.0-ascii/site_raw-ascii-1.0/20160901005012/08db001/ec_wsc-08db001/orig> could not properly remove URI from queue]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-pg-external-xml                       (msc-dms-pg-external-XML.log)
+
+   WARNINGS: 6555
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   ElementMapping - WARN:  6555
+
+Example Logs:
+   
+   ElementMapping - WARN:
+
+[2016-09-01 05:15:20 264] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=wind name=wind_direction unit=° code source=null code type=null {group=element name=statistical_significance value=vectoral_average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-2 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=2 unit=min code source=null code type=null assoc name=null} {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 330] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=wind name=wind_speed unit=km/h code source=null code type=null {group=element name=statistical_significance value=average unit=unitless code source=null code type=null assoc name=null} {group=element name=time_displacement value=-60 unit=min code source=null code type=null assoc name=null} {group=element name=time_duration value=60 unit=min code source=null code type=null assoc name=null} {group=source name=observation_source value=atmospheric unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 355] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=precipitation name=precipitation_indicator unit=code code source=rwin code type=essPrecipYesNo {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 486] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=1 unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 488] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=2 unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 490] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=3 unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 494] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=4 unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 498] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=5 unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 504] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=6 unit=unitless code source=null code type=null assoc name=null} ]]
+[2016-09-01 05:15:20 510] [WARN ] [MSC-DMS-PG-External-XML:main-1] [ElementMapping] [Element Mapping has a duplicate InElement: [pkgId=null group=pavement name=pavement_surface_status unit=code code source=rwin code type=essSurfaceStatus {group=source name=observation_source value=NTCIP unit=unitless code source=null code type=null assoc name=null} {group=location name=lane_number value=7 unit=unitless code source=null code type=null assoc name=null} ]]
+
+
+               
+
+   Mantis #8710 (WARN - AbstractHandler) : 34407  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-bufr.log)
+
+   WARNINGS: 1
+   ERRORS: 6
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  6
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 335] [WARN ] [DW BUFR Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:07:12 056] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/bufr58-1.0-binary/raw-binary-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-01 11:08:23 546] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) Error occured while reading payload msc/observation/atmospheric/aviation/manned-1.0-binary/raw-binary-1.0/201609011100/cycx/orig please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+[2016-09-01 11:14:16 573] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/winide-1.0-binary/decoded_enhanced-xml-2.0/201609011100/301222f/cwse/orig> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 11:56:38 584] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/winide-1.0-binary/raw-binary-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-01 12:14:08 102] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/winide-1.0-binary/decoded_qa_full-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:20:07 476] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/winide-1.0-binary/decoded_enhanced-xml-2.0/201609011213/2400302/cylt/orig> an error occured trying to remove the URI from the queue: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-buoy.log)
+
+   WARNINGS: 1
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 201] [WARN ] [DW BUOY Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:06:56 107] [ERROR] [DW BUOY Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/marine/moored_buoy-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:25:02 786] [ERROR] [DW BUOY Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/marine/moored_buoy-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-ca.log)
+
+   WARNINGS: 6
+   ERRORS: 11
+   FATALS: 3
+               
+Details:
+   
+   SecurityUtil - WARN:  6
+   ConfirmationWebWriter - FATAL:  3
+   WebRead - ERROR:  11
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 816] [WARN ] [DW CA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+[2016-09-01 05:57:50 951] [WARN ] [DW CA Publisher:main-1] [SecurityUtil] [(confirmation) Both localhost key and externalhost key configured]
+[2016-09-01 05:58:03 115] [WARN ] [DW CA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+[2016-09-01 05:58:03 154] [WARN ] [DW CA Publisher:main-1] [SecurityUtil] [(confirmation) Both localhost key and externalhost key configured]
+[2016-09-01 05:58:03 165] [WARN ] [DW CA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+[2016-09-01 05:58:03 188] [WARN ] [DW CA Publisher:main-1] [SecurityUtil] [(confirmation) Both localhost key and externalhost key configured]
+
+   ConfirmationWebWriter - FATAL:
+
+[2016-09-01 12:10:50 339] [FATAL] [DW CA Publisher:1.thread2] [ConfirmationWebWriter] [(confirmation) <msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_qa_enhanced-xml-2.0-201609011200-6100970-tbo-11-orig-data_60-level_1> {POST} Retrying data due to error: Unable to reach server: http://dms-dev.cmc.ec.gc.ca:8180/confirmation?uri=/data/msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_qa_enhanced-xml-2.0/201609011200/6100970/tbo/11/orig/data_60/level_1&action=archive]
+[2016-09-01 12:14:15 198] [FATAL] [DW CA Publisher:1.thread2] [ConfirmationWebWriter] [(confirmation) <msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_qa_enhanced-xml-2.0-201609011200-3031094-pci-21-orig-supp_60-level_1> {POST} Retrying data due to error: Unable to reach server: http://dms-dev.cmc.ec.gc.ca:8180/confirmation?uri=/data/msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_qa_enhanced-xml-2.0/201609011200/3031094/pci/21/orig/supp_60/level_1&action=archive]
+[2016-09-01 12:16:10 272] [FATAL] [DW CA Publisher:1.thread1] [ConfirmationWebWriter] [(confirmation) <msc-observation-atmospheric-surface_weather-ca-1.1-ascii-decoded_qa_enhanced-xml-2.0-201609011200-3031094-pci-11-orig-data_60-level_1> {POST} Retrying data due to error: Unable to reach server: http://dms-dev.cmc.ec.gc.ca:8180/confirmation?uri=/data/msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_qa_enhanced-xml-2.0/201609011200/3031094/pci/11/orig/data_60/level_1&action=archive]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:12:36 228] [ERROR] [DW CA Publisher:1.thread2] [WebRead] [(web) Error occured while reading payload msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609011100/5022125/wpo/wpo/11/orig please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+[2016-09-01 11:17:16 076] [ERROR] [DW CA Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609011100/2100518/wum/wum/11/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:17:18 374] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609011100/1160515/vas/vas/11/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:25 798] [ERROR] [DW CA Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609011100/6139148/xvn/xvn/21/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:26 185] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609011100/1176755/vra/vra/11/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:39 024] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ca-1.2-ascii/raw-ascii-1.0/201609011101/6157000/try/try/61/orig> could not properly remove URI from queue]
+[2016-09-01 11:27:39 025] [ERROR] [DW CA Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_qa_enhanced-xml-2.0/201609011100/7018563/grq/11/orig/data_60/level_1> could not properly remove URI from queue]
+[2016-09-01 12:06:48 162] [ERROR] [DW CA Publisher:1.thread2] [WebRead] [(web) Error occured while reading payload msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0/201609011200/6016525/wpl/wpl/11/orig please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+[2016-09-01 12:07:05 212] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.2-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:10:35 454] [ERROR] [DW CA Publisher:1.thread1] [WebRead] [(web) Error occured while reading payload msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_enhanced-xml-2.0/201609011200/7056202/wby/11/orig/data_60 please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-da.log)
+
+   WARNINGS: 2
+   ERRORS: 225
+   FATALS: 11195
+               
+Details:
+   
+   WebRead - FATAL:  11195
+   WebWrite - ERROR:  225
+   SecurityUtil - WARN:  2
+
+Example Logs:
+   
+   WebRead - FATAL:
+
+[2016-09-01 05:58:08 407] [FATAL] [DW DA Publisher:1.thread2] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054803224&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:08 407] [FATAL] [DW DA Publisher:1.thread1] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054750830&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:13 502] [FATAL] [DW DA Publisher:1.thread2] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054803224&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:13 506] [FATAL] [DW DA Publisher:1.thread1] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054750830&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:18 583] [FATAL] [DW DA Publisher:1.thread1] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054750830&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:18 583] [FATAL] [DW DA Publisher:1.thread2] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054803224&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:23 663] [FATAL] [DW DA Publisher:1.thread2] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054803224&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:23 664] [FATAL] [DW DA Publisher:1.thread1] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054750830&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:28 738] [FATAL] [DW DA Publisher:1.thread1] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054750830&name=da-publisher&action=peek&count=2]
+[2016-09-01 05:58:28 738] [FATAL] [DW DA Publisher:1.thread2] [WebRead] [(web) {404} invalid dataset requested  please check configuration: http://localhost:8180/queue?path=/dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0&time=20160901054803224&name=da-publisher&action=peek&count=2]
+
+   WebWrite - ERROR:
+
+[2016-09-01 06:02:09 004] [ERROR] [DW DA Publisher:1.thread1] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-decoded_enhanced-xml-2.0-201609010600-7060400-cybg-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:02:09 074] [ERROR] [DW DA Publisher:1.thread1] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-product_generic_swob-xml-2.0-201609010600-7060400-cybg-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:03:09 887] [ERROR] [DW DA Publisher:1.thread1] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-decoded_enhanced-xml-2.0-201609010600-6158875-cytr-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:04:10 554] [ERROR] [DW DA Publisher:1.thread2] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-decoded_enhanced-xml-2.0-201609010600-3081680-cyod-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:04:10 636] [ERROR] [DW DA Publisher:1.thread2] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-product_generic_swob-xml-2.0-201609010600-3081680-cyod-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:04:11 021] [ERROR] [DW DA Publisher:1.thread2] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-decoded_enhanced-xml-2.0-201609010600-8202000-cyzx-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:04:11 084] [ERROR] [DW DA Publisher:1.thread2] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-product_generic_swob-xml-2.0-201609010600-8202000-cyzx-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:05:44 623] [ERROR] [DW DA Publisher:1.thread1] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-decoded_enhanced-xml-2.0-201609010600-8101792-cycx-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:05:45 970] [ERROR] [DW DA Publisher:1.thread2] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-decoded_enhanced-xml-2.0-201609010600-8501900-cyyr-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+[2016-09-01 06:05:46 068] [ERROR] [DW DA Publisher:1.thread2] [WebWrite] [(web) <dnd-observation-atmospheric-surface_weather-hwos-1.0-binary-product_generic_swob-xml-2.0-201609010600-8501900-cyyr-orig-data_60> {PUT:400} Skipping data due to error: Write transaction did not complete: Bad Request]
+
+   SecurityUtil - WARN:
+
+[2016-09-01 05:58:03 058] [WARN ] [DW DA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+[2016-09-01 05:58:03 271] [WARN ] [DW DA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-dnd.log)
+
+   WARNINGS: 2
+   ERRORS: 3
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  2
+   WebRead - ERROR:  3
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 238] [WARN ] [DW DND Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+[2016-09-01 05:57:51 384] [WARN ] [DW DND Publisher:main-1] [SecurityUtil] [(confirmation) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:17:26 360] [ERROR] [DW DND Publisher:1.thread1] [WebRead] [(web) <dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/product_generic_swob-xml-2.0/201609011100/4015320/cymj/orig/data_60> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:32 073] [ERROR] [DW DND Publisher:1.thread1] [WebRead] [(web) <dnd/observation/atmospheric/surface_weather/awos-1.0-binary/raw-binary-1.0/201609011101/cyqq/orig/data_60> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:59:02 369] [ERROR] [DW DND Publisher:1.thread1] [WebRead] [(web) notification on /dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-hydrometric.log)
+
+   WARNINGS: 1
+   ERRORS: 3
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  3
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 440] [WARN ] [DW Hydrometric Publisher :main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 12:01:20 595] [ERROR] [DW Hydrometric Publisher :1.thread1] [WebRead] [(web) <msc/metadata/hydrospheric/hydrometric/wsc_metadata-1.0-csv/site_raw-ascii-1.0/20160901120001/groups> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 12:11:48 048] [ERROR] [DW Hydrometric Publisher :1.thread1] [WebRead] [(web) notification on /msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:22:27 635] [ERROR] [DW Hydrometric Publisher :1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_time_series-1.0-ascii/site_raw-ascii-1.0/20160901120245/08ef005/ec_wsc-08ef005/orig> an error occured trying to remove the URI from the queue: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-metar.log)
+
+   WARNINGS: 1
+   ERRORS: 5
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  5
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 703] [WARN ] [DW METAR Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:13:40 557] [ERROR] [DW METAR Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/aviation/metar-1.1-ascii/decoded-xml-2.0/201609011100/840n001/cwwu/orig/man> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:23:40 678] [ERROR] [DW METAR Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/aviation/metar-1.1-ascii/raw-ascii-1.0/201609011100/3081680/cyod/orig/man> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 12:03:22 986] [ERROR] [DW METAR Publisher:1.thread1] [WebRead] [(web) notification on /nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:05:10 014] [ERROR] [DW METAR Publisher:1.thread1] [WebRead] [(web) notification on /nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:17:14 591] [ERROR] [DW METAR Publisher:1.thread1] [WebRead] [(web) Error occured while reading payload nav_canada/observation/atmospheric/aviation/metar-1.1-ascii/raw-ascii-1.0/201609011206/3062239/cyet/orig/auto please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-ncawos.log)
+
+   WARNINGS: 1
+   ERRORS: 4
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  4
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 476] [WARN ] [DW NC-AWOS Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:06:58 772] [ERROR] [DW NC-AWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/awos-1.0-binary/raw-binary-1.0/201609011100/cylh/orig> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 11:17:11 122] [ERROR] [DW NC-AWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/awos-1.0-binary/raw-binary-1.0/201609011100/cytl/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:23 359] [ERROR] [DW NC-AWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/awos-1.0-binary/raw-binary-1.0/201609011100/cygv/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 12:06:49 230] [ERROR] [DW NC-AWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/awos-1.0-binary/raw-binary-1.0/201609011200/cync/orig> an error occured trying to remove the URI from the queue: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-nchwos.log)
+
+   WARNINGS: 1
+   ERRORS: 4
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  4
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 753] [WARN ] [DW NC-HWOS Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:17:15 925] [ERROR] [DW NC-HWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/decoded_qa_full-xml-2.0/201609011100/1068134/cyxt/orig/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:25 826] [ERROR] [DW NC-HWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/decoded_qa_full-xml-2.0/201609011100/7047911/cyzv/orig/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:39 025] [ERROR] [DW NC-HWOS Publisher:1.thread1] [WebRead] [(web) <nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/decoded_qa_full-xml-2.0/201609011100/1018621/cyyj/orig/level_1> could not properly remove URI from queue]
+[2016-09-01 12:27:03 864] [ERROR] [DW NC-HWOS Publisher:1.thread1] [WebRead] [(web) Error occured while reading payload nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/decoded_qa_full-xml-2.0/201609011200/6016529/cypl/orig/level_1 please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-bcfs.log)
+
+   WARNINGS: 1
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 451] [WARN ] [DW Partners-BCFS Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 12:19:23 685] [ERROR] [DW Partners-BCFS Publisher:1.thread1] [WebRead] [(web) <partners/observation/atmospheric/surface_weather/bc_forestry-1.1-ascii/raw-ascii-1.0/201609011000/bc_wmb_119/119/orig> an error occured trying to remove the URI from the queue: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-bctran.log)
+
+   WARNINGS: 1
+   ERRORS: 5
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  5
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 177] [WARN ] [DW Partners-BC-Tran Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:03:13 475] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 11:05:13 627] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 11:10:36 911] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 11:12:39 853] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:06:57 640] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-cocorahs.log)
+
+   WARNINGS: 1
+   ERRORS: 4
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  4
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 392] [WARN ] [DW Partners-CoCoRaHS Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:07:21 814] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:14:33 913] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-01 12:23:23 131] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:24:53 469] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-grca.log)
+
+   WARNINGS: 1
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 879] [WARN ] [DW Partners-GRCA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 12:25:02 265] [ERROR] [DW Partners-GRCA Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/on_grca-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-omnr.log)
+
+   WARNINGS: 1
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 026] [WARN ] [DW Partners-OMNR Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:16:50 809] [ERROR] [DW Partners-OMNR Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/on_mnr-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:25:08 776] [ERROR] [DW Partners-OMNR Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/on_mnr-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-rmcq.log)
+
+   WARNINGS: 1
+   ERRORS: 3
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  3
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 215] [WARN ] [DW Partners-RMCQ Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:05:41 023] [ERROR] [DW Partners-RMCQ Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/rmcq-1.0-ascii/site_raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 11:09:21 520] [ERROR] [DW Partners-RMCQ Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/rmcq-1.0-ascii/site_raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 11:13:38 881] [ERROR] [DW Partners-RMCQ Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/rmcq-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-trca.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 114] [WARN ] [DW Partners-TRCA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-ra.log)
+
+   WARNINGS: 1
+   ERRORS: 6
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  6
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 253] [WARN ] [DW RA Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:04:49 184] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0/201609011100/2403602/wrh/wrh/orig> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 11:05:53 314] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0/201609011100/230j01q/wxr/wxr/orig> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 11:06:53 358] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) Error occured while reading payload msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0/201609011100/2302370/wil/wil/orig please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+[2016-09-01 11:17:55 164] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0/201609011100/2302370/wil/wil/orig> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:56:55 992] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-01 12:07:17 670] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) Error occured while reading payload msc/observation/atmospheric/surface_weather/ra-1.0-ascii/decoded_enhanced-xml-2.0/201609011200/2100682/wkm/orig please check server availability: dms-dev.cmc.ec.gc.ca:8180]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-replication.log)
+
+   WARNINGS: 1
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:51 227] [WARN ] [DW Replication Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-rwin.log)
+
+   WARNINGS: 1
+   ERRORS: 6
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  6
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 289] [WARN ] [DW RWIN Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:03:52 918] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) <rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/decoded_qa_full-xml-2.0/20160901105511/ab_dot_35-12/level_1> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 11:17:02 968] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) <rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/decoded_qa_full-xml-2.0/20160901105509/ab_dot_49-10/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 11:27:36 046] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) <rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/decoded_qa_full-xml-2.0/20160901105509/ab_dot_43-06/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 12:10:03 420] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) <rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/decoded_qa_full-xml-2.0/20160901114700/nb_dot_rnbwg/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 12:24:57 570] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) <rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/decoded_qa_full-xml-2.0/20160901114900/nl_dot_rnlgk/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+[2016-09-01 12:34:57 946] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) <rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/decoded_qa_full-xml-2.0/20160901114700/nl_dot_rnlpq/level_1> an error occured trying to remove the URI from the queue: Read timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-syno.log)
+
+   WARNINGS: 1
+   ERRORS: 3
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  3
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 896] [WARN ] [DW SYNO Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:03:59 663] [ERROR] [DW SYNO Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/raw-ascii-1.0/201609011100/9hjf9> an error occured trying to remove the URI from the queue: connect timed out]
+[2016-09-01 11:07:37 197] [ERROR] [DW SYNO Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/synop_fm18-1.0-ascii/decoded-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 11:17:11 402] [ERROR] [DW SYNO Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/raw-ascii-1.0/201609011050/45007> an error occured trying to remove the URI from the queue: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-taf.log)
+
+   WARNINGS: 1
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 650] [WARN ] [DW TAF Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:14:13 017] [ERROR] [DW TAF Publisher:1.thread1] [WebRead] [(web) notification on /msc/forecast/atmospheric/aviation/autotaf-1.0-ascii/decoded-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-tdcf.log)
+
+   WARNINGS: 1
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 028] [WARN ] [DW TDCF Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:06:08 301] [ERROR] [DW TDCF Publisher:1.thread1] [WebRead] [(web) notification on /nav_canada/observation/atmospheric/surface_weather/product_synop_hwos_tdcf-binary-1.0/decoded-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:08:59 334] [ERROR] [DW TDCF Publisher:1.thread1] [WebRead] [(web) <msc/observation/atmospheric/surface_weather/product_synop_ca_tdcf-binary-1.0/decoded-xml-2.0/201609011200/2100805/71044/orig> an error occured trying to remove the URI from the queue: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-warnings-mfile.log)
+
+   WARNINGS: 1
+   ERRORS: 5
+   FATALS: 0
+               
+Details:
+   
+   SecurityUtil - WARN:  1
+   WebRead - ERROR:  5
+
+Example Logs:
+   
+   SecurityUtil - WARN:
+
+[2016-09-01 05:57:50 499] [WARN ] [DW Warnings MFile Publisher:main-1] [SecurityUtil] [(web) Both localhost key and externalhost key configured]
+
+   WebRead - ERROR:
+
+[2016-09-01 11:13:39 897] [ERROR] [DW Warnings MFile Publisher:1.thread1] [WebRead] [(web) notification on /msc/alert/environment/hazard/mfile-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-01 11:14:39 940] [ERROR] [DW Warnings MFile Publisher:1.thread1] [WebRead] [(web) notification on /msc/alert/environment/hazard/mfile-1.0-ascii/product-cap_xml-1.2 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:06:50 374] [ERROR] [DW Warnings MFile Publisher:1.thread1] [WebRead] [(web) notification on /msc/alert/environment/hazard/mfile-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:11:34 243] [ERROR] [DW Warnings MFile Publisher:1.thread1] [WebRead] [(web) notification on /msc/alert/environment/hazard/mfile-1.0-ascii/decoded_consolidated-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-01 12:16:45 624] [ERROR] [DW Warnings MFile Publisher:1.thread1] [WebRead] [(web) notification on /msc/alert/environment/hazard/mfile-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+               
+   
+
+
+~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x
+
+
+
+Passing Logs:
+
+
+        
+   dms-converter-metadata                    (msc-dms-converter-metadata.log)  
+   dms-core                                  (msc-dms-core-hibernate.log)  
+   dms-core-admin                            (msc-dms-core-admin-logrotate.log)  
+   dms-core-admin                            (msc-dms-core-admin-reference-purge.log)  
+   dms-creator-qc-tool-ticket                (msc-dms-creator-qc-tool-ticket.log)  
+   dms-decoder-jicc                          (msc-dms-decoder-jicc.log)  
+   dms-enhanced-generic                      (msc-dms-enhanced-generic-job.log)  
+   dms-hydnow-updater                        (msc-dms-hydnow-updater-fv.log)  
+   dms-hydnow-updater                        (msc-dms-hydnow-updater-metadata.log)  
+   dms-manager-generic                       (msc-dms-manager-generic-job.log)  
+   dms-manager-generic                       (msc-dms-manager-generic.log)  
+   dms-manager-job                           (msc-dms-manager-job.log)  
+   dms-merger-observation                    (msc-dms-merger-observation-job.log)  
+   dms-metadata-updater                      (msc-dms-metadata-updater.log)  
+   dms-pg-metadata                           (msc-dms-pg-metadata.log)  
+   dms-pg-station-proximity                  (msc-dms-pg-station-proximity.log)  
+   dms-publisher                             (msc-dw-publisher-job.log)  
+   dms-quality-assessment                    (msc-dms-quality-assessment-job.log)  
+   dms-quality-assessment                    (msc-dms-quality-assessment.log)
+

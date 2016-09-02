@@ -25,21 +25,27 @@ public class App
     	Parser p;
     	Writer w;
     	
-    	ArrayList<String> hostnames = new ArrayList(Arrays.asList(
+    	ArrayList<String> hostnames = new ArrayList<String>(
+    			
+    			Arrays.asList(
     			"dms-dev-host1.chk-log.log", "dms-dev-host2.chk-log.log", 
-    			"dms-dev-host3.chk-log.log", "dms-dev-host1.chk-log.log",
-    			"dms-stage2-host1.chk-log.log", "dms-stage2-host2.chk-log.log",
-    			"dms-stage2-host3.chk-log.log", "dms-stage2-host4.chk-log.log"
-    			));
-		ArrayList<String> chkdatafiles = new ArrayList(Arrays.asList(
+    			"dms-dev-host3.chk-log.log","dms-dev-host4.chk-log.log",
+    			"dw-dev1-host1.chk-log.log","dw-dev1-host2.chk-log.log"
+    					));
+		ArrayList<String> chkdatafiles = new ArrayList<String>
+				(Arrays.asList(
     			"dms-dev-host1.chk-data.log", "dms-dev-host2.chk-data.log", 
-    			"dms-dev-host3.chk-data.log", "dms-dev-host1.chk-data.log",
-    			"dms-stage2-host1.chk-data.log", "dms-stage2-host2.chk-data.log",
-    			"dms-stage2-host3.chk-data.log", "dms-stage2-host4.chk-data.log"
-				));
+    			"dms-dev-host3.chk-data.log", "dms-dev-host4.chk-data.log",
+    			"dw-dev1-host1.chk-data.log","dw-dev1-host2.chk-data.log"
+						));
+    			
+
+		
+		
     	p = new Parser(hostnames, chkdatafiles);
 		w = new Writer(p, hostnames, chkdatafiles);
 
+		//w.writeToES();
 		w.writeExcel("verification.xls");
 
 		System.out.println("Done");

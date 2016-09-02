@@ -1,0 +1,58 @@
+-- Data Status:
+
+      Some of the components still have residual files. 
+
+
+
+         Has file(/s) inside for longer than 5 minutes:
+
+      
+               Number of files in dms-converter-metadata:
+         
+                     import: 1
+                     working: 0
+                     reject: 0
+                     temp: 0
+
+            
+             Number of files in dms-load-balancer-scripts:
+         
+                     import: 7
+                     temp: 0
+
+            
+      
+                  Number of files in dms-hydnow-updater:
+         
+                     import: 0
+                     working: 0
+                     reject: 8
+                     temp: 0
+
+               
+                  Number of files in dms-publisher:
+         
+                     import: 0
+                     working: 0
+                     reject: 264
+                     temp: 0
+
+               
+
+
+         No old files remaining:
+
+                    dms-creator-qc-tool-ticket
+                    dms-decoder-jicc
+                    dms-enhanced-generic
+                    dms-manager-generic
+                    dms-manager-job
+                    dms-merger-observation
+                    dms-metadata-updater
+                    dms-pg-external-xml
+                    dms-pg-metadata
+                    dms-pg-station-proximity
+                    dms-quality-assessment
+               
+
+      

@@ -61,6 +61,7 @@ public class Parser {
 		String[] passingLogs;
 		for (String filename : filenames){
 			components = new HashMap();
+			System.out.println("src/test/resources/"+filename);
 	        this.input = new Scanner(new File("src/test/resources/"+filename)).useDelimiter("\\Z").next();
 	        this.configfile = new Scanner(new File("src/main/java/config/"+CONFIGNAME)).useDelimiter("\\Z").next();
 	        this.configfile = this.configfile.toLowerCase();
@@ -84,6 +85,7 @@ public class Parser {
 		// Parse chk-data files
 		this.hosts_chkdata = new HashMap();
 		for (String cdf: chkdatafiles){
+			System.out.println(cdf);
 	        this.input = new Scanner(new File("src/test/resources/"+cdf)).useDelimiter("\\Z").next();
 	        this.configfile = new Scanner(new File("src/main/java/config/"+CONFIGNAME)).useDelimiter("\\Z").next();
 	        this.configfile = this.configfile.toLowerCase();
@@ -154,7 +156,10 @@ public class Parser {
     	String logName;
     	/* Type of error log denotes (ERROR/FATAL/WARNING)*/
     	String logType;
-  
+    	
+    	String currentClass = "NONESET";
+    	
+    	ArrayList<String> contextBuffer = new  ArrayList<String>();
         int numWarnings = 0, numErrors= 0, numFatals = 0;
         
         for (String block : nonPassing){
@@ -181,11 +186,12 @@ public class Parser {
             fatals = new ArrayList<LogNode>();
             origmsg = new ArrayList<String>();
             
+            contextBuffer = new ArrayList<String>();
+            currentClass  = "NONESET";
         	for (String line:blockArray){
         		
         		line = line.trim();
         		lineArray = line.split(" ");
-        		
         		if (line.startsWith("WARNINGS: ")){
         			numWarnings = Integer.parseInt(removeNewBreaks(lineArray[1]));
         		}
@@ -208,10 +214,33 @@ public class Parser {
     				log = new LogNode(logName, logType, Integer.parseInt(lineArray[3]));
     				// Remember name of source, map to its object
     				logHM.put(logName, log);
+
     				//System.out.println("added: " + line);
         		}
         		// Capture Log examples
         		else if (line.matches("\\[\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} \\d{3}\\] \\[(ERROR|FATAL|WARN) *\\] \\[[\\w-:\\\\. ]+\\] .*")){
+        			int logNameIndex = 3;
+        			int logTypeIndex = 1;
+        			lineArray = line.split("\\] \\[");
+        			logName = lineArray[logNameIndex].replace("[", "").replace("]", "");
+        			logType = lineArray[logTypeIndex].replace(" ", "");
+        			
+        			if (logName.contains("PID:")){
+            			logName = lineArray[logNameIndex].replace("[", "").replace("]", "");
+        			}
+    				log = (LogNode) logHM.get(logName);
+    				if (!contextBuffer.isEmpty()){
+    					
+	    				for (String clog: contextBuffer){
+	    					log.addContext(clog);
+	    				}
+	    				contextBuffer.clear();
+    				}
+    				currentClass = logName;
+    				log.addExample(line);
+        		}
+        		
+        		else if (line.matches("\\[\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} \\d{3}\\] \\[INFO *\\] \\[[\\w-:\\\\. ]+\\] .*")){
         			int logNameIndex = 3;
         			int logTypeIndex = 1;
         			
@@ -223,13 +252,15 @@ public class Parser {
             			logName = lineArray[logNameIndex].replace("[", "").replace("]", "");
         			}
         			
-    				log = (LogNode) logHM.get(logName);
-    				log.addExample(line);
+        			if (currentClass == "NONESET"){
+        				contextBuffer.add(line);
+        				continue;
+        			}
+        			
+    				log = (LogNode) logHM.get(currentClass);
+    				log.addContext(line);
         		}
         		
-        		if (line.matches("\\[.*\\]")){
-        			origmsg.add(line);
-        		}
         	}
         	/* Add values to new component object */
     		node = new ComponentNode(componentName, numWarnings, numErrors, numFatals, mantis, logHM);
