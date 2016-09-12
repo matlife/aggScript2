@@ -1,4 +1,4 @@
-package replace.replace;
+package generator;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -133,15 +133,13 @@ public class ComponentNode {
 		Collection<LogNode> logs = logMap.values();
 		for (LogNode log : logs){
 			string += log.toString() + "\n";
-			
-			
 		}
 		
 		return string;
 	}
 	
 	/*
-	 * Return a string representing the number of warnings, errors, and fatals. Also prints out mantises.
+	 * Pushes logs as JSON Object with elastiClient
 	 * */
 	public void pushLogs(){
 		String string = "";

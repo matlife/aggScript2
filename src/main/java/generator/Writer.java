@@ -1,4 +1,4 @@
-package replace.replace;
+package generator;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -320,7 +320,14 @@ public class Writer {
 		
 		if (c != null){
 			cell = row.createCell(index + 1);
-			cell.setCellValue(c.getSummary());
+			String summary = c.getSummary();
+			int MAX = 36000;
+			if (summary.length() >= MAX){
+				cell.setCellValue(summary.substring(0,36000));}
+				
+			else {
+				cell.setCellValue(summary);
+			}
 		}
 		// If cell doesn't exist then it wasn't found in the hobbit logs 
 		else {

@@ -1,5 +1,7 @@
 package replace.replace;
 import static org.junit.Assert.*;
+import generator.Parser;
+import generator.Writer;
 
 import java.io.File;
 import java.io.FileInputStream;

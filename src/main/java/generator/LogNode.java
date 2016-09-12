@@ -1,4 +1,4 @@
-package replace.replace;
+package generator;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -12,12 +12,21 @@ import org.json.JSONObject;
 import ca.gc.ec.dms.commons.util.DateUtil;
 
 
+
 public class LogNode {
+	
+	/* Maximum number of logs to be included when converted to string */
+	static int MAX_LOGS = 3;
+	
+	/* Type of log (WARN. ERROR, FATAL)*/
 	String type;
 	ArrayList<String> exampleLogs;
 	ArrayList<String> origLogs;
 	String name;
 	ArrayList<String> context = new ArrayList<String>();
+	
+	
+	
 	boolean ok;
 	int count;
 	/*
@@ -142,11 +151,18 @@ public class LogNode {
 	 * */
 	public String toString(){
 		String s = "\n";
-		s += "====" + this.name + "==== [" + this.count + "]" + "\n";
-		s += StringUtils.repeat("=", s.length() - 4);
-		s += "\n";
+		s += "** Source: " + this.name + " [" + this.count + "] " + "\n";
+		//s += StringUtils.repeat("=", s.length() - 4);
+		s += "** Sample logs: \n";
+		
+		int numLogs = 0;
+		
 		for (String example : this.exampleLogs){
-			s += ">>   " + example + "\n\n";
+			if (numLogs >= MAX_LOGS){
+				break;
+			}
+			s += "" + example + "\n\n";
+			numLogs++;
 		}
 		return s;
 	}

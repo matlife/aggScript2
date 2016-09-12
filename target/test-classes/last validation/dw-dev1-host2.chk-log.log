@@ -1,0 +1,495 @@
+msc-dms-core-admin-logrotate.log
+msc-dms-core-admin-reference-purge.log
+msc-dms-hydnow-updater-fv.log
+msc-dms-hydnow-updater-metadata.log
+msc-dms-hydnow-updater-rc.log
+msc-dms-hydnow-updater-ts-csv.log
+msc-dms-metadata-updater.log
+msc-dw-publisher-bufr.log
+msc-dw-publisher-buoy.log
+msc-dw-publisher-ca.log
+msc-dw-publisher-da.log
+msc-dw-publisher-dnd.log
+msc-dw-publisher-hydrometric.log
+msc-dw-publisher-job.log
+msc-dw-publisher-metar.log
+msc-dw-publisher-ncawos.log
+msc-dw-publisher-nchwos.log
+msc-dw-publisher-partners-bcfs.log
+msc-dw-publisher-partners-bctran.log
+msc-dw-publisher-partners-cocorahs.log
+msc-dw-publisher-partners-grca.log
+msc-dw-publisher-partners-omnr.log
+msc-dw-publisher-partners-rmcq.log
+msc-dw-publisher-partners-trca.log
+msc-dw-publisher-ra.log
+msc-dw-publisher-replication.log
+msc-dw-publisher-rwin.log
+msc-dw-publisher-syno.log
+msc-dw-publisher-taf.log
+msc-dw-publisher-tdcf.log
+msc-dw-publisher-warnings-mfile.log
+-- Log Status:  
+
+Error - One or more logs contain 'ERROR' (or 'FATAL') entries.
+
+      
+         Total Warnings: 30                Filtered Total Warnings: 30
+         Total Errors: 42                  Filtered Total Errors: 42
+         Total Fatals: 0                   Filtered Total Fatals: 0
+  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-hydnow-updater                        (msc-dms-hydnow-updater-rc.log)
+
+   WARNINGS: 0
+   ERRORS: 10
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  10
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 10:28:21 934] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908090244/02ec014/ec_wsc-02ec014> could not properly remove URI from queue]
+[2016-09-08 10:28:31 236] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908090328/02gb007/ec_wsc-02gb007> could not properly remove URI from queue]
+[2016-09-08 10:28:42 413] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908092201/10rc001/ec_wsc-10rc001> could not properly remove URI from queue]
+[2016-09-08 10:28:51 799] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908091641/08fe003/ec_wsc-08fe003> could not properly remove URI from queue]
+[2016-09-08 10:28:54 749] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908090010/01aj010/ec_wsc-01aj010> could not properly remove URI from queue]
+[2016-09-08 11:05:19 143] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908090523/02hk010/ec_wsc-02hk010> could not properly remove URI from queue]
+[2016-09-08 11:05:23 708] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908091752/08hc006/ec_wsc-08hc006> could not properly remove URI from queue]
+[2016-09-08 11:05:26 153] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908090639/02yo016/ec_wsc-02yo016> could not properly remove URI from queue]
+[2016-09-08 11:05:31 176] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908090902/05bl014/ec_wsc-05bl014> could not properly remove URI from queue]
+[2016-09-08 11:05:35 703] [ERROR] [MSC-DMS-Hydnow-Updater_RC:1.thread1] [WebRead] [(web) <msc/observation/hydrospheric/hydrometric/wsc_rating_curve-1.0-ascii/decoded-xml-2.1/20160908091536/07ga001/ec_wsc-07ga001> could not properly remove URI from queue]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-hydnow-updater                        (msc-dms-hydnow-updater-ts-csv.log)
+
+   WARNINGS: 30
+   ERRORS: 0
+   FATALS: 0
+               
+Details:
+   
+   TimeSeriesCSVHandler - WARN:  30
+
+Example Logs:
+   
+   TimeSeriesCSVHandler - WARN:
+
+[2016-09-08 00:01:55 316] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-08 00:01:55 333] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(1) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Sep 07 19:14:00 UTC 2016  parameterId=47}]]
+[2016-09-08 00:02:01 361] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-08 00:02:01 362] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(2) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Sep 07 19:14:00 UTC 2016  parameterId=47}]]
+[2016-09-08 00:02:07 385] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-08 00:02:07 386] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread2] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(3) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Sep 07 19:14:00 UTC 2016  parameterId=47}]]
+[2016-09-08 02:33:01 551] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread1] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-08 02:33:01 553] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread1] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(1) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Sep 07 22:14:00 UTC 2016  parameterId=47}]]
+[2016-09-08 02:33:07 569] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread1] [TimeSeriesCSVHandler] [Unable to write record to database. Rolling back transaction.]
+[2016-09-08 02:33:07 570] [WARN ] [MSC-DMS-Hydnow-Updater_TSCSV:1.thread1] [TimeSeriesCSVHandler] [Database unavailable  will sleep and retry(2) in 6000ms; Hibernate Exception Caught: A different object with the same identifier value was already associated with the session : [ca.gc.ec.dms.updater.TimeSeriesDataObject#TimeSeriesId {stationId=05OJ005  observationTime=Wed Sep 07 22:14:00 UTC 2016  parameterId=47}]]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-bufr.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:06:34 297] [ERROR] [DW BUFR Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/winide-1.0-binary/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-buoy.log)
+
+   WARNINGS: 0
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:15:06 850] [ERROR] [DW BUOY Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/marine/moored_buoy-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:18:31 214] [ERROR] [DW BUOY Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/marine/moored_buoy-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-ca.log)
+
+   WARNINGS: 0
+   ERRORS: 7
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  7
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:06:16 376] [ERROR] [DW CA Publisher:1.thread2] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-08 11:10:22 539] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+[2016-09-08 11:16:11 867] [ERROR] [DW CA Publisher:1.thread2] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.2-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:16:17 638] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.1-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:17:11 928] [ERROR] [DW CA Publisher:1.thread2] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.1-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:17:17 687] [ERROR] [DW CA Publisher:1.thread3] [WebRead] [(web) notification on /ec_st/observation/atmospheric/uv/ca-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:19:06 237] [ERROR] [DW CA Publisher:1.thread2] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ca-1.2-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-dnd.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:03:42 777] [ERROR] [DW DND Publisher:1.thread1] [WebRead] [(web) notification on /dnd/observation/atmospheric/surface_weather/hwos-1.0-binary/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-ncawos.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:08:59 704] [ERROR] [DW NC-AWOS Publisher:1.thread1] [WebRead] [(web) notification on /nav_canada/observation/atmospheric/surface_weather/awos-2.0-binary/decoded_qa_full-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-nchwos.log)
+
+   WARNINGS: 0
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:09:42 092] [ERROR] [DW NC-HWOS Publisher:1.thread1] [WebRead] [(web) notification on /nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:16:35 477] [ERROR] [DW NC-HWOS Publisher:1.thread1] [WebRead] [(web) notification on /nav_canada/observation/atmospheric/surface_weather/hwos-1.0-binary/raw-binary-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-bctran.log)
+
+   WARNINGS: 0
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:07:33 159] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+[2016-09-08 11:10:29 624] [ERROR] [DW Partners-BC-Tran Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/bc_tran-1.0-csv/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-cocorahs.log)
+
+   WARNINGS: 0
+   ERRORS: 3
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  3
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:06:49 993] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/decoded_qa_full-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+[2016-09-08 11:10:06 678] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:13:35 672] [ERROR] [DW Partners-CoCoRaHS Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/cocorahs-1.0-csv/decoded_qa_full-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-omnr.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:09:59 995] [ERROR] [DW Partners-OMNR Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/on_mnr-1.0-ascii/decoded_qa_full-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-rmcq.log)
+
+   WARNINGS: 0
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:15:26 534] [ERROR] [DW Partners-RMCQ Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/rmcq-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:18:04 651] [ERROR] [DW Partners-RMCQ Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/rmcq-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-partners-trca.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:07:20 582] [ERROR] [DW Partners-TRCA Publisher:1.thread1] [WebRead] [(web) notification on /partners/observation/atmospheric/surface_weather/on_trca-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-ra.log)
+
+   WARNINGS: 0
+   ERRORS: 4
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  4
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:05:04 195] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+[2016-09-08 11:08:33 080] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ra-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+[2016-09-08 11:10:03 146] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ra-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: connect timed out]
+[2016-09-08 11:13:11 608] [ERROR] [DW RA Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/ra-1.0-ascii/decoded_enhanced-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-rwin.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:04:47 478] [ERROR] [DW RWIN Publisher:1.thread1] [WebRead] [(web) notification on /rwin/observation/atmospheric/road_weather/rwin-2.02-cmml/raw-cmml-2.02 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-syno.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:06:27 393] [ERROR] [DW SYNO Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/synop_fm13-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-taf.log)
+
+   WARNINGS: 0
+   ERRORS: 2
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  2
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:05:04 049] [ERROR] [DW TAF Publisher:1.thread1] [WebRead] [(web) notification on /msc/forecast/atmospheric/surface_weather/taf-1.0-ascii/raw-ascii-1.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+[2016-09-08 11:08:22 840] [ERROR] [DW TAF Publisher:1.thread1] [WebRead] [(web) notification on /msc/forecast/atmospheric/surface_weather/taf-1.0-ascii/decoded-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Connection reset]
+
+
+                 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+dms-publisher                             (msc-dw-publisher-tdcf.log)
+
+   WARNINGS: 0
+   ERRORS: 1
+   FATALS: 0
+               
+Details:
+   
+   WebRead - ERROR:  1
+
+Example Logs:
+   
+   WebRead - ERROR:
+
+[2016-09-08 11:08:52 546] [ERROR] [DW TDCF Publisher:1.thread1] [WebRead] [(web) notification on /msc/observation/atmospheric/surface_weather/product_synop_winide_fm12_tdcf-binary-1.0/decoded-xml-2.0 failed because connection to resource was not able to be created  check server availability: dms-dev.cmc.ec.gc.ca:8180: Read timed out]
+
+
+               
+   
+
+
+~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x~x
+
+
+
+Passing Logs:
+
+
+        
+   dms-core-admin                            (msc-dms-core-admin-logrotate.log)  
+   dms-core-admin                            (msc-dms-core-admin-reference-purge.log)  
+   dms-hydnow-updater                        (msc-dms-hydnow-updater-fv.log)  
+   dms-hydnow-updater                        (msc-dms-hydnow-updater-metadata.log)  
+   dms-metadata-updater                      (msc-dms-metadata-updater.log)  
+   dms-publisher                             (msc-dw-publisher-da.log)  
+   dms-publisher                             (msc-dw-publisher-hydrometric.log)  
+   dms-publisher                             (msc-dw-publisher-job.log)  
+   dms-publisher                             (msc-dw-publisher-metar.log)  
+   dms-publisher                             (msc-dw-publisher-partners-bcfs.log)  
+   dms-publisher                             (msc-dw-publisher-partners-grca.log)  
+   dms-publisher                             (msc-dw-publisher-replication.log)  
+   dms-publisher                             (msc-dw-publisher-warnings-mfile.log)
+
